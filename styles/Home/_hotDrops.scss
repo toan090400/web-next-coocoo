@@ -1,0 +1,97 @@
+.hotDrops {
+  height: 534px;
+  background: linear-gradient(180deg, #000000 0%, #214a67 100%);
+  display: flex;
+  .title {
+    width: 25%;
+    .text {
+      width: 190px;
+      margin: 180px auto;
+      .hot {
+        font-family: "Oswald";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 100px;
+        letter-spacing: -0.09em;
+        background: linear-gradient(180deg, #ffb800 32.81%, #ff4d00 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      .drops {
+        font-family: "Oswald";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 58px;
+        color: $color-white;
+        margin-top: -15px;
+      }
+    }
+  }
+  .item {
+    width: 75%;
+    .card {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 70px;
+      &_item {
+        width: 280px;
+        height: 400px;
+        border-radius: 12px;
+        background-color: $color-white;
+        .box {
+          margin-top: 12px;
+          margin-left: 12px;
+          .text1 {
+            font-family: "Lato";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            color: $color-black;
+            margin-top: 5px;
+          }
+          .text2 {
+            font-family: "Lato";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            color: $color-black;
+            margin-top: 5px;
+          }
+          .bnb {
+            font-family: "Lato";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 16px;
+            color: $color-black;
+            margin-top: 5px;
+          }
+          .button {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            .time {
+              padding: 5px 5px;
+              background-color: #f5f5f5;
+              border-radius: 15px;
+            }
+            .btn {
+              font-family: "Lato";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 10px;
+              border: none;
+              padding: 5px 30px;
+              border-radius: 15px;
+              background: $background;
+              color: $color-white;
+            }
+            img {
+              margin-right: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

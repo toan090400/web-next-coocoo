@@ -1,0 +1,32 @@
+.finall {
+  height: 50px;
+  margin-top: 20px;
+  .container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    .box1 {
+      width: 50%;
+      .text {
+        p {
+          font-weight: 400;
+          font-size: 14px;
+          color: $color-grey;
+        }
+      }
+    }
+    .box2 {
+      width: 50%;
+      .text {
+        display: flex;
+        float: right;
+        p {
+          font-weight: 400;
+          font-size: 14px;
+          margin: 0 20px;
+          color: $color-grey;
+        }
+      }
+    }
+  }
+}
