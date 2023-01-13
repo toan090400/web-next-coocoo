@@ -65,7 +65,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className={style.frame}>
+      {/* <div className={style.frame}>
         <div className={style.container}>
           <div className={style.text}>
             <h1>
@@ -634,7 +634,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
