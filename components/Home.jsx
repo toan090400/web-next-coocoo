@@ -65,7 +65,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/* <div className={style.frame}>
+      <div className={style.frame}>
         <div className={style.container}>
           <div className={style.text}>
             <h1>
@@ -530,7 +530,7 @@ const Home = () => {
             </div>
           </div>
           <div className={style.are4}>
-            <button className={style.btn}>More NFT's</button>
+            <button className={style.btn}>More NFT&#8217;s</button>
           </div>
         </div>
       </div>
@@ -634,7 +634,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };
