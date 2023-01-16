@@ -51,7 +51,7 @@
           .filters {
             float: right;
             padding: 10px 20px;
-            border-radius: 15px;
+            border-radius: 20px;
             border: $border;
             color: $color-white;
             font-weight: 500;
@@ -123,6 +123,9 @@
                 margin-right: 12px;
               }
             }
+          }
+          &.res {
+            display: none;
           }
         }
       }

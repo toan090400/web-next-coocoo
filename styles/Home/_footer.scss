@@ -1,11 +1,10 @@
 .footer {
-  // height: 470px;
   .conatiner {
     width: 90%;
     margin: auto;
     display: flex;
-    .box1 {
-      flex: 2;
+    .are1 {
+      flex: 1;
       .text {
         margin-top: 20px;
         p {
@@ -21,7 +20,7 @@
         }
         .tw2 {
           position: absolute;
-          margin-left: -29px;
+          margin-left: -32px;
           margin-top: 10px;
         }
         .dis {
@@ -34,33 +33,37 @@
         }
       }
     }
-    .box2 {
+    .are2 {
       flex: 1;
-      .text {
-        margin-left: 50px;
-        h3 {
-          margin-bottom: 20px;
+      display: flex;
+      .box1 {
+        flex: 1;
+        .text {
+          margin-left: 50px;
+          h3 {
+            margin-bottom: 20px;
+          }
+          p {
+            margin-bottom: 5px;
+            color: $color-grey;
+          }
         }
-        p {
-          margin-bottom: 5px;
-          color: $color-grey;
+      }
+      .box2 {
+        flex: 1;
+        .text {
+          h3 {
+            margin-bottom: 20px;
+          }
+          p {
+            margin-bottom: 5px;
+            color: $color-grey;
+          }
         }
       }
     }
-    .box3 {
+    .are3 {
       flex: 1;
-      .text {
-        h3 {
-          margin-bottom: 20px;
-        }
-        p {
-          margin-bottom: 5px;
-          color: $color-grey;
-        }
-      }
-    }
-    .box4 {
-      flex: 2;
       .text {
         h3 {
           margin-bottom: 20px;
@@ -81,17 +84,18 @@
               outline: none;
               position: relative;
             }
-            button {
-              position: absolute;
-              padding: 12px 18px;
-              border: none;
-              background: $background;
-              border-radius: 45px;
-              margin-top: -10px;
-              font-weight: 500;
-              font-size: 12.1587px;
-              color: $color-white;
-            }
+          }
+          button {
+            position: absolute;
+            padding: 12px 18px;
+            border: none;
+            background: $background;
+            border-radius: 45px;
+            font-weight: 500;
+            font-size: 12.1587px;
+            color: $color-white;
+            margin-top: -39px;
+            margin-left: 195px;
           }
         }
       }

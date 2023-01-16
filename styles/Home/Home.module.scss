@@ -14,3 +14,7 @@ $color-dark-dreen: #003935;
 @import "wizard";
 @import "footer";
 @import "finall";
+// Responsive
+@media (max-width: 375px) {
+  @import "responsive/responsive";
+}
