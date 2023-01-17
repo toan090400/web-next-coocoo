@@ -1,29 +1,28 @@
 .frame {
   margin-top: 40px;
   .container {
-    height: 650px;
-    width: 1080px;
+    width: 80%;
     margin: auto;
     .text {
       h1 {
         text-align: center;
-        font-family: "Oswald";
+        font-family: "Oswald", sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 80px;
+        font-size: 122px;
         background: $background;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
         img {
           width: 35px;
-          height: auto;
           margin-bottom: 15px;
         }
       }
       p {
+        font-family: "Lato", sans-serif;
         font-weight: 400;
-        font-size: 24px;
+        font-size: 25px;
         line-height: 29px;
         text-align: center;
         letter-spacing: 0.085em;
@@ -76,7 +75,7 @@
         .are2 {
           margin-top: 26px;
           h1 {
-            font-family: "Lato";
+            font-family: "Lato", sans-serif;
             font-style: normal;
             font-weight: 800;
             font-size: 53px;
@@ -91,21 +90,21 @@
               margin-top: 6px;
             }
             .bid {
-              font-family: "Lato";
+              font-family: "Lato", sans-serif;
               font-style: normal;
               font-weight: 600;
               font-size: 16px;
               color: $color-grey;
             }
             .bnb {
-              font-family: "Lato";
+              font-family: "Lato", sans-serif;
               font-style: normal;
               font-weight: 900;
               font-size: 28px;
               color: $color-black;
             }
             .price {
-              font-family: "Lato";
+              font-family: "Lato", sans-serif;
               font-style: normal;
               font-weight: 400;
               font-size: 16px;
@@ -117,7 +116,7 @@
             .text {
               margin-left: 41px;
               p {
-                font-family: "Lato";
+                font-family: "Lato", sans-serif;
                 font-style: normal;
                 font-weight: 600;
                 font-size: 16px;
