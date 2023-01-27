@@ -43,8 +43,14 @@
     }
     .content {
       display: block;
-      img {
-        width: 100%;
+      .image {
+        .frame {
+          width: 100%;
+        }
+        .dots {
+          left: -160px;
+          bottom: -175px;
+        }
       }
       .user {
         margin-right: 0;
@@ -91,6 +97,7 @@
   }
 }
 .hotDrops {
+  margin-top: -80px;
   height: 700px;
   display: block;
   .title {

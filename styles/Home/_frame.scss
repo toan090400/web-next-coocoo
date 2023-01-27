@@ -33,6 +33,17 @@
       display: flex;
       width: 90%;
       margin: auto;
+      .image {
+        .frame {
+          position: relative;
+          z-index: 1;
+        }
+        .dots {
+          position: absolute;
+          left: 120px;
+          bottom: -210px;
+        }
+      }
       .user {
         margin-right: 30px;
         .are1 {

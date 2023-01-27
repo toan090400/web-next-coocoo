@@ -1,6 +1,7 @@
 import style from "../../styles/Home/Home.module.scss";
 import Image from "next/image";
 // frame
+import dots from "../../public/home/frame/dots.png";
 import frame from "../../public/home/frame/frame.png";
 import plus from "../../public/home/frame/plus.png";
 import user_frame from "../../public/home/frame/user-frame.png";
@@ -17,7 +18,13 @@ const Frame = () => {
           <p>A BINANCE SMART CHAIN NFT MARKETPLACE</p>
         </div>
         <div className={style.content}>
-          <Image src={frame} alt="" />
+          {/* <Image src={frame} alt="" /> */}
+          <div className={style.image}>
+            <Image className={style.frame} src={frame} alt="frame" />
+            <Image className={style.dots} src={dots} alt="dots" />
+            {/* <img className={style.frame} src="./image/frame/frame.png" alt="" />
+            <img className={style.dots} src="./image/frame/dots.png" alt="" /> */}
+          </div>
           <div className={style.user}>
             <div className={style.are1}>
               <div className={style.user}>
