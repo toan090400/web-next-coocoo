@@ -18,12 +18,11 @@ const Frame = () => {
           <p>A BINANCE SMART CHAIN NFT MARKETPLACE</p>
         </div>
         <div className={style.content}>
-          {/* <Image src={frame} alt="" /> */}
           <div className={style.image}>
             <Image className={style.frame} src={frame} alt="frame" />
-            <Image className={style.dots} src={dots} alt="dots" />
-            {/* <img className={style.frame} src="./image/frame/frame.png" alt="" />
-            <img className={style.dots} src="./image/frame/dots.png" alt="" /> */}
+            <div>
+              <Image className={style.dots} src={dots} alt="dots" />
+            </div>
           </div>
           <div className={style.user}>
             <div className={style.are1}>

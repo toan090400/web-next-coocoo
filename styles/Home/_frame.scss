@@ -34,14 +34,16 @@
       width: 90%;
       margin: auto;
       .image {
+        position: relative;
         .frame {
-          position: relative;
-          z-index: 1;
+          width: 100%;
+          // height: auto;
         }
         .dots {
           position: absolute;
-          left: 120px;
-          bottom: -210px;
+          bottom: 0;
+          z-index: -1;
+          left: -3.5rem;
         }
       }
       .user {

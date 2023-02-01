@@ -19,8 +19,10 @@ const TopList = () => {
                 <p className={style.number}>{item.id}</p>
                 {item.check ? (
                   <>
-                    <Image className={style.start} src={item.image} alt="" />
-                    <Image className={style.check} src={checkImage} alt="" />
+                    <div className={style.image}>
+                      <Image className={style.start} src={item.image} alt="" />
+                      <Image className={style.check} src={checkImage} alt="" />
+                    </div>
                   </>
                 ) : (
                   <Image src={item.image} alt="" />
@@ -51,8 +53,10 @@ const TopList = () => {
                 <p className={style.number}>{item.id}</p>
                 {item.check ? (
                   <>
-                    <Image className={style.start} src={item.image} alt="" />
-                    <Image className={style.check} src={checkImage} alt="" />
+                    <div className={style.image}>
+                      <Image className={style.start} src={item.image} alt="" />
+                      <Image className={style.check} src={checkImage} alt="" />
+                    </div>
                   </>
                 ) : (
                   <Image src={item.image} alt="" />
@@ -83,8 +87,10 @@ const TopList = () => {
                 <p className={style.number}>{item.id}</p>
                 {item.check ? (
                   <>
-                    <Image className={style.start} src={item.image} alt="" />
-                    <Image className={style.check} src={checkImage} alt="" />
+                    <div className={style.image}>
+                      <Image className={style.start} src={item.image} alt="" />
+                      <Image className={style.check} src={checkImage} alt="" />
+                    </div>
                   </>
                 ) : (
                   <Image src={item.image} alt="" />

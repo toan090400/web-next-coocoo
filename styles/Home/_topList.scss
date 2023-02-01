@@ -3,7 +3,7 @@
   .box {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
     margin: auto;
     .are {
       margin-top: 30px;
@@ -21,6 +21,7 @@
       .userBox {
         width: 365px;
         display: flex;
+        gap: 15px;
         border-bottom: 1px solid #ededed;
         justify-content: space-between;
         padding: 20px 8px 20px 10px;
@@ -32,18 +33,14 @@
           margin-right: 20px;
           width: 10%;
         }
-        img {
-          width: 20%;
-          margin-right: 20px;
-        }
-        .start {
+        .image {
+          display: flex;
           position: relative;
-        }
-        .check {
-          position: absolute;
-          width: auto;
-          margin-left: 85px;
-          margin-bottom: 30px;
+          .check {
+            position: absolute;
+            right: -5px;
+            z-index: 1;
+          }
         }
         .adress {
           margin-right: 20px;
