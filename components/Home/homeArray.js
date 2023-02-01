@@ -71,6 +71,46 @@ const topList = [
   },
 ];
 // discoverMore
+const Categorys = [
+  {
+    id: 1,
+    name: "All Categories",
+    check: true,
+  },
+  {
+    id: 2,
+    name: "Art",
+  },
+  {
+    id: 3,
+    name: "Celebrities",
+  },
+  {
+    id: 4,
+    name: "Music",
+  },
+  {
+    id: 5,
+    name: "Photography",
+  },
+  {
+    id: 6,
+    name: "Sports",
+  },
+  {
+    id: 7,
+    name: "Trading Cards",
+  },
+  {
+    id: 8,
+    name: "Utility",
+  },
+  {
+    id: 9,
+    name: "Virtual Worlds",
+  },
+];
+
 const discoverMore = [
   {
     id: 1,
@@ -157,4 +197,4 @@ const discoverMore = [
     time: "3h 50m 2s",
   },
 ];
-module.exports = { itemHot, topList, discoverMore };
+module.exports = { itemHot, topList, Categorys, discoverMore };

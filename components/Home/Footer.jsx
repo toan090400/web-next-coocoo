@@ -4,8 +4,7 @@ import Image from "next/image";
 import logoFooter from "../../public/home/footer/logo.png";
 import dis from "../../public/home/footer/dis.png";
 import inta from "../../public/home/footer/inta.png";
-import tw1 from "../../public/home/footer/tw1.png";
-import tw2 from "../../public/home/footer/tw2.png";
+import tw from "../../public/home/footer/tw.png";
 const Footer = () => {
   return (
     <div className={style.footer}>
@@ -22,8 +21,7 @@ const Footer = () => {
             </p>
           </div>
           <div className={style.icon}>
-            <Image className={style.tw1} src={tw1} alt="" />
-            <Image className={style.tw2} src={tw2} alt="" />
+            <Image className={style.tw} src={tw} alt="" />
             <Image className={style.dis} src={dis} alt="" />
             <Image src={inta} alt="" />
           </div>

@@ -1,6 +1,6 @@
 import style from "../../styles/Home/Home.module.scss";
 import Image from "next/image";
-import { discoverMore } from "./homeArray";
+import { Categorys, discoverMore } from "./homeArray";
 // discoverMore
 import logoDiscoverMore from "../../public/home/discoverMore/logo.png";
 import vectorDiscoverMore from "../../public/home/discoverMore/vector.png";
@@ -21,15 +21,13 @@ const DsicoverMore = () => {
         <div className={style.are2}>
           <div className={style.box}>
             <div className={style.category}>
-              <p className={style.all}>All Categories</p>
-              <p>Art</p>
-              <p>Celebrities</p>
-              <p>Music</p>
-              <p>Photography</p>
-              <p>Sports</p>
-              <p>Trading Cards</p>
-              <p>Utility</p>
-              <p>Virtual Worlds</p>
+              {Categorys.map((item) => {
+                return (
+                  <p key={item.id} className={item.check ? style.all : ""}>
+                    {item.name}
+                  </p>
+                );
+              })}
             </div>
             <div className={style.filer}>
               <p className={style.filters}>

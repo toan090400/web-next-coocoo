@@ -16,15 +16,73 @@ $color-dark-dreen: #003935;
 @import "footer";
 @import "finall";
 // Responsive
-@media (min-width: 375px) and (max-width: 1200px) {
+@media (max-width: 1200px) {
   @import "responsive/responsive";
 }
-@media (max-width: 375px) {
+@media (min-width: 320px) and (max-width: 375px) {
+  .frame {
+    .container {
+      .text {
+        h1 {
+          font-size: 40px;
+        }
+      }
+      .content {
+        .user {
+          margin-right: 0;
+          .are1 {
+            margin-top: 20px;
+            justify-content: center;
+            gap: 5px;
+            .user {
+              &_info.thr {
+                background-color: $color-black;
+              }
+            }
+          }
+          .are3 {
+            .time {
+              margin-top: -10px;
+            }
+          }
+          .are4 {
+            button {
+              padding: 15px 0px;
+            }
+          }
+        }
+      }
+    }
+  }
   .hotDrops {
     .title {
       .text {
         img {
           width: 35%;
+        }
+      }
+    }
+  }
+  .topList {
+    .box {
+      .are {
+        .userBox {
+          gap: 5px;
+          .number {
+            margin-right: 0px;
+          }
+          .adress {
+            margin-right: 0px;
+          }
+        }
+      }
+    }
+  }
+  .discoverMore {
+    .conatainerMore {
+      .are4 {
+        .btn {
+          padding: 15px 15px;
         }
       }
     }
