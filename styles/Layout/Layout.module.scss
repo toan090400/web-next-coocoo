@@ -1,0 +1,26 @@
+$background: linear-gradient(114.51deg, #6bcb07 -12.5%, #06bfc9 94.9%);
+$border: 1px solid #ededed;
+$color-white: #ffffff;
+$color-grey: #6a6a6a;
+$color-black: #373737;
+$color-green: #6bcb07;
+$color-pink: #f01866;
+$color-dark-dreen: #003935;
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald:wght@300;400;500;700&display=swap");
+// menu
+@import "menu";
+// footer
+@import "footer";
+// finall
+@import "finall";
+
+// respositeve
+// table
+@media (max-width: 1200px) {
+  // menu
+  @import "responsive/menu";
+  // footer
+  @import "responsive/footer";
+  // finall
+  @import "responsive/finall";
+}

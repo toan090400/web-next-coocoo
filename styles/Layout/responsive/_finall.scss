@@ -1,0 +1,21 @@
+.finall {
+  margin-top: 100px;
+  .container {
+    display: block;
+    .box1 {
+      width: 100%;
+      position: relative;
+    }
+    .box2 {
+      width: 100%;
+      .text {
+        float: left;
+        position: absolute;
+        margin-top: -40px;
+        p {
+          margin: 0 25px 0 0;
+        }
+      }
+    }
+  }
+}

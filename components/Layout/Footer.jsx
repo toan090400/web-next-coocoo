@@ -1,10 +1,10 @@
-import style from "../../styles/Home/Home.module.scss";
+import style from "../../styles/Layout/Layout.module.scss";
 import Image from "next/image";
 // footer
-import logoFooter from "../../public/home/footer/logo.png";
-import dis from "../../public/home/footer/dis.png";
-import inta from "../../public/home/footer/inta.png";
-import tw from "../../public/home/footer/tw.png";
+import logoFooter from "../../public/layout/footer/logo.png";
+import dis from "../../public/layout/footer/dis.png";
+import inta from "../../public/layout/footer/inta.png";
+import tw from "../../public/layout/footer/tw.png";
 const Footer = () => {
   return (
     <div className={style.footer}>

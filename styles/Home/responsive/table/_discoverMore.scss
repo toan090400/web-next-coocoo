@@ -1,0 +1,46 @@
+.discoverMore {
+  .conatainerMore {
+    .are1 {
+      .text {
+        p {
+          font-size: 40px;
+        }
+        img {
+          width: 90px;
+          height: auto;
+          margin-left: 30px;
+          margin-top: -10px;
+        }
+      }
+    }
+    .are2 {
+      margin-top: 70px;
+      .box {
+        .category {
+          width: 50%;
+          p {
+            display: none;
+          }
+          .all {
+            display: block;
+          }
+        }
+        .filer {
+          width: 50%;
+        }
+      }
+    }
+    .are3 {
+      margin-top: 50px;
+      .box_card {
+        justify-content: center;
+        .card {
+          display: none;
+          &.res {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}

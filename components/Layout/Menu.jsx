@@ -1,11 +1,11 @@
-import style from "../../styles/Home/Home.module.scss";
+import style from "../../styles/Layout/Layout.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 
-import logo from "../../public/home/menu/logo.png";
-import search from "../../public/home/menu/search.png";
-import vector from "../../public/home/menu/vector.png";
-import user_menu from "../../public/home/menu/user-menu.png";
+import logo from "../../public/layout/menu/logo.png";
+import search from "../../public/layout/menu/search.png";
+import vector from "../../public/layout/menu/vector.png";
+import user_menu from "../../public/layout/menu/user-menu.png";
 const Menu = () => {
   return (
     <div className={style.menu}>
@@ -15,7 +15,7 @@ const Menu = () => {
             <Image src={logo} alt="" />
           </div>
           <div className={style.list}>
-            <Link href="/">Marketplace</Link>
+            <Link href="/item">Marketplace</Link>
             <Link href="/">Rankings</Link>
             <Link href="/">About</Link>
           </div>

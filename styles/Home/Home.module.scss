@@ -7,95 +7,25 @@ $color-green: #6bcb07;
 $color-pink: #f01866;
 $color-dark-dreen: #003935;
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald:wght@300;400;500;700&display=swap");
-@import "menu";
+
 @import "frame";
 @import "hotDrops";
 @import "topList";
 @import "discoverMore";
 @import "wizard";
-@import "footer";
-@import "finall";
+
 // Responsive
 @media (max-width: 1200px) {
-  @import "responsive/responsive";
+  @import "responsive/table/frame";
+  @import "responsive/table/hotDrops";
+  @import "responsive/table/topList";
+  @import "responsive/table/discoverMore";
+  @import "responsive/table/wizard";
 }
-@media (min-width: 320px) and (max-width: 375px) {
-  .frame {
-    .container {
-      .text {
-        h1 {
-          font-size: 40px;
-        }
-      }
-      .content {
-        .user {
-          margin-right: 0;
-          .are1 {
-            margin-top: 20px;
-            justify-content: center;
-            gap: 5px;
-            .user {
-              &_info.thr {
-                background-color: $color-black;
-              }
-            }
-          }
-          .are3 {
-            .time {
-              margin-top: -10px;
-            }
-          }
-          .are4 {
-            button {
-              padding: 15px 0px;
-            }
-          }
-        }
-      }
-    }
-  }
-  .hotDrops {
-    .title {
-      .text {
-        img {
-          width: 35%;
-        }
-      }
-    }
-  }
-  .topList {
-    .box {
-      .are {
-        .userBox {
-          gap: 5px;
-          .number {
-            margin-right: 0px;
-          }
-          .adress {
-            margin-right: 0px;
-          }
-        }
-      }
-    }
-  }
-  .discoverMore {
-    .conatainerMore {
-      .are4 {
-        .btn {
-          padding: 15px 15px;
-        }
-      }
-    }
-  }
-  .wizard {
-    .image {
-      width: 100%;
-      .image_are {
-        img {
-          width: 100%;
-          margin-top: 0;
-        }
-      }
-    }
-  }
+@media (min-width: 320px) and (max-width: 600px) {
+  @import "responsive/mobi/frame";
+  @import "responsive/mobi/hotDrops";
+  @import "responsive/mobi/topList";
+  @import "responsive/mobi/discoverMore";
+  @import "responsive/mobi/wizard";
 }

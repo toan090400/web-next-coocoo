@@ -1,4 +1,4 @@
-import style from "../../styles/Home/Home.module.scss";
+import style from "../../styles/Layout/Layout.module.scss";
 const Finall = () => {
   return (
     <div className={style.finall}>

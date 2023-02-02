@@ -1,0 +1,26 @@
+.wizard {
+  display: block;
+  .text {
+    width: 100%;
+    .head {
+      p {
+        font-size: 30px;
+      }
+    }
+    .button {
+      .btn {
+        width: 100%;
+      }
+    }
+  }
+  .image {
+    width: 100%;
+    .image_are {
+      text-align: center;
+      img {
+        width: 50%;
+        margin-top: 0;
+      }
+    }
+  }
+}
