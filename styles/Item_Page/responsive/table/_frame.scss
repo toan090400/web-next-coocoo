@@ -1,0 +1,62 @@
+.frame {
+  margin-top: 0px;
+  .container {
+    width: 100%;
+    .content {
+      display: block;
+      .image {
+        width: 100%;
+        text-align: center;
+        .frame {
+          width: 100%;
+          height: auto;
+        }
+      }
+      .user {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        .are1 {
+          margin-top: 40px;
+          gap: 30px;
+          .user {
+            &_info.thr {
+              background-color: $color-black;
+            }
+          }
+        }
+        .are2 {
+          h1 {
+            font-size: 38px;
+            text-align: center;
+          }
+        }
+        .are3 {
+          .bill {
+            margin-right: 0;
+            width: 45%;
+            text-align: center;
+            p {
+              font-size: 14px;
+            }
+          }
+          .time {
+            width: 50%;
+            .text {
+              margin-left: 15px;
+              margin-top: 15px;
+              .textTime {
+                font-size: 25px;
+              }
+            }
+          }
+        }
+        .are4 {
+          button {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

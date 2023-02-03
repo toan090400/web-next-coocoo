@@ -4,23 +4,27 @@ $color-white: #ffffff;
 $color-grey: #6a6a6a;
 $color-black: #373737;
 $color-green: #6bcb07;
-$color-pink: #f01866;
 $color-dark-dreen: #003935;
+$grey: #ededed;
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700,800&family=Oswald:wght@300;400;500;700&display=swap");
-// menu
-@import "menu";
-// footer
-@import "footer";
-// finall
-@import "finall";
 
-// respositeve
-// table
+// frame
+@import "frame";
+// properties
+@import "properties";
+// over
+@import "over";
+
 @media (max-width: 1200px) {
   // menu
-  @import "responsive/menu";
+  @import "responsive/table/frame";
   // footer
-  @import "responsive/footer";
+  @import "responsive/table/properties";
   // finall
-  @import "responsive/finall";
+  @import "responsive/table/over";
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  @import "responsive/mobi/frame";
+  @import "responsive/mobi/properties";
+  @import "responsive/mobi/over";
 }

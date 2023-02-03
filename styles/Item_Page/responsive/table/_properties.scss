@@ -1,0 +1,13 @@
+.properties {
+  width: 90%;
+  margin-top: 20px;
+  .backgroud {
+    gap: 20px;
+    .item {
+      display: none;
+      &.open {
+        display: block;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.properties {
+  .backgroud {
+    gap: 5px;
+    .item {
+      &.open {
+        &.hiden {
+          display: none;
+        }
+      }
+      .item_1 {
+        margin: 10px 10px 0 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+.over {
+  .over_chill {
+    .box1 {
+      .bid {
+        &_chill {
+          .data {
+            .item {
+              .time {
+                font-size: 14px;
+              }
+              .number {
+                font-size: 14px;
+              }
+              .name {
+                font-size: 14px;
+              }
+              img {
+                right: -10px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .box2 {
+      .are1 {
+        .history {
+          &_chill {
+            .data {
+              .item {
+                p {
+                  &.list {
+                    font-size: 14px;
+                  }
+                  &.user {
+                    display: none;
+                  }
+                  &.time {
+                    font-size: 14px;
+                  }
+                }
+                img {
+                  right: -10px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .are2 {
+        .more {
+          &_chill {
+            .header {
+              .text_1 {
+                font-size: 18px;
+              }
+              .text_2 {
+                font-size: 18px;
+              }
+            }
+            .box {
+              &_chill {
+                .item {
+                  &.lef {
+                    .image_r {
+                      display: block;
+                    }
+                  }
+                  &.rig {
+                    display: none;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
