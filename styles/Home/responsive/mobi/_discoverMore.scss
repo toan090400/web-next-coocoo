@@ -1,5 +1,17 @@
 .discoverMore {
   .conatainerMore {
+    .are3 {
+      .box_card {
+        .card {
+          &.res {
+            display: none;
+            &.show {
+              display: block;
+            }
+          }
+        }
+      }
+    }
     .are4 {
       .btn {
         padding: 15px 15px;

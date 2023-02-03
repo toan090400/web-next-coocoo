@@ -69,6 +69,32 @@ const DsicoverMore = () => {
                 </div>
               </div>
             </div>
+            <div className={`${style.card} ${style.res} ${style.show}`}>
+              <div className={style.box}>
+                <Image src={itemDiscoverMore} alt="" />
+                <p className={style.text1}>Name of Collectible</p>
+                <p className={style.text2}>Name of Collectible</p>
+                <p className={style.bnb}>0.25 BNB</p>
+                <div className={style.button}>
+                  <p className={style.time}>3h 50m 2s</p>
+                  <button className={style.btn}>Bid Now</button>
+                  <Image src={heardDiscoverMore} alt="" />
+                </div>
+              </div>
+            </div>
+            <div className={`${style.card} ${style.res}`}>
+              <div className={style.box}>
+                <Image src={itemDiscoverMore} alt="" />
+                <p className={style.text1}>Name of Collectible</p>
+                <p className={style.text2}>Name of Collectible</p>
+                <p className={style.bnb}>0.25 BNB</p>
+                <div className={style.button}>
+                  <p className={style.time}>3h 50m 2s</p>
+                  <button className={style.btn}>Bid Now</button>
+                  <Image src={heardDiscoverMore} alt="" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className={style.are4}>
