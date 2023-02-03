@@ -16,7 +16,6 @@ const Frame = () => {
               <div className={style.user}>
                 <p>Creator</p>
                 <div className={`${style.user_info} ${style.fir}`}>
-                  <img src="./image/frame/user-frame.png" alt="" />
                   <Image src={user_frame} alt="user-frame" />
                   <p>Arkhan17</p>
                 </div>
@@ -24,7 +23,6 @@ const Frame = () => {
               <div className={`${style.user} ${style.sec}`}>
                 <p>Owner</p>
                 <div className={`${style.user_info} ${style.sec}`}>
-                  <img src="./image/frame/user-frame.png" alt="" />
                   <Image src={user_frame} alt="user-frame" />
                   <p>Arkhan17</p>
                 </div>
@@ -32,7 +30,6 @@ const Frame = () => {
               <div className={style.user}>
                 <p>Collection</p>
                 <div className={`${style.user_info} ${style.thr}`}>
-                  <img src="./image/frame/user-frame.png" alt="" />
                   <Image src={user_frame} alt="user-frame" />
                   <p>Arkhan17</p>
                 </div>
