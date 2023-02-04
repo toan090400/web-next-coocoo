@@ -1,11 +1,11 @@
 .footer {
-  .conatiner {
+  .footer__conatiner {
     width: 90%;
     margin: auto;
     display: flex;
-    .are1 {
+    .footer__are1 {
       flex: 1;
-      .text {
+      .footer__text {
         margin-top: 20px;
         p {
           font-weight: 400;
@@ -13,24 +13,19 @@
           color: #565656;
         }
       }
-      .icon {
+      .footer__icon {
         margin-top: 20px;
-        .dis {
+        .footer__dis {
           margin: 0 10px;
         }
       }
-      .coco {
-        p {
-          color: $color-grey;
-        }
-      }
     }
-    .are2 {
+    .footer__are2 {
       flex: 1;
       display: flex;
-      .box1 {
+      .footer__box1 {
         flex: 1;
-        .text {
+        .footer__text {
           margin-left: 50px;
           h3 {
             margin-bottom: 20px;
@@ -41,9 +36,9 @@
           }
         }
       }
-      .box2 {
+      .footer__box2 {
         flex: 1;
-        .text {
+        .footer__text {
           h3 {
             margin-bottom: 20px;
           }
@@ -54,9 +49,9 @@
         }
       }
     }
-    .are3 {
+    .footer__are3 {
       flex: 1;
-      .text {
+      .footer__text {
         h3 {
           margin-bottom: 20px;
         }
@@ -66,7 +61,7 @@
         }
         form {
           margin-top: 75px;
-          .email {
+          .footer__email {
             padding: 10px 20px;
             border: 1px solid #ededed;
             border-radius: 45px;

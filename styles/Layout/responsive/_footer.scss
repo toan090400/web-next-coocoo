@@ -1,19 +1,19 @@
 .footer {
-  .conatiner {
+  .footer__conatiner {
     display: block;
-    .are2 {
+    .footer__are2 {
       margin: 20px 0;
-      .box1 {
-        .text {
+      .footer__box1 {
+        .footer__text {
           margin-left: 0;
         }
       }
     }
-    .are3 {
-      .text {
+    .footer__are3 {
+      .footer__text {
         form {
           margin-top: 30px;
-          .email {
+          .footer__email {
             display: flex;
             width: 100%;
           }

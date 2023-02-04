@@ -1,15 +1,14 @@
-import style from "../../styles/Layout/Layout.module.scss";
 const Finall = () => {
   return (
-    <div className={style.finall}>
-      <div className={style.container}>
-        <div className={style.box1}>
-          <div className={style.text}>
+    <div className="finall">
+      <div className="finall__container">
+        <div className="finall__box1">
+          <div className="finall__text">
             <p>Copyright © 2022 Coco</p>
           </div>
         </div>
-        <div className={style.box2}>
-          <div className={style.text}>
+        <div className="finall__box2">
+          <div className="finall__text">
             <p>Privacy Policy</p>
             <p>Terms & Conditions</p>
           </div>

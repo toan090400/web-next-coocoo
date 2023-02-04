@@ -1,14 +1,14 @@
 .finall {
   margin-top: 100px;
-  .container {
+  .finall__container {
     display: block;
-    .box1 {
+    .finall__box1 {
       width: 100%;
       position: relative;
     }
-    .box2 {
+    .finall__box2 {
       width: 100%;
-      .text {
+      .finall__text {
         float: left;
         position: absolute;
         margin-top: -40px;

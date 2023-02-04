@@ -1,13 +1,7 @@
-$background: linear-gradient(114.51deg, #6bcb07 -12.5%, #06bfc9 94.9%);
-$border: 1px solid #ededed;
-$color-white: #ffffff;
-$color-grey: #6a6a6a;
-$color-black: #373737;
-$color-green: #6bcb07;
-$color-dark-dreen: #003935;
-$grey: #ededed;
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700,800&family=Oswald:wght@300;400;500;700&display=swap");
 
+// color
+@import "../var";
 // frame
 @import "frame";
 // properties

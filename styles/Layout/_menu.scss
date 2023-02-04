@@ -1,30 +1,30 @@
 .menu {
   height: 80px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  .container {
+  .menu__container {
     display: flex;
     line-height: 80px;
-    .are1 {
+    .menu__are1 {
       width: 30%;
       display: flex;
       justify-content: space-evenly;
-      .logo {
+      .menu__logo {
         img {
           margin-top: 20px;
         }
       }
-      .list {
+      .menu__list {
         a {
           text-decoration: none;
           margin: 0 12px;
           color: $color-grey;
         }
       }
-      .bar {
+      .menu__bar {
         display: none;
       }
     }
-    .are2 {
+    .menu__are2 {
       width: 40%;
       form {
         border: $border;
@@ -45,9 +45,9 @@
         }
       }
     }
-    .are3 {
+    .menu__are3 {
       width: 30%;
-      .user {
+      .menu__user {
         display: flex;
         margin-top: 22px;
         justify-content: space-evenly;

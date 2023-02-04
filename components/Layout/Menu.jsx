@@ -1,4 +1,3 @@
-import style from "../../styles/Layout/Layout.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -8,29 +7,29 @@ import vector from "../../public/layout/menu/vector.png";
 import user_menu from "../../public/layout/menu/user-menu.png";
 const Menu = () => {
   return (
-    <div className={style.menu}>
-      <div className={style.container}>
-        <div className={style.are1}>
-          <div className={style.logo}>
+    <div className="menu">
+      <div className="menu__container">
+        <div className="menu__are1">
+          <div className="menu__logo">
             <Image src={logo} alt="" />
           </div>
-          <div className={style.list}>
-            <Link href="/item">Marketplace</Link>
-            <Link href="/">Rankings</Link>
+          <div className="menu__list">
+            <Link href="/marketplace">Marketplace</Link>
+            <Link href="/item">Rankings</Link>
             <Link href="/">About</Link>
           </div>
-          <div className={style.bar}>
+          <div className="menu__bar">
             <p>&#9776;</p>
           </div>
         </div>
-        <div className={style.are2}>
+        <div className="menu__are2">
           <form action="">
             <Image src={search} alt="" />
             <input type="text" placeholder="Search" />
           </form>
         </div>
-        <div className={style.are3}>
-          <div className={style.user}>
+        <div className="menu__are3">
+          <div className="menu__user">
             <button>Create</button>
             <Image src={user_menu} alt="" />
             <Image src={vector} alt="" />

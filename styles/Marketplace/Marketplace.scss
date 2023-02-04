@@ -1,0 +1,11 @@
+@import "filter";
+@import "card";
+// table
+@media (max-width: 1200px) {
+  @import "responsive/table/filter";
+  @import "responsive/table/card";
+}
+// mobi
+@media (min-width: 320px) and (max-width: 600px) {
+  @import "responsive/mobi/card";
+}

@@ -1,0 +1,107 @@
+.card {
+  margin-top: 40px;
+  &-chill {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    width: 85%;
+    margin: auto;
+    .card-box {
+      display: flex;
+      flex-wrap: wrap;
+      .item {
+        margin: 20px 0;
+        width: 25%;
+
+        &-chill {
+          box-shadow: 0 4px 20px 5px rgb(0 0 0 / 8%);
+          border-radius: 8px;
+          display: inline-block;
+          padding: 15px;
+          .data {
+            margin: 10px 0;
+            .text {
+              p {
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 15px;
+                color: $color-black;
+                &.bottom {
+                  font-weight: 400;
+                  font-size: 12px;
+                  margin: 10px 0;
+                }
+              }
+            }
+            .number {
+              display: flex;
+              gap: 10px;
+              p {
+                font-weight: 800;
+                font-size: 16px;
+                line-height: 15px;
+                color: $color-black;
+              }
+            }
+          }
+          .bid {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .time {
+              background: #f5f5f5;
+              padding: 10px 10px;
+              border-radius: 15px;
+              p {
+                font-weight: 400;
+                font-size: 10.9706px;
+                line-height: 100%;
+                color: $color-black;
+              }
+            }
+            .btn {
+              button {
+                border: none;
+                background: linear-gradient(
+                  114.51deg,
+                  #6bcb07 -12.5%,
+                  #06bfc9 94.9%
+                );
+                padding: 10px 25px;
+                border-radius: 15px;
+                color: $color-white;
+                font-family: "Lato", sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 9.58904px;
+                line-height: 12px;
+                letter-spacing: 0.02em;
+              }
+            }
+          }
+        }
+      }
+    }
+    .button {
+      margin: 30px auto;
+      .box {
+        text-align: center;
+        .text {
+          display: inline-block;
+
+          border-radius: 50px;
+          border: double 2px transparent;
+          background-image: linear-gradient(white, white), $background;
+          background-origin: border-box;
+          background-clip: content-box, border-box;
+          p {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+
+            margin: 10px 20px;
+          }
+        }
+      }
+    }
+  }
+}

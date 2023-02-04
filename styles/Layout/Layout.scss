@@ -1,0 +1,17 @@
+// menu
+@import "menu";
+// footer
+@import "footer";
+// finall
+@import "finall";
+
+// respositeve
+// table
+@media (max-width: 1200px) {
+  // menu
+  @import "responsive/menu";
+  // footer
+  @import "responsive/footer";
+  // finall
+  @import "responsive/finall";
+}

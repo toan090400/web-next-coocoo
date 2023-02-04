@@ -1,4 +1,3 @@
-import style from "../../styles/Layout/Layout.module.scss";
 import Image from "next/image";
 // footer
 import logoFooter from "../../public/layout/footer/logo.png";
@@ -7,28 +6,28 @@ import inta from "../../public/layout/footer/inta.png";
 import tw from "../../public/layout/footer/tw.png";
 const Footer = () => {
   return (
-    <div className={style.footer}>
-      <div className={style.conatiner}>
-        <div className={style.are1}>
-          <div className={style.logo}>
+    <div className="footer">
+      <div className="footer__conatiner">
+        <div className="footer__are1">
+          <div className="footer__logo">
             <Image src={logoFooter} alt="" />
           </div>
-          <div className={style.text}>
+          <div className="footer__text">
             <p>
               The largest digital marketplace for crypto collectibles and
               non-fungible tokens (NFTs) on the Binance Smart Cahin. Create,
               collect, sell, and showcase exclusive digital items.
             </p>
           </div>
-          <div className={style.icon}>
-            <Image className={style.tw} src={tw} alt="" />
-            <Image className={style.dis} src={dis} alt="" />
+          <div className="footer__icon">
+            <Image className="footer__tw" src={tw} alt="" />
+            <Image className="footer__dis" src={dis} alt="" />
             <Image src={inta} alt="" />
           </div>
         </div>
-        <div className={style.are2}>
-          <div className={style.box1}>
-            <div className={style.text}>
+        <div className="footer__are2">
+          <div className="footer__box1">
+            <div className="footer__text">
               <h3>Marketplace</h3>
               <p>All NFTs</p>
               <p>Art</p>
@@ -41,8 +40,8 @@ const Footer = () => {
               <p>Virtual Worlds</p>
             </div>
           </div>
-          <div className={style.box2}>
-            <div className={style.text}>
+          <div className="footer__box2">
+            <div className="footer__text">
               <h3>My Account</h3>
               <p>Profile</p>
               <p>Favorites</p>
@@ -51,15 +50,15 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className={style.are3}>
-          <div className={style.text}>
+        <div className="footer__are3">
+          <div className="footer__text">
             <h3>Stay in the loop</h3>
             <p>
               Join our mailing list to stay in the loop with our newest feature
               releases, NFT drops, and tips and tricks for navigating NFTs.
             </p>
             <form action="">
-              <div className={style.email}>
+              <div className="footer__email">
                 <input type="text" placeholder="Enter your email address.." />
               </div>
               <button>Subscibe Now</button>

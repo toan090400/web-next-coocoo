@@ -1,13 +1,13 @@
 .finall {
   height: 50px;
   margin-top: 70px;
-  .container {
+  .finall__container {
     width: 90%;
     margin: auto;
     display: flex;
-    .box1 {
+    .finall__box1 {
       width: 50%;
-      .text {
+      .finall__text {
         p {
           font-weight: 400;
           font-size: 14px;
@@ -15,9 +15,9 @@
         }
       }
     }
-    .box2 {
+    .finall__box2 {
       width: 50%;
-      .text {
+      .finall__text {
         display: flex;
         float: right;
         p {

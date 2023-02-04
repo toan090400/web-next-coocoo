@@ -1,0 +1,13 @@
+.card {
+  &-chill {
+    .card-box {
+      text-align: center;
+      .item {
+        width: 50%;
+        &.hiden {
+          display: none;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,190 @@
+.filter {
+  margin-top: 30px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  &-chill {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 5px;
+    .filter__are1 {
+      flex: 3;
+      display: flex;
+      gap: 10px;
+      .filter__box {
+        flex: 3;
+        display: flex;
+        gap: 10px;
+        .filter__box1 {
+          flex: 2;
+          display: flex;
+          gap: 10px;
+          .filter__item {
+            flex: 1;
+            .filter__text {
+              padding: 0 10px;
+              p {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 17px;
+                color: $black;
+              }
+            }
+            .filter__btn {
+              display: flex;
+              background: #ededed;
+              border-radius: 50px;
+              padding: 10px 0;
+              justify-content: space-around;
+              margin-top: 10px;
+              p {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                color: $color-grey;
+              }
+            }
+          }
+        }
+        .filter__box2 {
+          flex: 1;
+          .filter__item {
+            .filter__text {
+              padding: 0 10px;
+              p {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 17px;
+                color: $black;
+              }
+            }
+            .filter__btn {
+              display: flex;
+              background: #ededed;
+              border-radius: 50px;
+              padding: 10px 0;
+              justify-content: space-around;
+              margin-top: 10px;
+              p {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                color: $color-grey;
+              }
+            }
+          }
+        }
+      }
+      .filter__length {
+        flex: 2;
+        .filter__header {
+          .filter__text {
+            padding: 0 10px;
+            p {
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 17px;
+            }
+          }
+        }
+        .filter__select {
+          display: flex;
+          margin-top: 10px;
+          gap: 10px;
+          .filter__length-item {
+            flex: 1;
+            .filter__length-btn {
+              background: #ededed;
+              border-radius: 50px;
+              padding: 9px 0;
+              justify-content: space-around;
+              display: flex;
+              p {
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 17px;
+                color: $color-grey;
+              }
+              .filter__length-image {
+                img {
+                  width: 85%;
+                  height: auto;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .filter__are2 {
+      flex: 1.5;
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end;
+      .filter__box1 {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 5px;
+        p {
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 17px;
+        }
+      }
+      .filter__box2 {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        margin-bottom: 5px;
+        p {
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 17px;
+        }
+      }
+    }
+    .filter__are3 {
+      flex: 0.8;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      .filter__are3-chill {
+        .filter__btn {
+          border: 1px solid #6a6a6a;
+          display: flex;
+          border-radius: 100px;
+          gap: 10px;
+          padding: 12px 30px;
+          p {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: $color-grey;
+          }
+        }
+      }
+    }
+  }
+  .filter__search {
+    display: none;
+    width: 90%;
+    margin: auto;
+    form {
+      margin: 30px 0;
+      border: $border;
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      input {
+        width: 100%;
+        border: none;
+        outline: none;
+      }
+      .filter__image {
+        margin-right: 15px;
+      }
+    }
+  }
+}
