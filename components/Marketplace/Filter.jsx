@@ -10,49 +10,49 @@ import filter from "../../public/merketplace/filter/filter.png";
 const Filter = () => {
   return (
     <div className="filter">
-      <div className="filter__search">
+      <div className="search">
         <form action="">
-          <div className="filter__image">
+          <div className="image">
             <Image src={search} alt="search" />
           </div>
           <input type="text" placeholder="Search" />
         </form>
       </div>
       <div className="filter-chill">
-        <div className="filter__are1">
-          <div className="filter__box">
-            <div className="filter__box1">
-              <div className="filter__item">
-                <div className="filter__text">
+        <div className="are1">
+          <div className="box">
+            <div className="box1">
+              <div className="item">
+                <div className="text">
                   <p>Category</p>
                 </div>
-                <div className="filter__btn">
+                <div className="btn">
                   <p>Select One</p>
-                  <div className="filter__image">
+                  <div className="image">
                     <Image src={dow} alt="dow" />
                   </div>
                 </div>
               </div>
-              <div className="filter__item">
-                <div className="filter__text">
+              <div className="item">
+                <div className="text">
                   <p>Collection</p>
                 </div>
-                <div className="filter__btn">
+                <div className="btn">
                   <p>Select One</p>
-                  <div className="filter__image">
+                  <div className="image">
                     <Image src={dow} alt="dow" />
                   </div>
                 </div>
               </div>
             </div>
-            <div className="filter__box2">
-              <div className="filter__item">
-                <div className="filter__text">
+            <div className="box2">
+              <div className="item">
+                <div className="text">
                   <p>Collection</p>
                 </div>
-                <div className="filter__btn">
+                <div className="btn">
                   <p>Select One</p>
-                  <div className="filter__image">
+                  <div className="image">
                     <Image src={dow} alt="dow" />
                   </div>
                 </div>
@@ -60,25 +60,25 @@ const Filter = () => {
             </div>
           </div>
 
-          <div className="filter__length">
-            <div className="filter__header">
-              <div className="filter__text">
+          <div className="length">
+            <div className="header">
+              <div className="text">
                 <p>Price Range</p>
               </div>
             </div>
-            <div className="filter__select">
-              <div className="filter__length-item">
-                <div className="filter__length-btn">
+            <div className="select">
+              <div className="length-item">
+                <div className="length-btn">
                   <p>Min</p>
-                  <div className="filter__length-image">
+                  <div className="length-image">
                     <Image src={icon} alt="icon" />
                   </div>
                 </div>
               </div>
-              <div className="filter__length-item">
-                <div className="filter__length-btn">
+              <div className="length-item">
+                <div className="length-btn">
                   <p>Max</p>
-                  <div className="filter__length-image">
+                  <div className="length-image">
                     <Image src={icon} alt="icon" />
                   </div>
                 </div>
@@ -86,27 +86,27 @@ const Filter = () => {
             </div>
           </div>
         </div>
-        <div className="filter__are2">
-          <div className="filter__box1">
+        <div className="are2">
+          <div className="box1">
             <p>Show NSFW</p>
-            <div className="filter__image">
+            <div className="image">
               <Image src={button1} alt="button1" />
             </div>
           </div>
-          <div className="filter__box2">
+          <div className="box2">
             <p>Verified only</p>
-            <div className="filter__image-check">
+            <div className="image-check">
               <Image src={check} alt="check" />
             </div>
-            <div className="filter__image">
+            <div className="image">
               <Image src={button2} alt="button2" />
             </div>
           </div>
         </div>
-        <div className="filter__are3">
-          <div className="filter__are3-chill">
-            <div className="filter__btn">
-              <div className="filter__image">
+        <div className="are3">
+          <div className="are3-chill">
+            <div className="btn">
+              <div className="image">
                 <Image src={filter} alt="filter" />
               </div>
               <p>Filters</p>
