@@ -1,8 +1,20 @@
 .card {
   &-chill {
+    width: 100%;
     .card-box {
       .item {
         width: 100%;
+        &-chill {
+          .bid {
+            justify-content: normal;
+            gap: 20px;
+            position: relative;
+            .image {
+              position: absolute;
+              right: 10px;
+            }
+          }
+        }
       }
     }
   }

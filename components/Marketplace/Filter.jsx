@@ -94,7 +94,10 @@ const Filter = () => {
             </div>
           </div>
           <div className="box2">
-            <p>Verified only</p>
+            <div className="text">
+              <p>Verified only</p>
+            </div>
+
             <div className="image-check">
               <Image src={check} alt="check" />
             </div>

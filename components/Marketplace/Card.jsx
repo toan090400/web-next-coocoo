@@ -17,7 +17,7 @@ const Card = () => {
                   </div>
                   <div className="data">
                     <div className="text">
-                      <p>{data.name}</p>
+                      <p>Name of Collectible</p>
                       <p className="bottom">Name of Collectible</p>
                     </div>
                     <div className="number">

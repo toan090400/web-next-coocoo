@@ -14,6 +14,12 @@
               }
               .image {
                 margin-right: 20px;
+                position: relative;
+                img {
+                  position: absolute;
+                  top: 4px;
+                  left: -8px;
+                }
               }
             }
           }
@@ -28,6 +34,12 @@
               }
               .image {
                 margin-right: 20px;
+                position: relative;
+                img {
+                  position: absolute;
+                  top: 4px;
+                  left: -8px;
+                }
               }
             }
           }
@@ -38,11 +50,15 @@
           .length-item {
             .length-btn {
               justify-content: space-between;
+              align-items: center;
               p {
                 margin-left: 20px;
               }
               .length-image {
                 margin-right: 20px;
+                img {
+                  width: 100%;
+                }
               }
             }
           }
