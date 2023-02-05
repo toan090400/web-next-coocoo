@@ -1,5 +1,6 @@
 .card {
   &-chill {
+    width: 90%;
     .card-box {
       text-align: center;
       .item {
@@ -8,7 +9,6 @@
           display: none;
         }
         &-chill {
-          // display: block;
           width: 80%;
           margin: auto;
           .data {
