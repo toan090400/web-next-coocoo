@@ -2,6 +2,7 @@
   .conatainerMore {
     .are3 {
       .box_card {
+        --template-columns: 1;
         .card {
           &.res {
             display: none;

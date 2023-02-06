@@ -1,8 +1,8 @@
 import Image from "next/image";
+import Icon_Dark from "../Image/Icon-Number-Dark/Icon-Number-Dark";
 // image
 import search from "../../public/merketplace/filter/search.png";
 import dow from "../../public/merketplace/filter/dow.png";
-import icon from "../../public/merketplace/filter/icon.png";
 import button1 from "../../public/merketplace/filter/button1.png";
 import button2 from "../../public/merketplace/filter/button2.png";
 import check from "../../public/merketplace/filter/check.png";
@@ -59,7 +59,6 @@ const Filter = () => {
               </div>
             </div>
           </div>
-
           <div className="length">
             <div className="header">
               <div className="text">
@@ -71,7 +70,7 @@ const Filter = () => {
                 <div className="length-btn">
                   <p>Min</p>
                   <div className="length-image">
-                    <Image src={icon} alt="icon" />
+                    <Icon_Dark />
                   </div>
                 </div>
               </div>
@@ -79,7 +78,7 @@ const Filter = () => {
                 <div className="length-btn">
                   <p>Max</p>
                   <div className="length-image">
-                    <Image src={icon} alt="icon" />
+                    <Icon_Dark />
                   </div>
                 </div>
               </div>

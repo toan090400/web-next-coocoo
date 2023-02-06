@@ -1,12 +1,11 @@
 .finall {
-  height: 50px;
-  margin-top: 70px;
+  padding: 30px 0;
   .finall__container {
     width: 90%;
     margin: auto;
     display: flex;
+    justify-content: space-between;
     .finall__box1 {
-      width: 50%;
       .finall__text {
         p {
           font-weight: 400;
@@ -16,10 +15,8 @@
       }
     }
     .finall__box2 {
-      width: 50%;
       .finall__text {
         display: flex;
-        float: right;
         p {
           font-weight: 400;
           font-size: 14px;

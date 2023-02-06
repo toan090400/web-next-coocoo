@@ -1,22 +1,20 @@
 .menu {
-  height: 80px;
+  padding: 20px 0;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   .menu__container {
     display: flex;
-    line-height: 80px;
+    align-items: center;
     .menu__are1 {
-      width: 30%;
+      flex: 1;
       display: flex;
-      justify-content: space-evenly;
-      .menu__logo {
-        img {
-          margin-top: 20px;
-        }
-      }
+      gap: 10px;
+      padding: 0 10px;
+      align-items: center;
       .menu__list {
+        display: flex;
+        gap: 10px;
         a {
           text-decoration: none;
-          margin: 0 12px;
           color: $color-grey;
         }
       }
@@ -25,31 +23,37 @@
       }
     }
     .menu__are2 {
-      width: 40%;
+      flex: 2;
       form {
+        padding: 10px 10px;
         border: $border;
         border-radius: 60px;
-        height: 50px;
-        margin-top: 12px;
-        img {
-          margin: 0 0 10px 20px;
-          position: relative;
+        display: flex;
+        .image {
+          img {
+            position: absolute;
+            z-index: 1;
+          }
         }
-        input {
-          position: absolute;
-          margin-top: 19px;
-          margin-left: 6px;
-          border: none;
-          outline: none;
-          width: 496px;
+        .input {
+          width: 100%;
+          padding: 0 20px;
+          display: flex;
+          align-items: center;
+          input {
+            width: 100%;
+            position: relative;
+            border: none;
+            outline: none;
+          }
         }
       }
     }
     .menu__are3 {
-      width: 30%;
+      flex: 1;
       .menu__user {
         display: flex;
-        margin-top: 22px;
+        // margin-top: 22px;
         justify-content: space-evenly;
         button {
           padding: 8px 20px;

@@ -1,24 +1,12 @@
 const itemHot = [
   {
     id: 1,
-    name: "Name of Collectible",
-    discription: "Name of Collectible",
-    bnb: "0.25 BNB",
-    time: "3h 50m 2s",
   },
   {
     id: 2,
-    name: "Name of Collectible",
-    discription: "Name of Collectible",
-    bnb: "0.25 BNB",
-    time: "3h 50m 2s",
   },
   {
     id: 3,
-    name: "Name of Collectible",
-    discription: "Name of Collectible",
-    bnb: "0.25 BNB",
-    time: "3h 50m 2s",
   },
 ];
 // topList
@@ -114,87 +102,39 @@ const Categorys = [
 const discoverMore = [
   {
     id: 1,
-    name: "Name of Collectible",
-    discription: "Name of Collectible",
-    bnb: "0.25 BNB",
-    time: "3h 50m 2s",
   },
   {
     id: 2,
-    name: "Name of Collectible",
-    discription: "Name of Collectible",
-    bnb: "0.25 BNB",
-    time: "3h 50m 2s",
   },
   {
     id: 3,
-    name: "Name of Collectible",
-    discription: "Name of Collectible",
-    bnb: "0.25 BNB",
-    time: "3h 50m 2s",
   },
   {
     id: 4,
-    name: "Name of Collectible",
-    discription: "Name of Collectible",
-    bnb: "0.25 BNB",
-    time: "3h 50m 2s",
   },
   {
     id: 5,
-    name: "Name of Collectible",
-    discription: "Name of Collectible",
-    bnb: "0.25 BNB",
-    time: "3h 50m 2s",
   },
   {
     id: 6,
-    name: "Name of Collectible",
-    discription: "Name of Collectible",
-    bnb: "0.25 BNB",
-    time: "3h 50m 2s",
   },
   {
     id: 7,
-    name: "Name of Collectible",
-    discription: "Name of Collectible",
-    bnb: "0.25 BNB",
-    time: "3h 50m 2s",
   },
   {
     id: 8,
-    name: "Name of Collectible",
-    discription: "Name of Collectible",
-    bnb: "0.25 BNB",
-    time: "3h 50m 2s",
   },
   {
     id: 9,
-    name: "Name of Collectible",
-    discription: "Name of Collectible",
-    bnb: "0.25 BNB",
-    time: "3h 50m 2s",
   },
   {
     id: 10,
-    name: "Name of Collectible",
-    discription: "Name of Collectible",
-    bnb: "0.25 BNB",
-    time: "3h 50m 2s",
   },
   {
     id: 11,
-    name: "Name of Collectible",
-    discription: "Name of Collectible",
-    bnb: "0.25 BNB",
-    time: "3h 50m 2s",
   },
   {
     id: 12,
-    name: "Name of Collectible",
-    discription: "Name of Collectible",
-    bnb: "0.25 BNB",
-    time: "3h 50m 2s",
   },
 ];
 module.exports = { itemHot, topList, Categorys, discoverMore };

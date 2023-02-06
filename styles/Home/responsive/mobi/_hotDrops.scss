@@ -6,4 +6,18 @@
       }
     }
   }
+  .item {
+    .card {
+      padding: 30px 30px;
+      &_item {
+        width: 100%;
+      }
+      &_item.res {
+        display: none;
+      }
+      &_item.res.show {
+        display: block;
+      }
+    }
+  }
 }

@@ -33,7 +33,7 @@
     .are3 {
       margin-top: 50px;
       .box_card {
-        justify-content: space-around;
+        --template-columns: 3;
         .card {
           display: none;
           &.res {

@@ -17,6 +17,20 @@
   @import "responsive/table/discoverMore";
   @import "responsive/table/wizard";
 }
+@media (max-width: 950px) {
+  .discoverMore {
+    .conatainerMore {
+      .are3 {
+        .box_card {
+          --template-columns: 2;
+          .card.res.show {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
 @media (min-width: 320px) and (max-width: 600px) {
   @import "responsive/mobi/frame";
   @import "responsive/mobi/hotDrops";

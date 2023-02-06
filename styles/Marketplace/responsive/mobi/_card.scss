@@ -2,6 +2,7 @@
   &-chill {
     width: 100%;
     .card-box {
+      --template-columns: 1;
       .item {
         width: 100%;
         &-chill {

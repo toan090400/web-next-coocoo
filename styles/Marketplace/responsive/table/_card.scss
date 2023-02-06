@@ -2,14 +2,13 @@
   &-chill {
     width: 90%;
     .card-box {
+      --template-columns: 3;
       text-align: center;
       .item {
-        width: 50%;
         &.hiden {
           display: none;
         }
         &-chill {
-          width: 80%;
           margin: auto;
           .data {
             .text {

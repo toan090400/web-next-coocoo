@@ -8,10 +8,12 @@
 // respositeve
 // table
 @media (max-width: 1200px) {
-  // menu
-  @import "responsive/menu";
   // footer
   @import "responsive/footer";
   // finall
   @import "responsive/finall";
+}
+@media (max-width: 800px) {
+  // menu
+  @import "responsive/menu";
 }

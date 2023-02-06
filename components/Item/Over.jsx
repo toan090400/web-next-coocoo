@@ -11,7 +11,7 @@ import follow2 from "../../public/item_page/over/follow2.png";
 import follow3 from "../../public/item_page/over/follow3.png";
 import lef from "../../public/item_page/over/lef.png";
 import rig from "../../public/item_page/over/rig.png";
-import more1 from "../../public/item_page/over/more1.png";
+import Item from "../Image/Icon-Number-Lingth/Icon-Number-Lingth";
 import more2 from "../../public/item_page/over/more2.png";
 import more3 from "../../public/item_page/over/more3.png";
 const Over = () => {
@@ -191,7 +191,7 @@ const Over = () => {
                         </div>
                         <div className={style.number}>
                           <div className={style.image}>
-                            <Image src={more1} alt="more1" />
+                            <Item />
                           </div>
                           <p>0.25 BNB</p>
                         </div>
@@ -219,7 +219,7 @@ const Over = () => {
                         </div>
                         <div className={style.number}>
                           <div className={style.image}>
-                            <Image src={more1} alt="more1" />
+                            <Item />
                           </div>
                           <p>0.25 BNB</p>
                         </div>
@@ -247,7 +247,7 @@ const Over = () => {
                         </div>
                         <div className={style.number}>
                           <div className={style.image}>
-                            <Image src={more1} alt="more1" />
+                            <Item />
                           </div>
                           <p>0.25 BNB</p>
                         </div>

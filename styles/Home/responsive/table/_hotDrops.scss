@@ -1,6 +1,4 @@
 .hotDrops {
-  margin-top: -80px;
-  height: 700px;
   display: block;
   .title {
     width: 100%;
@@ -31,6 +29,8 @@
     width: 100%;
     .card {
       margin-top: -90px;
+      padding: 30px 50px;
+      gap: 30px;
       &_item {
         display: none;
       }

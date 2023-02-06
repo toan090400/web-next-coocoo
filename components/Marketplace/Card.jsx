@@ -1,8 +1,8 @@
 import { cardArray } from "./marketplaceArray";
 import Image from "next/image";
-import more1 from "../../public/merketplace/card/more1.png";
-import more2 from "../../public/merketplace/card/more2.png";
+import Item from "../Image/Icon-Number-Lingth/Icon-Number-Lingth";
 import more3 from "../../public/merketplace/card/more3.png";
+import Card_Item from "../../public/Card/item.png";
 const Card = () => {
   return (
     <div className="card">
@@ -13,7 +13,7 @@ const Card = () => {
               <div key={data.id} className={data.check ? "item hiden" : "item"}>
                 <div className="item-chill">
                   <div className="image">
-                    <Image src={more2} alt="more2" />
+                    <Image src={Card_Item} alt="card" />
                   </div>
                   <div className="data">
                     <div className="text">
@@ -22,7 +22,7 @@ const Card = () => {
                     </div>
                     <div className="number">
                       <div className="image">
-                        <Image src={more1} alt="more1" />
+                        <Item />
                       </div>
                       <p>0.25 BNB</p>
                     </div>

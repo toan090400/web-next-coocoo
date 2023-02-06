@@ -24,8 +24,13 @@ const Menu = () => {
         </div>
         <div className="menu__are2">
           <form action="">
-            <Image src={search} alt="" />
-            <input type="text" placeholder="Search" />
+            <div className="image">
+              <Image src={search} alt="" />
+            </div>
+
+            <div className="input">
+              <input type="text" placeholder="Search" />
+            </div>
           </form>
         </div>
         <div className="menu__are3">
