@@ -1,4 +1,3 @@
-import style from "../../styles/Home/Home.module.scss";
 import Image from "next/image";
 import { topList } from "./homeArray";
 // topList
@@ -6,104 +5,92 @@ import vectorTopList from "../../public/home/topList/vector.png";
 import checkImage from "../../public/home/topList/check.png";
 const TopList = () => {
   return (
-    <div className={style.topList}>
-      <div className={style.box}>
-        <div className={`${style.are} ${style.collections}`}>
-          <p className={style.top}>Top Collections</p>
-          <p className={style.time}>
+    <div className="topList">
+      <div className="box">
+        <div className="are collections">
+          <p className="top">Top Collections</p>
+          <p className="time">
             Last 7 days <Image src={vectorTopList} alt="" />
           </p>
           {topList.map((item) => {
             return (
-              <div key={item.id} className={style.userBox}>
-                <p className={style.number}>{item.id}</p>
+              <div key={item.id} className="userBox">
+                <p className="number">{item.id}</p>
                 {item.check ? (
                   <>
-                    <div className={style.image}>
-                      <Image className={style.start} src={item.image} alt="" />
-                      <Image className={style.check} src={checkImage} alt="" />
+                    <div className="image">
+                      <Image className="start" src={item.image} alt="" />
+                      <Image className="check" src={checkImage} alt="" />
                     </div>
                   </>
                 ) : (
                   <Image src={item.image} alt="" />
                 )}
-                <div className={style.adress}>
-                  <p className={style.text}>{item.name}</p>
-                  <p className={style.textNumber}>{item.number}</p>
+                <div className="adress">
+                  <p className="text">{item.name}</p>
+                  <p className="textNumber">{item.number}</p>
                 </div>
-                <p
-                  className={
-                    item.status ? style.price : `${style.price} ${style.err}`
-                  }
-                >
+                <p className={item.status ? "price" : "price err"}>
                   {item.bnb}
                 </p>
               </div>
             );
           })}
         </div>
-        <div className={`${style.are} ${style.sellers}`}>
-          <p className={style.top}>Top Sellers</p>
-          <p className={style.time}>
+        <div className="are sellers">
+          <p className="top">Top Sellers</p>
+          <p className="time">
             Last 7 days <Image src={vectorTopList} alt="" />
           </p>
           {topList.map((item) => {
             return (
-              <div key={item.id} className={style.userBox}>
-                <p className={style.number}>{item.id}</p>
+              <div key={item.id} className="userBox">
+                <p className="number">{item.id}</p>
                 {item.check ? (
                   <>
-                    <div className={style.image}>
-                      <Image className={style.start} src={item.image} alt="" />
-                      <Image className={style.check} src={checkImage} alt="" />
+                    <div className="image">
+                      <Image className="start" src={item.image} alt="" />
+                      <Image className="check" src={checkImage} alt="" />
                     </div>
                   </>
                 ) : (
                   <Image src={item.image} alt="" />
                 )}
-                <div className={style.adress}>
-                  <p className={style.text}>{item.name}</p>
-                  <p className={style.textNumber}>{item.number}</p>
+                <div className="adress">
+                  <p className="text">{item.name}</p>
+                  <p className="textNumber">{item.number}</p>
                 </div>
-                <p
-                  className={
-                    item.status ? style.price : `${style.price} ${style.err}`
-                  }
-                >
+                <p className={item.status ? "price" : "price err"}>
                   {item.bnb}
                 </p>
               </div>
             );
           })}
         </div>
-        <div className={`${style.are} ${style.buyers}`}>
-          <p className={style.top}>Top Buyers</p>
-          <p className={style.time}>
+        <div className="are buyers">
+          <p className="top">Top Buyers</p>
+          <p className="time">
             Last 7 days <Image src={vectorTopList} alt="" />
           </p>
           {topList.map((item) => {
             return (
-              <div key={item.id} className={style.userBox}>
-                <p className={style.number}>{item.id}</p>
+              <div key={item.id} className="userBox">
+                <p className="number">{item.id}</p>
                 {item.check ? (
                   <>
-                    <div className={style.image}>
-                      <Image className={style.start} src={item.image} alt="" />
-                      <Image className={style.check} src={checkImage} alt="" />
+                    <div className="image">
+                      <Image className="start" src={item.image} alt="" />
+                      <Image className="check" src={checkImage} alt="" />
                     </div>
                   </>
                 ) : (
                   <Image src={item.image} alt="" />
                 )}
-                <div className={style.adress}>
-                  <p className={style.text}>{item.name}</p>
-                  <p className={style.textNumber}>{item.number}</p>
+                <div className="adress">
+                  <p className="text">{item.name}</p>
+                  <p className="textNumber">{item.number}</p>
                 </div>
-                <p
-                  className={
-                    item.status ? style.price : `${style.price} ${style.err}`
-                  }
-                >
+                <p className={item.status ? "price" : "price err"}>
                   {item.bnb}
                 </p>
               </div>
@@ -111,8 +98,8 @@ const TopList = () => {
           })}
         </div>
       </div>
-      <div className={style.dots}>
-        <p className={style.check}></p>
+      <div className="dots">
+        <p className="check"></p>
         <p></p>
         <p></p>
       </div>

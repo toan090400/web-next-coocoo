@@ -1,40 +1,39 @@
-import style from "../../styles/Item_Page/Item.module.scss";
 const Properties = () => {
   return (
-    <div className={style.properties}>
-      <div className={style.text}>
+    <div className="properties">
+      <div className="text">
         <p>Properties</p>
       </div>
-      <div className={style.backgroud}>
-        <div className={`${style.item} ${style.open}`}>
-          <p className={style.item_1}>BACKGROUND</p>
-          <p className={style.item_2}>Gradiant BP</p>
-          <p className={style.item_3}>4.4% rarity</p>
+      <div className="backgroud">
+        <div className="item open">
+          <p className="item_1">BACKGROUND</p>
+          <p className="item_2">Gradiant BP</p>
+          <p className="item_3">4.4% rarity</p>
         </div>
-        <div className={`${style.item} ${style.open}`}>
-          <p className={style.item_1}>BACKGROUND</p>
-          <p className={style.item_2}>Gradiant BP</p>
-          <p className={style.item_3}>4.4% rarity</p>
+        <div className="item open">
+          <p className="item_1">BACKGROUND</p>
+          <p className="item_2">Gradiant BP</p>
+          <p className="item_3">4.4% rarity</p>
         </div>
-        <div className={`${style.item} ${style.open} ${style.hiden}`}>
-          <p className={style.item_1}>BACKGROUND</p>
-          <p className={style.item_2}>Gradiant BP</p>
-          <p className={style.item_3}>4.4% rarity</p>
+        <div className="item open hiden">
+          <p className="item_1">BACKGROUND</p>
+          <p className="item_2">Gradiant BP</p>
+          <p className="item_3">4.4% rarity</p>
         </div>
-        <div className={style.item}>
-          <p className={style.item_1}>BACKGROUND</p>
-          <p className={style.item_2}>Gradiant BP</p>
-          <p className={style.item_3}>4.4% rarity</p>
+        <div className="item">
+          <p className="item_1">BACKGROUND</p>
+          <p className="item_2">Gradiant BP</p>
+          <p className="item_3">4.4% rarity</p>
         </div>
-        <div className={style.item}>
-          <p className={style.item_1}>BACKGROUND</p>
-          <p className={style.item_2}>Gradiant BP</p>
-          <p className={style.item_3}>4.4% rarity</p>
+        <div className="item">
+          <p className="item_1">BACKGROUND</p>
+          <p className="item_2">Gradiant BP</p>
+          <p className="item_3">4.4% rarity</p>
         </div>
-        <div className={style.item}>
-          <p className={style.item_1}>BACKGROUND</p>
-          <p className={style.item_2}>Gradiant BP</p>
-          <p className={style.item_3}>4.4% rarity</p>
+        <div className="item">
+          <p className="item_1">BACKGROUND</p>
+          <p className="item_2">Gradiant BP</p>
+          <p className="item_3">4.4% rarity</p>
         </div>
       </div>
     </div>

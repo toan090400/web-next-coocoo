@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Oswald:wght@300;400;500;600;700&display=swap");
 
 @import "var";
@@ -10,5 +11,7 @@
 @import "../components/Image/Button-Dark/button_dark";
 
 @import "Layout/Layout.scss";
+@import "Home/Home.module.scss";
+@import "Item_Page/Item.module.scss";
 @import "Marketplace/Marketplace.scss";
 @import "Create_Page/Create_Page.scss";

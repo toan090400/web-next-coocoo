@@ -1,62 +1,61 @@
-import style from "../../styles/Item_Page/Item.module.scss";
 import Image from "next/image";
 // image
 import frame from "../../public/item_page/frame/fra.png";
 import user_frame from "../../public/item_page/frame/user-frame.png";
 const Frame = () => {
   return (
-    <div className={style.frame}>
-      <div className={style.container}>
-        <div className={style.content}>
-          <div className={style.image}>
-            <Image className={style.frame} src={frame} alt="frame" />
+    <div className="frame">
+      <div className="container">
+        <div className="content">
+          <div className="image">
+            <Image className="frame" src={frame} alt="frame" />
           </div>
-          <div className={style.user}>
-            <div className={style.are1}>
-              <div className={style.user}>
+          <div className="user">
+            <div className="are1">
+              <div className="user">
                 <p>Creator</p>
-                <div className={`${style.user_info} ${style.fir}`}>
+                <div className="user_info fir">
                   <Image src={user_frame} alt="user-frame" />
                   <p>Arkhan17</p>
                 </div>
               </div>
-              <div className={`${style.user} ${style.sec}`}>
+              <div className="user sec">
                 <p>Owner</p>
-                <div className={`${style.user_info} ${style.sec}`}>
+                <div className="user_info sec">
                   <Image src={user_frame} alt="user-frame" />
                   <p>Arkhan17</p>
                 </div>
               </div>
-              <div className={style.user}>
+              <div className="user">
                 <p>Collection</p>
-                <div className={`${style.user_info} ${style.thr}`}>
+                <div className="user_info thr">
                   <Image src={user_frame} alt="user-frame" />
                   <p>Arkhan17</p>
                 </div>
               </div>
             </div>
-            <div className={style.are2}>
+            <div className="are2">
               <h1>Abstr Gradient NFT</h1>
             </div>
-            <div className={style.are3}>
-              <div className={style.bill}>
-                <p className={style.bid}>Current Bid</p>
-                <p className={style.bnb}>0.25 BNB</p>
-                <p className={style.price}>$182.00</p>
+            <div className="are3">
+              <div className="bill">
+                <p className="bid">Current Bid</p>
+                <p className="bnb">0.25 BNB</p>
+                <p className="price">$182.00</p>
               </div>
-              <div className={style.time}>
-                <div className={style.text}>
+              <div className="time">
+                <div className="text">
                   <p>Auction ending in</p>
-                  <p className={style.textTime}>
+                  <p className="textTime">
                     12<span>H</span> 43<span>M</span> 42<span>S</span>
                   </p>
                 </div>
               </div>
             </div>
-            <div className={style.are4}>
+            <div className="are4">
               <button>Bid Now</button>
             </div>
-            <div className={style.are5}>
+            <div className="are5">
               <p>
                 Last Sale Price Monfters, a group of monsters with a unique
                 philosophy in the world of NFT. Their purpose is to find the

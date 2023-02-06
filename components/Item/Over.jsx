@@ -16,78 +16,78 @@ import more2 from "../../public/item_page/over/more2.png";
 import more3 from "../../public/item_page/over/more3.png";
 const Over = () => {
   return (
-    <div className={style.over}>
-      <div className={style.over_chill}>
-        <div className={style.box1}>
-          <div className={style.latest}>
-            <div className={style.latest_chill}>
-              <div className={style.header}>
+    <div className="over">
+      <div className="over_chill">
+        <div className="box1">
+          <div className="latest">
+            <div className="latest_chill">
+              <div className="header">
                 <p>Latest</p>
-                <Image className={style.image_1} src={latest1} alt="latest1" />
+                <Image className="image_1" src={latest1} alt="latest1" />
               </div>
-              <div className={style.number}>
+              <div className="number">
                 <p>3 BNB</p>
               </div>
-              <div className={style.price}>
-                <Image className={style.image_2} src={latest2} alt="latest2" />
+              <div className="price">
+                <Image className="image_2" src={latest2} alt="latest2" />
                 <p>+10,19% (+1,234.89)</p>
               </div>
             </div>
           </div>
-          <div className={style.bid}>
-            <div className={style.bid_chill}>
-              <div className={style.header}>
+          <div className="bid">
+            <div className="bid_chill">
+              <div className="header">
                 <p>Bids / Offers</p>
               </div>
-              <div className={style.data}>
-                <div className={style.item}>
-                  <div className={style.time}>01/22/22</div>
-                  <div className={style.number}>3 BNB</div>
-                  <div className={style.name}>Buyer&#8217;s username</div>
+              <div className="data">
+                <div className="item">
+                  <div className="time">01/22/22</div>
+                  <div className="number">3 BNB</div>
+                  <div className="name">Buyer&#8217;s username</div>
                   <Image src={srow} alt="srow" />
                 </div>
-                <div className={style.item}>
-                  <div className={style.time}>01/22/22</div>
-                  <div className={style.number}>2.1 BNB</div>
-                  <div className={style.name}>Buyer&#8217;s username</div>
+                <div className="item">
+                  <div className="time">01/22/22</div>
+                  <div className="number">2.1 BNB</div>
+                  <div className="name">Buyer&#8217;s username</div>
                 </div>
-                <div className={style.item}>
-                  <div className={style.time}>01/22/22</div>
-                  <div className={style.number}>1 BNB</div>
-                  <div className={style.name}>Buyer&#8217;s username</div>
+                <div className="item">
+                  <div className="time">01/22/22</div>
+                  <div className="number">1 BNB</div>
+                  <div className="name">Buyer&#8217;s username</div>
                 </div>
-                <div className={style.item}>
-                  <div className={style.time}>01/22/22</div>
-                  <div className={style.number}>2 BNB</div>
-                  <div className={style.name}>Buyer&#8217;s username</div>
+                <div className="item">
+                  <div className="time">01/22/22</div>
+                  <div className="number">2 BNB</div>
+                  <div className="name">Buyer&#8217;s username</div>
                 </div>
               </div>
             </div>
           </div>
-          <div className={style.history}>
-            <div className={style.history_chill}>
-              <div className={style.header}>
-                <div className={style.text}>
+          <div className="history">
+            <div className="history_chill">
+              <div className="header">
+                <div className="text">
                   <p>Price History</p>
                 </div>
-                <div className={style.year}>
+                <div className="year">
                   <p>2021</p>
-                  <div className={style.image}>
+                  <div className="image">
                     <Image src={his1} alt="his1" />
                   </div>
                 </div>
               </div>
-              <div className={style.time}>
+              <div className="time">
                 <p>1D</p>
-                <p className={style.check}>1M</p>
+                <p className="check">1M</p>
                 <p>3M</p>
                 <p>1Y</p>
-                <p className={style.all}>YTD</p>
+                <p className="all">YTD</p>
               </div>
-              <div className={style.image}>
+              <div className="image">
                 <Image src={his2} alt="his2" />
               </div>
-              <div className={style.month}>
+              <div className="month">
                 <p>Mar</p>
                 <p>Apr</p>
                 <p>May</p>
@@ -98,63 +98,63 @@ const Over = () => {
             </div>
           </div>
         </div>
-        <div className={style.box2}>
-          <div className={style.are1}>
-            <div className={style.history}>
-              <div className={style.history_chill}>
-                <div className={style.header}>
+        <div className="box2">
+          <div className="are1">
+            <div className="history">
+              <div className="history_chill">
+                <div className="header">
                   <p>History</p>
                 </div>
-                <div className={style.data}>
-                  <div className={style.item}>
-                    <p className={style.list}>Sold for .6 BNB</p>
-                    <p className={style.user}>Buyer&#8217;s username</p>
-                    <p className={style.time}>01/22/22 | 03:37 PM</p>
+                <div className="data">
+                  <div className="item">
+                    <p className="list">Sold for .6 BNB</p>
+                    <p className="user">Buyer&#8217;s username</p>
+                    <p className="time">01/22/22 | 03:37 PM</p>
                     <Image src={srow} alt="srow" />
                   </div>
-                  <div className={style.item}>
-                    <p className={style.list}>Listed for .6 BNB</p>
-                    <p className={style.user}>Buyer&#8217;s username</p>
-                    <p className={style.time}>01/22/22 | 03:37 PM</p>
+                  <div className="item">
+                    <p className="list">Listed for .6 BNB</p>
+                    <p className="user">Buyer&#8217;s username</p>
+                    <p className="time">01/22/22 | 03:37 PM</p>
                   </div>
-                  <div className={style.item}>
-                    <p className={style.list}>Listed for .6 BNB</p>
-                    <p className={style.user}>Buyer&#8217;s username</p>
-                    <p className={style.time}>01/22/22 | 03:37 PM</p>
+                  <div className="item">
+                    <p className="list">Listed for .6 BNB</p>
+                    <p className="user">Buyer&#8217;s username</p>
+                    <p className="time">01/22/22 | 03:37 PM</p>
                   </div>
-                  <div className={style.item}>
-                    <p className={style.list}>Listed for .6 BNB</p>
-                    <p className={style.user}>Buyer&#8217;s username</p>
-                    <p className={style.time}>01/22/22 | 03:37 PM</p>
+                  <div className="item">
+                    <p className="list">Listed for .6 BNB</p>
+                    <p className="user">Buyer&#8217;s username</p>
+                    <p className="time">01/22/22 | 03:37 PM</p>
                   </div>
-                  <div className={style.item}>
-                    <p className={style.list}>Listed for .6 BNB</p>
-                    <p className={style.user}>Buyer&#8217;s username</p>
-                    <p className={style.time}>01/22/22 | 03:37 PM</p>
+                  <div className="item">
+                    <p className="list">Listed for .6 BNB</p>
+                    <p className="user">Buyer&#8217;s username</p>
+                    <p className="time">01/22/22 | 03:37 PM</p>
                   </div>
-                  <div className={style.item}>
-                    <p className={style.list}>Minted</p>
-                    <p className={style.user}>Buyer&#8217;s username</p>
-                    <p className={style.time}>01/22/22 | 03:37 PM</p>
+                  <div className="item">
+                    <p className="list">Minted</p>
+                    <p className="user">Buyer&#8217;s username</p>
+                    <p className="time">01/22/22 | 03:37 PM</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className={style.follow}>
-              <div className={style.follow_chill}>
-                <div className={style.header}>
+            <div className="follow">
+              <div className="follow_chill">
+                <div className="header">
                   <p>Follow the Creator</p>
                 </div>
-                <div className={style.box}>
-                  <div className={style.item}>
+                <div className="box">
+                  <div className="item">
                     <Image src={follow1} alt="follow1" />
                     <p>@cocomarket</p>
                   </div>
-                  <div className={style.item}>
+                  <div className="item">
                     <Image src={follow2} alt="follow2" />
                     <p>@cocomarket</p>
                   </div>
-                  <div className={style.item}>
+                  <div className="item">
                     <Image src={follow3} alt="follow3" />
                     <p>@cocomarket</p>
                   </div>
@@ -162,108 +162,108 @@ const Over = () => {
               </div>
             </div>
           </div>
-          <div className={style.are2}>
-            <div className={style.more}>
-              <div className={style.more_chill}>
-                <div className={style.header}>
-                  <p className={style.text_1}>More From</p>
-                  <p className={style.text_2}>this collection</p>
-                  <div className={style.image}>
+          <div className="are2">
+            <div className="more">
+              <div className="more_chill">
+                <div className="header">
+                  <p className="text_1">More From</p>
+                  <p className="text_2">this collection</p>
+                  <div className="image">
                     <Image src={his1} alt="his1" />
                   </div>
                 </div>
-                <div className={style.box}>
-                  <div className={style.box_chill}>
-                    <div className={`${style.item} ${style.lef}`}>
-                      <div className={style.image_l}>
+                <div className="box">
+                  <div className="box_chill">
+                    <div className="item lef">
+                      <div className="image_l">
                         <Image src={lef} alt="lef" />
                       </div>
-                      <div className={style.image}>
+                      <div className="image">
                         <Image src={more2} alt="more2" />
                       </div>
-                      <div className={style.image_r}>
+                      <div className="image_r">
                         <Image src={rig} alt="rig" />
                       </div>
-                      <div className={style.data}>
-                        <div className={style.text}>
+                      <div className="data">
+                        <div className="text">
                           <p>Name of Collectible</p>
-                          <p className={style.bottom}>Name of Collectible</p>
+                          <p className="bottom">Name of Collectible</p>
                         </div>
-                        <div className={style.number}>
-                          <div className={style.image}>
+                        <div className="number">
+                          <div className="image">
                             <Item />
                           </div>
                           <p>0.25 BNB</p>
                         </div>
                       </div>
-                      <div className={style.bid}>
-                        <div className={style.time}>
+                      <div className="bid">
+                        <div className="time">
                           <p>3h 50m 2s</p>
                         </div>
-                        <div className={style.btn}>
+                        <div className="btn">
                           <button>Bid Now</button>
                         </div>
-                        <div className={style.image}>
+                        <div className="image">
                           <Image src={more3} alt="more3" />
                         </div>
                       </div>
                     </div>
-                    <div className={style.item}>
-                      <div className={style.image}>
+                    <div className="item">
+                      <div className="image">
                         <Image src={more2} alt="more2" />
                       </div>
-                      <div className={style.data}>
-                        <div className={style.text}>
+                      <div className="data">
+                        <div className="text">
                           <p>Name of Collectible</p>
-                          <p className={style.bottom}>Name of Collectible</p>
+                          <p className="bottom">Name of Collectible</p>
                         </div>
-                        <div className={style.number}>
-                          <div className={style.image}>
+                        <div className="number">
+                          <div className="image">
                             <Item />
                           </div>
                           <p>0.25 BNB</p>
                         </div>
                       </div>
-                      <div className={style.bid}>
-                        <div className={style.time}>
+                      <div className="bid">
+                        <div className="time">
                           <p>3h 50m 2s</p>
                         </div>
-                        <div className={style.btn}>
+                        <div className="btn">
                           <button>Bid Now</button>
                         </div>
-                        <div className={style.image}>
+                        <div className="image">
                           <Image src={more3} alt="more3" />
                         </div>
                       </div>
                     </div>
-                    <div className={`${style.item} ${style.rig}`}>
-                      <div className={style.image}>
+                    <div className="item rig">
+                      <div className="image">
                         <Image src={more2} alt="more2" />
                       </div>
-                      <div className={style.data}>
-                        <div className={style.text}>
+                      <div className="data">
+                        <div className="text">
                           <p>Name of Collectible</p>
-                          <p className={style.bottom}>Name of Collectible</p>
+                          <p className="bottom">Name of Collectible</p>
                         </div>
-                        <div className={style.number}>
-                          <div className={style.image}>
+                        <div className="number">
+                          <div className="image">
                             <Item />
                           </div>
                           <p>0.25 BNB</p>
                         </div>
                       </div>
-                      <div className={style.bid}>
-                        <div className={style.time}>
+                      <div className="bid">
+                        <div className="time">
                           <p>3h 50m 2s</p>
                         </div>
-                        <div className={style.btn}>
+                        <div className="btn">
                           <button>Bid Now</button>
                         </div>
-                        <div className={style.image}>
+                        <div className="image">
                           <Image src={more3} alt="more3" />
                         </div>
                       </div>
-                      <div className={style.image_r}>
+                      <div className="image_r">
                         <Image src={rig} alt="rig" />
                       </div>
                     </div>
