@@ -1,19 +1,18 @@
-import style from "../../styles/Item_Page/Item.module.scss";
 import Image from "next/image";
+import Twitter from "../Image/Icon-Twitter/Icon_Twitter";
+import Github from "../Image/Icon-Github/Icon_Github";
+import Telegram from "../Image/Icon-Telegram/Icon_Telegram";
 // image
 import latest1 from "../../public/item_page/over/latest1.png";
 import latest2 from "../../public/item_page/over/latest2.png";
 import srow from "../../public/item_page/over/srow.jpg";
 import his1 from "../../public/item_page/over/his1.png";
 import his2 from "../../public/item_page/over/his2.png";
-import follow1 from "../../public/item_page/over/follow1.png";
-import follow2 from "../../public/item_page/over/follow2.png";
-import follow3 from "../../public/item_page/over/follow3.png";
 import lef from "../../public/item_page/over/lef.png";
 import rig from "../../public/item_page/over/rig.png";
 import Item from "../Image/Icon-Number-Lingth/Icon-Number-Lingth";
-import more2 from "../../public/item_page/over/more2.png";
-import more3 from "../../public/item_page/over/more3.png";
+import Card from "../../public/Card/item.png";
+import Heart from "../Image/Heart/Heart";
 const Over = () => {
   return (
     <div className="over">
@@ -147,15 +146,15 @@ const Over = () => {
                 </div>
                 <div className="box">
                   <div className="item">
-                    <Image src={follow1} alt="follow1" />
+                    <Twitter />
                     <p>@cocomarket</p>
                   </div>
                   <div className="item">
-                    <Image src={follow2} alt="follow2" />
+                    <Telegram />
                     <p>@cocomarket</p>
                   </div>
                   <div className="item">
-                    <Image src={follow3} alt="follow3" />
+                    <Github />
                     <p>@cocomarket</p>
                   </div>
                 </div>
@@ -179,7 +178,7 @@ const Over = () => {
                         <Image src={lef} alt="lef" />
                       </div>
                       <div className="image">
-                        <Image src={more2} alt="more2" />
+                        <Image src={Card} alt="card" />
                       </div>
                       <div className="image_r">
                         <Image src={rig} alt="rig" />
@@ -204,13 +203,13 @@ const Over = () => {
                           <button>Bid Now</button>
                         </div>
                         <div className="image">
-                          <Image src={more3} alt="more3" />
+                          <Heart />
                         </div>
                       </div>
                     </div>
                     <div className="item">
                       <div className="image">
-                        <Image src={more2} alt="more2" />
+                        <Image src={Card} alt="card" />
                       </div>
                       <div className="data">
                         <div className="text">
@@ -232,13 +231,13 @@ const Over = () => {
                           <button>Bid Now</button>
                         </div>
                         <div className="image">
-                          <Image src={more3} alt="more3" />
+                          <Heart />
                         </div>
                       </div>
                     </div>
                     <div className="item rig">
                       <div className="image">
-                        <Image src={more2} alt="more2" />
+                        <Image src={Card} alt="card" />
                       </div>
                       <div className="data">
                         <div className="text">
@@ -260,7 +259,7 @@ const Over = () => {
                           <button>Bid Now</button>
                         </div>
                         <div className="image">
-                          <Image src={more3} alt="more3" />
+                          <Heart />
                         </div>
                       </div>
                       <div className="image_r">

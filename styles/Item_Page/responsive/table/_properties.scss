@@ -6,6 +6,7 @@
     .item {
       display: none;
       &.open {
+        width: 100%;
         display: block;
       }
     }

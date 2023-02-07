@@ -1,0 +1,20 @@
+.data {
+  &-chill {
+    padding: 0 10px;
+    .data__are2 {
+      &-chill {
+        .are2 {
+          .card {
+            --template-columns: 1;
+            .item {
+              display: none;
+              &.open {
+                display: block;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,237 @@
+.data__are2 {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  flex: 2;
+  &-chill {
+    .are1 {
+      display: flex;
+      gap: 15px;
+      .history {
+        flex: 4;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+        border-radius: 8px;
+        &_chill {
+          padding: 20px;
+          .header {
+            padding: 15px 0;
+            p {
+              font-family: "Lato", sans-serif;
+              font-style: normal;
+              font-weight: 800;
+              font-size: 20px;
+              line-height: 100%;
+              color: $color-black;
+            }
+          }
+          .data {
+            display: grid;
+            gap: 20px;
+            .item {
+              display: flex;
+              position: relative;
+              p {
+                font-family: "Lato", sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 100%;
+                color: $color-black;
+                &.list {
+                  font-weight: 900;
+                  color: $color-green;
+                  flex: 1;
+                }
+                &.user {
+                  flex: 1;
+                }
+              }
+              img {
+                position: absolute;
+                width: 6px;
+                height: 46px;
+                right: -15px;
+              }
+            }
+          }
+        }
+      }
+      .follow {
+        flex: 1;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+        border-radius: 8px;
+        &_chill {
+          padding: 20px;
+          .header {
+            padding: 10px 0;
+            p {
+              font-family: "Lato", sans-serif;
+              font-style: normal;
+              font-weight: 800;
+              font-size: 20px;
+              line-height: 110%;
+              color: $color-black;
+            }
+          }
+          .box {
+            .item {
+              margin-top: 15px;
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              p {
+                font-family: "Lato", sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 100%;
+                color: #000000;
+              }
+            }
+          }
+        }
+      }
+    }
+    .are2 {
+      margin-top: 50px;
+      background: $color-white;
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+      border-radius: 8px;
+      padding: 30px 20px;
+      .header {
+        border-bottom: $border;
+        &-chill {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 100%;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          .collected {
+            border-bottom: 2px solid $color-green;
+            padding: 10px 0;
+            span {
+              font-weight: 700;
+              padding: 0 15px;
+            }
+          }
+          .created {
+            span {
+              padding: 0 15px;
+            }
+          }
+          .favorited {
+            span {
+              padding: 0 15px;
+            }
+          }
+          .hidden {
+            span {
+              padding: 0 15px;
+            }
+          }
+          .offers {
+            span {
+              padding: 0 15px;
+            }
+          }
+          .listings {
+            span {
+              padding: 0 15px;
+            }
+          }
+        }
+      }
+      .card {
+        --template-column-gutters: 16px;
+        --template-columns: 3;
+        --template-column-compact-multiplier: 1;
+        --template-reduced-columns: 0;
+        --template-reduced-columns-multiplier: 1;
+        display: grid;
+        grid-gap: var(--template-column-gutters);
+        gap: var(--template-column-gutters);
+        grid-auto-rows: minmax(0px, 1fr);
+        grid-template-columns: repeat(
+          calc(
+            var(--template-columns) - var(--template-reduced-columns) *
+              var(--template-reduced-columns-multiplier)
+          ),
+          minmax(0, 1fr)
+        );
+        .item {
+          width: 100%;
+          box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.08);
+          border-radius: 8px;
+          padding: 10px;
+          &-image {
+            width: 100%;
+            img {
+              object-fit: cover;
+              width: 100%;
+              height: auto;
+            }
+          }
+          .data {
+            padding: 10px 0;
+            .text {
+              p {
+                font-weight: 700;
+                font-size: 14.3836px;
+                line-height: 12px;
+                color: $color-black;
+                &.bottom {
+                  padding: 10px 0;
+                  font-weight: 400;
+                  font-size: 9.58904px;
+                }
+              }
+            }
+          }
+          .number {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            .text {
+              p {
+                font-weight: 800;
+                font-size: 12.7854px;
+                line-height: 12px;
+              }
+            }
+          }
+          .bid {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: space-between;
+            time {
+              p {
+                font-weight: 700;
+                font-size: 8.76645px;
+                line-height: 100%;
+                color: $color-black;
+              }
+            }
+            .btn {
+              button {
+                border: none;
+                background: linear-gradient(
+                  114.51deg,
+                  #6bcb07 -12.5%,
+                  #06bfc9 94.9%
+                );
+                padding: 10px 25px;
+                border-radius: 15px;
+                color: $color-white;
+                font-weight: 600;
+                font-size: 9.58904px;
+                line-height: 12px;
+                letter-spacing: 0.02em;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

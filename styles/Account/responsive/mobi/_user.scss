@@ -1,0 +1,10 @@
+.user {
+  &-image {
+    .laptop {
+      display: none;
+    }
+    .mobi {
+      display: block;
+    }
+  }
+}

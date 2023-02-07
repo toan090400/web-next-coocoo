@@ -13,12 +13,26 @@
           justify-content: center;
           gap: 5px;
           .user {
+            &_info.fir {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+            &_info.sec {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
             &_info.thr {
+              display: flex;
+              align-items: center;
+              justify-content: center;
               background-color: $color-black;
             }
           }
         }
         .are3 {
+          justify-content: space-between;
           .time {
             margin-top: -10px;
           }
