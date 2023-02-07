@@ -1,11 +1,10 @@
 import Image from "next/image";
+import Button_Dark from "../Image/Button-Dark/Button-Dark";
+import Button_Lingth from "../Image/Button-Lingth/Button-Lingth";
 import Icon_Dow from "./Icon-Arrow-Dow";
 import Icon_Dark from "../Image/Icon-Number-Dark/Icon-Number-Dark";
 // image
 import search from "../../public/merketplace/filter/search.png";
-import dow from "../../public/merketplace/filter/dow.png";
-import button1 from "../../public/merketplace/filter/button1.png";
-import button2 from "../../public/merketplace/filter/button2.png";
 import check from "../../public/merketplace/filter/check.png";
 import filter from "../../public/merketplace/filter/filter.png";
 const Filter = () => {
@@ -94,7 +93,7 @@ const Filter = () => {
           <div className="box1">
             <p>Show NSFW</p>
             <div className="image">
-              <Image src={button1} alt="button1" />
+              <Button_Lingth />
             </div>
           </div>
           <div className="box2">
@@ -106,7 +105,7 @@ const Filter = () => {
               <Image src={check} alt="check" />
             </div>
             <div className="image">
-              <Image src={button2} alt="button2" />
+              <Button_Dark />
             </div>
           </div>
         </div>
