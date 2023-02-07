@@ -5,6 +5,16 @@
   @import "responsive/table/filter";
   @import "responsive/table/card";
 }
+@media (max-width: 750px) {
+  .card {
+    &-chill {
+      width: 100%;
+      .card-box {
+        --template-columns: 2;
+      }
+    }
+  }
+}
 // mobi
 @media (min-width: 320px) and (max-width: 600px) {
   @import "responsive/mobi/card";

@@ -23,9 +23,9 @@ const DsicoverMore = () => {
             <div className="category">
               {Categorys.map((item) => {
                 return (
-                  <p key={item.id} className={item.check ? "all" : ""}>
-                    {item.name}
-                  </p>
+                  <div key={item.id} className="category-text">
+                    <p className={item.check ? "all" : ""}>{item.name}</p>
+                  </div>
                 );
               })}
             </div>

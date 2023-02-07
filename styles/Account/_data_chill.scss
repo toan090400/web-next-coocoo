@@ -26,9 +26,18 @@
           .data {
             display: grid;
             gap: 20px;
+            height: 200px;
+            overflow: auto;
+            &::-webkit-scrollbar {
+              width: 6px;
+            }
+            &::-webkit-scrollbar-thumb {
+              background-color: $grey;
+              border-radius: 10px;
+            }
             .item {
               display: flex;
-              position: relative;
+              padding: 0 15px;
               p {
                 font-family: "Lato", sans-serif;
                 font-style: normal;
@@ -44,12 +53,6 @@
                 &.user {
                   flex: 1;
                 }
-              }
-              img {
-                position: absolute;
-                width: 6px;
-                height: 46px;
-                right: -15px;
               }
             }
           }
@@ -109,34 +112,46 @@
           .collected {
             border-bottom: 2px solid $color-green;
             padding: 10px 0;
-            span {
+            a {
+              color: $color-black;
               font-weight: 700;
               padding: 0 15px;
+              text-decoration: none;
             }
           }
           .created {
-            span {
+            a {
+              color: $color-black;
               padding: 0 15px;
+              text-decoration: none;
             }
           }
           .favorited {
-            span {
+            a {
+              color: $color-black;
               padding: 0 15px;
+              text-decoration: none;
             }
           }
           .hidden {
-            span {
+            a {
+              color: $color-black;
               padding: 0 15px;
+              text-decoration: none;
             }
           }
           .offers {
-            span {
+            a {
+              color: $color-black;
               padding: 0 15px;
+              text-decoration: none;
             }
           }
           .listings {
-            span {
+            a {
+              color: $color-black;
               padding: 0 15px;
+              text-decoration: none;
             }
           }
         }

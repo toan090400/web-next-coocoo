@@ -1,11 +1,11 @@
 import Image from "next/image";
+import { bid, history } from "./itemArray";
 import Twitter from "../Image/Icon-Twitter/Icon_Twitter";
 import Github from "../Image/Icon-Github/Icon_Github";
 import Telegram from "../Image/Icon-Telegram/Icon_Telegram";
 // image
 import latest1 from "../../public/item_page/over/latest1.png";
 import latest2 from "../../public/item_page/over/latest2.png";
-import srow from "../../public/item_page/over/srow.jpg";
 import his1 from "../../public/item_page/over/his1.png";
 import his2 from "../../public/item_page/over/his2.png";
 import lef from "../../public/item_page/over/lef.png";
@@ -39,27 +39,15 @@ const Over = () => {
                 <p>Bids / Offers</p>
               </div>
               <div className="data">
-                <div className="item">
-                  <div className="time">01/22/22</div>
-                  <div className="number">3 BNB</div>
-                  <div className="name">Buyer&#8217;s username</div>
-                  <Image src={srow} alt="srow" />
-                </div>
-                <div className="item">
-                  <div className="time">01/22/22</div>
-                  <div className="number">2.1 BNB</div>
-                  <div className="name">Buyer&#8217;s username</div>
-                </div>
-                <div className="item">
-                  <div className="time">01/22/22</div>
-                  <div className="number">1 BNB</div>
-                  <div className="name">Buyer&#8217;s username</div>
-                </div>
-                <div className="item">
-                  <div className="time">01/22/22</div>
-                  <div className="number">2 BNB</div>
-                  <div className="name">Buyer&#8217;s username</div>
-                </div>
+                {bid.map((i) => {
+                  return (
+                    <div key={i.id} className="item">
+                      <div className="time">01/22/22</div>
+                      <div className="number">{i.number}</div>
+                      <div className="name">Buyer&#8217;s username</div>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>
@@ -105,37 +93,15 @@ const Over = () => {
                   <p>History</p>
                 </div>
                 <div className="data">
-                  <div className="item">
-                    <p className="list">Sold for .6 BNB</p>
-                    <p className="user">Buyer&#8217;s username</p>
-                    <p className="time">01/22/22 | 03:37 PM</p>
-                    <Image src={srow} alt="srow" />
-                  </div>
-                  <div className="item">
-                    <p className="list">Listed for .6 BNB</p>
-                    <p className="user">Buyer&#8217;s username</p>
-                    <p className="time">01/22/22 | 03:37 PM</p>
-                  </div>
-                  <div className="item">
-                    <p className="list">Listed for .6 BNB</p>
-                    <p className="user">Buyer&#8217;s username</p>
-                    <p className="time">01/22/22 | 03:37 PM</p>
-                  </div>
-                  <div className="item">
-                    <p className="list">Listed for .6 BNB</p>
-                    <p className="user">Buyer&#8217;s username</p>
-                    <p className="time">01/22/22 | 03:37 PM</p>
-                  </div>
-                  <div className="item">
-                    <p className="list">Listed for .6 BNB</p>
-                    <p className="user">Buyer&#8217;s username</p>
-                    <p className="time">01/22/22 | 03:37 PM</p>
-                  </div>
-                  <div className="item">
-                    <p className="list">Minted</p>
-                    <p className="user">Buyer&#8217;s username</p>
-                    <p className="time">01/22/22 | 03:37 PM</p>
-                  </div>
+                  {history.map((i) => {
+                    return (
+                      <div key={i.id} className="item">
+                        <p className="list">{i.name}</p>
+                        <p className="user">Buyer&#8217;s username</p>
+                        <p className="time">01/22/22 | 03:37 PM</p>
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
             </div>

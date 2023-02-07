@@ -11,6 +11,7 @@
       flex: 3;
       display: flex;
       gap: 10px;
+      align-items: center;
       .box {
         flex: 3;
         display: flex;
@@ -22,7 +23,6 @@
           .item {
             flex: 1;
             .text {
-              padding: 0 10px;
               p {
                 font-weight: 700;
                 font-size: 16px;
@@ -31,12 +31,13 @@
               }
             }
             .btn {
+              margin-top: 5px;
               display: flex;
               background: #ededed;
               border-radius: 50px;
-              padding: 10px 0;
               justify-content: space-around;
-              margin-top: 10px;
+              align-items: center;
+              padding: 10px 0;
               p {
                 font-weight: 400;
                 font-size: 14px;
@@ -59,12 +60,12 @@
               }
             }
             .btn {
+              margin-top: 5px;
               display: flex;
               background: #ededed;
               border-radius: 50px;
               padding: 10px 0;
               justify-content: space-around;
-              margin-top: 10px;
               p {
                 font-weight: 400;
                 font-size: 14px;
@@ -79,7 +80,6 @@
         flex: 2;
         .header {
           .text {
-            padding: 0 10px;
             p {
               font-weight: 700;
               font-size: 16px;
@@ -89,21 +89,24 @@
         }
         .select {
           display: flex;
-          margin-top: 10px;
           gap: 10px;
           .length-item {
             flex: 1;
             .length-btn {
+              margin-top: 5px;
+              padding: 8px 0;
               background: #ededed;
               border-radius: 50px;
-              padding: 9px 0;
               justify-content: space-around;
+              align-items: center;
               display: flex;
-              p {
-                font-weight: 500;
-                font-size: 14px;
-                line-height: 17px;
-                color: $color-grey;
+              .text {
+                p {
+                  font-weight: 500;
+                  font-size: 14px;
+                  line-height: 17px;
+                  color: $color-grey;
+                }
               }
             }
           }

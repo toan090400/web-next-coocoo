@@ -77,10 +77,18 @@
             }
           }
           .data {
+            height: 130px;
+            overflow: auto;
+            &::-webkit-scrollbar {
+              width: 6px;
+            }
+            &::-webkit-scrollbar-thumb {
+              background-color: $grey;
+              border-radius: 10px;
+            }
             .item {
               display: flex;
               margin: 15px 0;
-              position: relative;
               .time {
                 flex: 1;
                 font-family: "Lato", sans-serif;
@@ -107,12 +115,6 @@
                 font-size: 16px;
                 line-height: 100%;
                 color: $color-black;
-              }
-              img {
-                position: absolute;
-                height: 46px;
-                right: 5px;
-                width: 5px;
               }
             }
             .scrow {
@@ -233,11 +235,20 @@
               }
             }
             .data {
+              height: 200px;
+              overflow: auto;
               display: grid;
               gap: 20px;
+              &::-webkit-scrollbar {
+                width: 6px;
+              }
+              &::-webkit-scrollbar-thumb {
+                background-color: $grey;
+                border-radius: 10px;
+              }
               .item {
+                padding: 0 15px;
                 display: flex;
-                position: relative;
                 p {
                   font-family: "Lato", sans-serif;
                   font-style: normal;
@@ -253,12 +264,6 @@
                   &.user {
                     flex: 1;
                   }
-                }
-                img {
-                  position: absolute;
-                  width: 6px;
-                  height: 46px;
-                  right: -15px;
                 }
               }
             }

@@ -39,16 +39,19 @@
           width: 80%;
           display: flex;
           justify-content: space-between;
-          p {
-            font-weight: 500;
-            font-size: 14px;
-            padding: 13px 20px;
-            border-radius: 20px;
-            background-color: $color-white;
-          }
-          .all {
-            background-color: $color-green;
-            color: $color-white;
+          align-items: center;
+          &-text {
+            p {
+              font-weight: 500;
+              font-size: 14px;
+              border-radius: 20px;
+              background: $color-white;
+              padding: 10px 15px;
+            }
+            .all {
+              background-color: $color-green;
+              color: $color-white;
+            }
           }
         }
         .filer {
@@ -88,7 +91,7 @@
           background-color: $color-white;
           border-radius: 12px;
           .box {
-            padding: 10px 15px;
+            padding: 15px 15px;
             .more {
               width: 100%;
               height: auto;

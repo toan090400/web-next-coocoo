@@ -4,8 +4,9 @@ import Telegram from "../Image/Icon-Telegram/Icon_Telegram";
 import Heart from "../Image/Heart/Heart";
 import Item from "../Image/Icon-Number-Lingth/Icon-Number-Lingth";
 import Image from "next/image";
+import Link from "next/link";
 import Crad_Image from "../../public/Card/item.png";
-import srow from "../../public/item_page/over/srow.jpg";
+import { history } from "../Item/itemArray";
 import { account } from "./accountAray";
 const Data_Chill = () => {
   return (
@@ -18,37 +19,15 @@ const Data_Chill = () => {
                 <p>History</p>
               </div>
               <div className="data">
-                <div className="item">
-                  <p className="list">Sold for .6 BNB</p>
-                  <p className="user">Buyer&#8217;s username</p>
-                  <p className="time">01/22/22 | 03:37 PM</p>
-                  <Image src={srow} alt="srow" />
-                </div>
-                <div className="item">
-                  <p className="list">Listed for .6 BNB</p>
-                  <p className="user">Buyer&#8217;s username</p>
-                  <p className="time">01/22/22 | 03:37 PM</p>
-                </div>
-                <div className="item">
-                  <p className="list">Listed for .6 BNB</p>
-                  <p className="user">Buyer&#8217;s username</p>
-                  <p className="time">01/22/22 | 03:37 PM</p>
-                </div>
-                <div className="item">
-                  <p className="list">Listed for .6 BNB</p>
-                  <p className="user">Buyer&#8217;s username</p>
-                  <p className="time">01/22/22 | 03:37 PM</p>
-                </div>
-                <div className="item">
-                  <p className="list">Listed for .6 BNB</p>
-                  <p className="user">Buyer&#8217;s username</p>
-                  <p className="time">01/22/22 | 03:37 PM</p>
-                </div>
-                <div className="item">
-                  <p className="list">Minted</p>
-                  <p className="user">Buyer&#8217;s username</p>
-                  <p className="time">01/22/22 | 03:37 PM</p>
-                </div>
+                {history.map((i) => {
+                  return (
+                    <div key={i.id} className="item">
+                      <p className="list">{i.name}</p>
+                      <p className="user">Buyer&#8217;s username</p>
+                      <p className="time">01/22/22 | 03:37 PM</p>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>
@@ -78,22 +57,28 @@ const Data_Chill = () => {
           <div className="header">
             <div className="header-chill">
               <div className="collected">
-                <span>Collected</span>
+                {/* <span>Collected</span> */}
+                <Link href={`/`}>Collected</Link>
               </div>
               <div className="created">
-                <span>Created</span>
+                {/* <span>Created</span> */}
+                <Link href={`/`}>Created</Link>
               </div>
               <div className="favorited block">
-                <span>Favorited</span>
+                {/* <span>Favorited</span> */}
+                <Link href={`/`}>Favorited</Link>
               </div>
               <div className="hidden block">
-                <span>Hidden</span>
+                {/* <span>Hidden</span> */}
+                <Link href={`/`}>Hidden</Link>
               </div>
               <div className="offers block">
-                <span>Offers</span>
+                {/* <span>Offers</span> */}
+                <Link href={`/`}>Offers</Link>
               </div>
               <div className="listings block">
-                <span>Listings</span>
+                {/* <span>Listings</span> */}
+                <Link href={`/`}>Listings</Link>
               </div>
             </div>
           </div>

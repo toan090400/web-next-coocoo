@@ -11,7 +11,9 @@ const Menu = () => {
       <div className="menu__container">
         <div className="menu__are1">
           <div className="menu__logo">
-            <Image src={logo} alt="" />
+            <Link href={`/`}>
+              <Image src={logo} alt="" />
+            </Link>
           </div>
           <div className="menu__list">
             <Link href="/marketplace">Marketplace</Link>
