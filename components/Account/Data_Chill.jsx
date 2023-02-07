@@ -6,6 +6,7 @@ import Item from "../Image/Icon-Number-Lingth/Icon-Number-Lingth";
 import Image from "next/image";
 import Crad_Image from "../../public/Card/item.png";
 import srow from "../../public/item_page/over/srow.jpg";
+import { account } from "./accountAray";
 const Data_Chill = () => {
   return (
     <div className="data__are2">
@@ -97,186 +98,43 @@ const Data_Chill = () => {
             </div>
           </div>
           <div className="card">
-            <div className="item open">
-              <div className="item-image">
-                <Image src={Crad_Image} alt="card" />
-              </div>
-              <div className="data">
-                <div className="text">
-                  <p>Name of Collectible</p>
-                  <p className="bottom">Name of Collectible</p>
-                </div>
-                <div className="number">
-                  <div className="image">
-                    <Item />
+            {account.map((data) => {
+              return (
+                <div
+                  key={data.id}
+                  className={data.check ? "item open" : "item"}
+                >
+                  <div className="item-image">
+                    <Image src={Crad_Image} alt="card" />
                   </div>
-                  <div className="text">
-                    <p>0.25 BNB</p>
+                  <div className="data">
+                    <div className="text">
+                      <p>Name of Collectible</p>
+                      <p className="bottom">Name of Collectible</p>
+                    </div>
+                    <div className="number">
+                      <div className="image">
+                        <Item />
+                      </div>
+                      <div className="text">
+                        <p>0.25 BNB</p>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-              <div className="bid">
-                <div className="time">
-                  <p>3h 50m 2s</p>
-                </div>
-                <div className="btn">
-                  <button>Bid Now</button>
-                </div>
-                <div className="image">
-                  <Heart />
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="item-image">
-                <Image src={Crad_Image} alt="card" />
-              </div>
-              <div className="data">
-                <div className="text">
-                  <p>Name of Collectible</p>
-                  <p className="bottom">Name of Collectible</p>
-                </div>
-                <div className="number">
-                  <div className="image">
-                    <Item />
-                  </div>
-                  <div className="text">
-                    <p>0.25 BNB</p>
+                  <div className="bid">
+                    <div className="time">
+                      <p>3h 50m 2s</p>
+                    </div>
+                    <div className="btn">
+                      <button>Bid Now</button>
+                    </div>
+                    <div className="image">
+                      <Heart />
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="bid">
-                <div className="time">
-                  <p>3h 50m 2s</p>
-                </div>
-                <div className="btn">
-                  <button>Bid Now</button>
-                </div>
-                <div className="image">
-                  <Heart />
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="item-image">
-                <Image src={Crad_Image} alt="card" />
-              </div>
-              <div className="data">
-                <div className="text">
-                  <p>Name of Collectible</p>
-                  <p className="bottom">Name of Collectible</p>
-                </div>
-                <div className="number">
-                  <div className="image">
-                    <Item />
-                  </div>
-                  <div className="text">
-                    <p>0.25 BNB</p>
-                  </div>
-                </div>
-              </div>
-              <div className="bid">
-                <div className="time">
-                  <p>3h 50m 2s</p>
-                </div>
-                <div className="btn">
-                  <button>Bid Now</button>
-                </div>
-                <div className="image">
-                  <Heart />
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="item-image">
-                <Image src={Crad_Image} alt="card" />
-              </div>
-              <div className="data">
-                <div className="text">
-                  <p>Name of Collectible</p>
-                  <p className="bottom">Name of Collectible</p>
-                </div>
-                <div className="number">
-                  <div className="image">
-                    <Item />
-                  </div>
-                  <div className="text">
-                    <p>0.25 BNB</p>
-                  </div>
-                </div>
-              </div>
-              <div className="bid">
-                <div className="time">
-                  <p>3h 50m 2s</p>
-                </div>
-                <div className="btn">
-                  <button>Bid Now</button>
-                </div>
-                <div className="image">
-                  <Heart />
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="item-image">
-                <Image src={Crad_Image} alt="card" />
-              </div>
-              <div className="data">
-                <div className="text">
-                  <p>Name of Collectible</p>
-                  <p className="bottom">Name of Collectible</p>
-                </div>
-                <div className="number">
-                  <div className="image">
-                    <Item />
-                  </div>
-                  <div className="text">
-                    <p>0.25 BNB</p>
-                  </div>
-                </div>
-              </div>
-              <div className="bid">
-                <div className="time">
-                  <p>3h 50m 2s</p>
-                </div>
-                <div className="btn">
-                  <button>Bid Now</button>
-                </div>
-                <div className="image">
-                  <Heart />
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="item-image">
-                <Image src={Crad_Image} alt="card" />
-              </div>
-              <div className="data">
-                <div className="text">
-                  <p>Name of Collectible</p>
-                  <p className="bottom">Name of Collectible</p>
-                </div>
-                <div className="number">
-                  <div className="image">
-                    <Item />
-                  </div>
-                  <div className="text">
-                    <p>0.25 BNB</p>
-                  </div>
-                </div>
-              </div>
-              <div className="bid">
-                <div className="time">
-                  <p>3h 50m 2s</p>
-                </div>
-                <div className="btn">
-                  <button>Bid Now</button>
-                </div>
-                <div className="image">
-                  <Heart />
-                </div>
-              </div>
-            </div>
+              );
+            })}
           </div>
         </div>
       </div>
