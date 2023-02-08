@@ -13,27 +13,6 @@
   // finall
   @import "responsive/table/over";
 }
-@media (max-width: 950px) {
-  .over {
-    .over_chill {
-      .box2 {
-        .are2 {
-          .more {
-            &_chill {
-              .box {
-                &_chill {
-                  .item {
-                    display: none;
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
 @media (min-width: 320px) and (max-width: 600px) {
   @import "responsive/mobi/frame";
   @import "responsive/mobi/properties";

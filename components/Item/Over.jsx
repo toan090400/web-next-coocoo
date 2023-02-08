@@ -3,16 +3,12 @@ import { bid, history } from "./itemArray";
 import Twitter from "../Image/Icon-Twitter/Icon_Twitter";
 import Github from "../Image/Icon-Github/Icon_Github";
 import Telegram from "../Image/Icon-Telegram/Icon_Telegram";
+import Slide_Page from "./Slide";
 // image
 import latest1 from "../../public/item_page/over/latest1.png";
 import latest2 from "../../public/item_page/over/latest2.png";
 import his1 from "../../public/item_page/over/his1.png";
 import his2 from "../../public/item_page/over/his2.png";
-import lef from "../../public/item_page/over/lef.png";
-import rig from "../../public/item_page/over/rig.png";
-import Item from "../Image/Icon-Number-Lingth/Icon-Number-Lingth";
-import Card from "../../public/Card/item.png";
-import Heart from "../Image/Heart/Heart";
 const Over = () => {
   return (
     <div className="over">
@@ -139,99 +135,7 @@ const Over = () => {
                 </div>
                 <div className="box">
                   <div className="box_chill">
-                    <div className="item lef">
-                      <div className="image_l">
-                        <Image src={lef} alt="lef" />
-                      </div>
-                      <div className="image">
-                        <Image src={Card} alt="card" />
-                      </div>
-                      <div className="image_r">
-                        <Image src={rig} alt="rig" />
-                      </div>
-                      <div className="data">
-                        <div className="text">
-                          <p>Name of Collectible</p>
-                          <p className="bottom">Name of Collectible</p>
-                        </div>
-                        <div className="number">
-                          <div className="image">
-                            <Item />
-                          </div>
-                          <p>0.25 BNB</p>
-                        </div>
-                      </div>
-                      <div className="bid">
-                        <div className="time">
-                          <p>3h 50m 2s</p>
-                        </div>
-                        <div className="btn">
-                          <button>Bid Now</button>
-                        </div>
-                        <div className="image">
-                          <Heart />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="image">
-                        <Image src={Card} alt="card" />
-                      </div>
-                      <div className="data">
-                        <div className="text">
-                          <p>Name of Collectible</p>
-                          <p className="bottom">Name of Collectible</p>
-                        </div>
-                        <div className="number">
-                          <div className="image">
-                            <Item />
-                          </div>
-                          <p>0.25 BNB</p>
-                        </div>
-                      </div>
-                      <div className="bid">
-                        <div className="time">
-                          <p>3h 50m 2s</p>
-                        </div>
-                        <div className="btn">
-                          <button>Bid Now</button>
-                        </div>
-                        <div className="image">
-                          <Heart />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="item rig">
-                      <div className="image">
-                        <Image src={Card} alt="card" />
-                      </div>
-                      <div className="data">
-                        <div className="text">
-                          <p>Name of Collectible</p>
-                          <p className="bottom">Name of Collectible</p>
-                        </div>
-                        <div className="number">
-                          <div className="image">
-                            <Item />
-                          </div>
-                          <p>0.25 BNB</p>
-                        </div>
-                      </div>
-                      <div className="bid">
-                        <div className="time">
-                          <p>3h 50m 2s</p>
-                        </div>
-                        <div className="btn">
-                          <button>Bid Now</button>
-                        </div>
-                        <div className="image">
-                          <Heart />
-                        </div>
-                      </div>
-                      <div className="image_r">
-                        <Image src={rig} alt="rig" />
-                      </div>
-                    </div>
+                    <Slide_Page />
                   </div>
                 </div>
               </div>

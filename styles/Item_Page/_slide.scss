@@ -1,0 +1,99 @@
+.box {
+  &_chill {
+    .item {
+      margin: 10px;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      border-radius: 8px;
+      padding: 10px;
+      &-image {
+        img {
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+        }
+      }
+      &-data {
+        margin: 10px 0;
+        .text {
+          p {
+            font-family: "Lato", sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 12px;
+            color: $color-black;
+            &.bottom {
+              margin: 10px 0;
+              font-weight: 400;
+              font-size: 12px;
+            }
+          }
+        }
+        .number {
+          display: flex;
+          gap: 10px;
+          p {
+            font-family: "Lato", sans-serif;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 21px;
+            color: $color-black;
+          }
+        }
+      }
+      &-bid {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .time {
+          background: #f5f5f5;
+          padding: 6px 12px;
+          border-radius: 15px;
+          p {
+            font-family: "DM Sans", sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            color: $color-black;
+          }
+        }
+        .btn {
+          button {
+            border: none;
+            background: linear-gradient(
+              114.51deg,
+              #6bcb07 -12.5%,
+              #06bfc9 94.9%
+            );
+            padding: 6px 12px;
+            border-radius: 15px;
+            color: $color-white;
+            font-family: "Lato", sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 9.58904px;
+            line-height: 12px;
+            letter-spacing: 0.02em;
+          }
+        }
+      }
+    }
+    .swiper-button-prev {
+      background: $grey;
+      height: 60px;
+      width: 60px;
+      border-radius: 30px;
+      left: 0;
+      color: $color-black;
+    }
+    .swiper-button-next {
+      background: $grey;
+      height: 60px;
+      width: 60px;
+      border-radius: 30px;
+      right: 0;
+      color: $color-black;
+    }
+  }
+}
