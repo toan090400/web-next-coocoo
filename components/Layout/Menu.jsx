@@ -10,6 +10,10 @@ const Menu = () => {
     const menu_mobi = document.querySelector("#menu-mobi");
     menu_mobi.classList.toggle("open");
   };
+  const handlerChange = () => {
+    const change = document.querySelector("#coocoo");
+    change.classList.toggle("change");
+  };
   return (
     <>
       <div className="menu">
@@ -44,7 +48,7 @@ const Menu = () => {
             <div className="menu__user">
               <button>Create</button>
               <Image src={user_menu} alt="" />
-              <Image src={vector} alt="" />
+              <Image onClick={handlerChange} src={vector} alt="" />
             </div>
           </div>
         </div>

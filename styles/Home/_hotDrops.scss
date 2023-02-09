@@ -1,113 +1,150 @@
-.hotDrops {
-  margin-top: 30px;
-  background: linear-gradient(180deg, #000000 0%, #214a67 100%);
-  display: flex;
-  .title {
-    width: 25%;
-    .text {
-      width: 190px;
-      margin: 180px auto;
-      .hot {
-        font-family: "Oswald", sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 100px;
-        letter-spacing: -0.09em;
-        background: linear-gradient(180deg, #ffb800 32.81%, #ff4d00 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-      }
-      .drops {
-        font-family: "Oswald", sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 51.5px;
-        color: $color-white;
-        margin-top: -30px;
-      }
-      img {
-        width: 75%;
-        margin-top: -10px;
-      }
-    }
-  }
-  .item {
-    width: 75%;
-    .card {
-      display: flex;
-      gap: 20px;
-      padding: 0 20px;
-      .box {
-        img {
-          width: 100%;
-          height: auto;
+.coocoo {
+  .hotDrops {
+    background: linear-gradient(180deg, #000000 0%, #214a67 100%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    &__title {
+      .text {
+        display: flex;
+        flex-direction: column;
+        .hot {
+          font-family: "Oswald", sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 100px;
+          letter-spacing: -0.09em;
+          background: linear-gradient(180deg, #ffb800 32.81%, #ff4d00 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+        }
+        .drop-box {
+          .drops {
+            font-family: "Oswald", sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 51.5px;
+            color: $color-white;
+            margin-top: -30px;
+          }
+          img {
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+          }
         }
       }
-      &_item {
-        width: 100%;
-        border-radius: 12px;
-        background-color: $color-white;
-        padding: 5px;
-        .box {
-          padding: 12px;
-          .text1 {
-            font-family: "Lato", sans-serif;
-            font-style: normal;
-            font-weight: 700;
-            font-size: 18px;
-            color: $color-black;
-            margin-top: 5px;
-          }
-          .text2 {
-            font-family: "Lato", sans-serif;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 12px;
-            color: $color-black;
-            margin-top: 5px;
-          }
-          .number {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            margin-top: 10px;
-            .text {
-              .bnb {
+    }
+    &__item {
+      .hotDrops__card {
+        display: flex;
+        gap: 20px;
+        .card_item {
+          width: 100%;
+          border-radius: 12px;
+          background-color: $color-white;
+          padding: 5px;
+          .box {
+            padding: 12px;
+            .card__box-image {
+              width: 100%;
+              height: auto;
+              object-fit: cover;
+              &.change {
+                display: none;
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+              }
+            }
+            .text1 {
+              font-family: "Lato", sans-serif;
+              font-style: normal;
+              font-weight: 700;
+              font-size: 18px;
+              color: $color-black;
+              margin-top: 5px;
+            }
+            .text2 {
+              font-family: "Lato", sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              color: $color-black;
+              margin-top: 5px;
+            }
+            .number {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              margin-top: 10px;
+              .image {
+                &.change {
+                  display: none;
+                }
+              }
+              .text {
+                .bnb {
+                  font-family: "Lato", sans-serif;
+                  font-style: normal;
+                  font-weight: 800;
+                  font-size: 16px;
+                  color: $color-black;
+                }
+              }
+            }
+            .button {
+              margin-top: 20px;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              .time {
+                padding: 10px 5px;
+                background-color: #f5f5f5;
+                border-radius: 15px;
+              }
+              .btn {
                 font-family: "Lato", sans-serif;
                 font-style: normal;
-                font-weight: 800;
-                font-size: 16px;
-                color: $color-black;
+                font-weight: 600;
+                font-size: 10px;
+                border: none;
+                padding: 10px 30px;
+                border-radius: 15px;
+                background: $background;
+                color: $color-white;
               }
             }
           }
-          .button {
-            margin-top: 20px;
-            display: flex;
-            justify-content: space-between;
-            .time {
-              padding: 5px 5px;
-              background-color: #f5f5f5;
-              border-radius: 15px;
-            }
-            .btn {
-              font-family: "Lato", sans-serif;
-              font-style: normal;
-              font-weight: 600;
-              font-size: 10px;
-              border: none;
-              padding: 5px 30px;
-              border-radius: 15px;
-              background: $background;
-              color: $color-white;
+        }
+      }
+    }
+  }
+  &.change {
+    .hotDrops {
+      &__item {
+        .hotDrops__card {
+          .card_item {
+            .box {
+              .card__box-image {
+                display: none;
+                &.change {
+                  display: block;
+                }
+              }
+              .number {
+                .image {
+                  display: none;
+                  &.change {
+                    display: block;
+                  }
+                }
+              }
             }
           }
         }
-      }
-      &_item.res {
-        display: none;
-        width: 100%;
       }
     }
   }

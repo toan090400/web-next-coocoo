@@ -1,22 +1,25 @@
-.hotDrops {
-  .title {
-    .text {
-      img {
-        width: 35%;
+.coocoo {
+  .hotDrops {
+    display: block;
+    .hotDrops__item {
+      .hotDrops__card {
+        .card_item {
+          &:nth-child(2) {
+            display: none;
+          }
+        }
       }
     }
-  }
-  .item {
-    .card {
-      padding: 30px 30px;
-      &_item {
-        width: 100%;
-      }
-      &_item.res {
-        display: none;
-      }
-      &_item.res.show {
-        display: block;
+    .hotDrops__title {
+      .text {
+        .hot {
+          font-size: 70px;
+        }
+        .drop-box {
+          .drops {
+            font-size: 70px;
+          }
+        }
       }
     }
   }

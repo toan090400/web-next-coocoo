@@ -1,21 +1,23 @@
-.discoverMore {
-  .conatainerMore {
-    .are3 {
-      .box_card {
-        --template-columns: 1;
-        .card {
-          &.res {
-            display: none;
-            &.show {
-              display: block;
+.coocoo {
+  .discoverMore {
+    .conatainerMore {
+      .are3 {
+        .box_card {
+          --template-columns: 1;
+          .card {
+            &.res {
+              display: none;
+              &.show {
+                display: block;
+              }
             }
           }
         }
       }
-    }
-    .are4 {
-      .btn {
-        padding: 15px 15px;
+      .are4 {
+        .btn {
+          padding: 15px 15px;
+        }
       }
     }
   }

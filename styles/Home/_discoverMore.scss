@@ -1,172 +1,180 @@
-.discoverMore {
-  background: linear-gradient(180deg, #000000 0%, #214a67 100%);
-  .conatainerMore {
-    width: 90%;
-    margin: auto;
-    .are1 {
-      text-align: center;
-      .text {
-        padding-top: 100px;
-        p {
-          font-family: "Oswald", sans-serif;
-          letter-spacing: -0.02rem;
-          font-weight: 300;
-          font-size: 100px;
-          color: $color-white;
-          span {
-            background: linear-gradient(180deg, #ffb800 32.81%, #ff4d00 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            position: relative;
-            font-weight: 500;
+.coocoo {
+  .discoverMore {
+    background: linear-gradient(180deg, #000000 0%, #214a67 100%);
+    mix-blend-mode: normal;
+    .conatainerMore {
+      width: 90%;
+      margin: auto;
+      .are1 {
+        text-align: center;
+        .text {
+          padding-top: 100px;
+          p {
+            font-family: "Oswald", sans-serif;
+            letter-spacing: -0.02rem;
+            font-weight: 300;
+            font-size: 100px;
+            color: $color-white;
+            span {
+              background: linear-gradient(180deg, #ffb800 32.81%, #ff4d00 100%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              background-clip: text;
+              position: relative;
+              font-weight: 500;
+            }
+          }
+          img {
+            position: absolute;
+            margin-left: 80px;
+            margin-top: -30px;
+            width: 230px;
           }
         }
-        img {
-          position: absolute;
-          margin-left: 80px;
-          margin-top: -30px;
-          width: 230px;
-        }
       }
-    }
-    .are2 {
-      margin-top: 100px;
-      .box {
-        display: flex;
-        justify-content: space-between;
-        .category {
-          width: 80%;
+      .are2 {
+        margin-top: 100px;
+        .box {
           display: flex;
           justify-content: space-between;
-          align-items: center;
-          &-text {
-            p {
-              font-weight: 500;
-              font-size: 14px;
-              border-radius: 20px;
-              background: $color-white;
-              padding: 10px 15px;
-            }
-            .all {
-              background-color: $color-green;
-              color: $color-white;
-            }
-          }
-        }
-        .filer {
-          width: 20%;
-          .filters {
-            float: right;
-            padding: 10px 20px;
-            border-radius: 20px;
-            border: $border;
-            color: $color-white;
-            font-weight: 500;
-            font-size: 14px;
-          }
-        }
-      }
-    }
-    .are3 {
-      .box_card {
-        --template-column-gutters: 20px;
-        --template-columns: 4;
-        --template-column-compact-multiplier: 1;
-        --template-reduced-columns: 0;
-        --template-reduced-columns-multiplier: 1;
-        display: grid;
-        grid-gap: var(--template-column-gutters);
-        gap: var(--template-column-gutters);
-        grid-auto-rows: minmax(0px, 1fr);
-        grid-template-columns: repeat(
-          calc(
-            var(--template-columns) - var(--template-reduced-columns) *
-              var(--template-reduced-columns-multiplier)
-          ),
-          minmax(0, 1fr)
-        );
-        .card {
-          min-width: 280px;
-          background-color: $color-white;
-          border-radius: 12px;
-          .box {
-            padding: 15px 15px;
-            .more {
-              width: 100%;
-              height: auto;
-            }
-            .text1 {
-              font-family: "Lato", sans-serif;
-              font-style: normal;
-              font-weight: 700;
-              font-size: 18px;
-              color: $color-black;
-              margin-top: 5px;
-            }
-            .text2 {
-              font-family: "Lato", sans-serif;
-              font-style: normal;
-              font-weight: 400;
-              font-size: 12px;
-              color: $color-black;
-              margin-top: 5px;
-            }
-            .number {
-              display: flex;
-              align-items: center;
-              gap: 10px;
-              margin-top: 10px;
-              .text {
-                .bnb {
-                  font-family: "Lato", sans-serif;
-                  font-style: normal;
-                  font-weight: 800;
-                  font-size: 16px;
-                  color: $color-black;
-                }
+          .category {
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &-text {
+              p {
+                font-weight: 500;
+                font-size: 14px;
+                border-radius: 20px;
+                background: $color-white;
+                padding: 10px 15px;
               }
-            }
-            .button {
-              margin-top: 20px;
-              display: flex;
-              justify-content: space-between;
-              .time {
-                padding: 5px 5px;
-                background-color: #f5f5f5;
-                border-radius: 15px;
-              }
-              .btn {
-                font-family: "Lato", sans-serif;
-                font-style: normal;
-                font-weight: 600;
-                font-size: 10px;
-                border: none;
-                padding: 5px 30px;
-                border-radius: 15px;
-                background: $background;
+              .all {
+                background-color: $color-green;
                 color: $color-white;
               }
             }
           }
-          &.res {
-            display: none;
+          .filer {
+            width: 20%;
+            .filters {
+              float: right;
+              padding: 10px 20px;
+              border-radius: 20px;
+              border: $border;
+              color: $color-white;
+              font-weight: 500;
+              font-size: 14px;
+            }
           }
         }
       }
-    }
-    .are4 {
-      padding: 70px;
-      text-align: center;
-      .btn {
-        border: none;
-        font-weight: 700;
-        font-size: 20px;
-        color: $color-black;
-        padding: 20px 40px;
-        background: $color-white;
-        border-radius: 50px;
+      .are3 {
+        .box_card {
+          --template-column-gutters: 20px;
+          --template-columns: 4;
+          --template-column-compact-multiplier: 1;
+          --template-reduced-columns: 0;
+          --template-reduced-columns-multiplier: 1;
+          display: grid;
+          grid-gap: var(--template-column-gutters);
+          gap: var(--template-column-gutters);
+          grid-auto-rows: minmax(0px, 1fr);
+          grid-template-columns: repeat(
+            calc(
+              var(--template-columns) - var(--template-reduced-columns) *
+                var(--template-reduced-columns-multiplier)
+            ),
+            minmax(0, 1fr)
+          );
+          .card {
+            min-width: 280px;
+            background-color: $color-white;
+            border-radius: 12px;
+            .box {
+              padding: 15px 15px;
+              .more {
+                width: 100%;
+                height: auto;
+              }
+              .text1 {
+                font-family: "Lato", sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                color: $color-black;
+                margin-top: 5px;
+              }
+              .text2 {
+                font-family: "Lato", sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                color: $color-black;
+                margin-top: 5px;
+              }
+              .number {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                margin-top: 10px;
+                .text {
+                  .bnb {
+                    font-family: "Lato", sans-serif;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 16px;
+                    color: $color-black;
+                  }
+                }
+              }
+              .button {
+                margin-top: 20px;
+                display: flex;
+                justify-content: space-between;
+                .time {
+                  padding: 5px 5px;
+                  background-color: #f5f5f5;
+                  border-radius: 15px;
+                }
+                .btn {
+                  font-family: "Lato", sans-serif;
+                  font-style: normal;
+                  font-weight: 600;
+                  font-size: 10px;
+                  border: none;
+                  padding: 5px 30px;
+                  border-radius: 15px;
+                  background: $background;
+                  color: $color-white;
+                }
+              }
+            }
+            &.res {
+              display: none;
+            }
+          }
+        }
       }
+      .are4 {
+        padding: 70px;
+        text-align: center;
+        .btn {
+          border: none;
+          font-weight: 700;
+          font-size: 20px;
+          color: $color-black;
+          padding: 20px 40px;
+          background: $color-white;
+          border-radius: 50px;
+        }
+      }
+    }
+  }
+  &.change {
+    .discoverMore {
+      background: linear-gradient(180deg, #214966 0%, #6ccb05 100%);
     }
   }
 }

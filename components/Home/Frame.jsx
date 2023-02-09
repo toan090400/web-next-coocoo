@@ -1,12 +1,13 @@
 import Image from "next/image";
 // frame
 import dots from "../../public/home/frame/dots.png";
+import dotChange from "../../public/home/frame/dotChange.png";
 import frame from "../../public/home/frame/frame.png";
 import plus from "../../public/home/frame/plus.png";
 import user_frame from "../../public/home/frame/user-frame.png";
 const Frame = () => {
   return (
-    <div className="frame">
+    <div className="home__frame">
       <div className="container">
         <div className="text">
           <h1>
@@ -21,6 +22,7 @@ const Frame = () => {
             <Image className="frame" src={frame} alt="frame" />
             <div>
               <Image className="dots" src={dots} alt="dots" />
+              <Image className="dots change" src={dotChange} alt="dotChange" />
             </div>
           </div>
           <div className="user">

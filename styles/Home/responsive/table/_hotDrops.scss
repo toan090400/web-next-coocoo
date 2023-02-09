@@ -1,41 +1,31 @@
-.hotDrops {
-  display: block;
-  .title {
-    width: 100%;
-    .text {
-      display: flex;
-      width: 90%;
-      justify-content: center;
-      .hot {
-        margin-top: 100px;
-        font-size: 50px;
-      }
-      .drops {
-        font-size: 50px;
-        margin-top: 100px;
-        margin-left: 10px;
-        position: relative;
-      }
-      img {
-        position: absolute;
-        margin-top: 160px;
-        margin-left: 75px;
-        width: auto;
-        height: auto;
+.coocoo {
+  .hotDrops {
+    display: block;
+    .hotDrops__item {
+      .hotDrops__card {
+        .card_item {
+          &:nth-child(3) {
+            display: none;
+          }
+        }
       }
     }
-  }
-  .item {
-    width: 100%;
-    .card {
-      margin-top: -90px;
-      padding: 30px 50px;
-      gap: 30px;
-      &_item {
-        display: none;
-      }
-      &_item.res {
-        display: block;
+    .hotDrops__title {
+      padding: 30px 0;
+      .text {
+        flex-direction: row;
+        justify-content: center;
+        .drop-box {
+          position: relative;
+          .drops {
+            font-size: 100px;
+            margin-top: 0;
+          }
+          img {
+            position: absolute;
+            bottom: -25px;
+          }
+        }
       }
     }
   }

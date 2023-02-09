@@ -12,13 +12,15 @@
   @import "responsive/table/wizard";
 }
 @media (max-width: 950px) {
-  .discoverMore {
-    .conatainerMore {
-      .are3 {
-        .box_card {
-          --template-columns: 2;
-          .card.res.show {
-            display: none;
+  .coocoo {
+    .discoverMore {
+      .conatainerMore {
+        .are3 {
+          .box_card {
+            --template-columns: 2;
+            .card.res.show {
+              display: none;
+            }
           }
         }
       }
