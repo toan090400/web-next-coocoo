@@ -57,27 +57,21 @@ const Data_Chill = () => {
           <div className="header">
             <div className="header-chill">
               <div className="collected">
-                {/* <span>Collected</span> */}
                 <Link href={`/`}>Collected</Link>
               </div>
               <div className="created">
-                {/* <span>Created</span> */}
                 <Link href={`/`}>Created</Link>
               </div>
               <div className="favorited block">
-                {/* <span>Favorited</span> */}
                 <Link href={`/`}>Favorited</Link>
               </div>
               <div className="hidden block">
-                {/* <span>Hidden</span> */}
                 <Link href={`/`}>Hidden</Link>
               </div>
               <div className="offers block">
-                {/* <span>Offers</span> */}
                 <Link href={`/`}>Offers</Link>
               </div>
               <div className="listings block">
-                {/* <span>Listings</span> */}
                 <Link href={`/`}>Listings</Link>
               </div>
             </div>
@@ -85,10 +79,7 @@ const Data_Chill = () => {
           <div className="card">
             {account.map((data) => {
               return (
-                <div
-                  key={data.id}
-                  className={data.check ? "item open" : "item"}
-                >
+                <div key={data.id} className="item">
                   <div className="item-image">
                     <Image src={Crad_Image} alt="card" />
                   </div>

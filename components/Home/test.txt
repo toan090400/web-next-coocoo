@@ -1,0 +1,60 @@
+
+---------------------------
+pc
+
+
+  --------------- table
+
+ .box {
+    .are {
+      width: 100%;
+      .userBox {
+        width: 100%;
+        .number {
+          margin-right: 5px;
+        }
+        img {
+          width: auto;
+        }
+        .check {
+          margin-left: 65px;
+        }
+      }
+    }
+    .are.sellers,
+    .are.buyers {
+      display: none;
+    }
+  }
+  .dots {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    p {
+      width: 10px;
+      height: 10px;
+      background-color: rgb(185, 185, 185);
+      margin: 0 15px;
+      border-radius: 10px;
+    }
+    p.check {
+      background-color: $color-green;
+    }
+  }
+
+  ---------------- mobi
+
+
+    .box {
+    .are {
+      .userBox {
+        gap: 5px;
+        .number {
+          margin-right: 0px;
+        }
+        .adress {
+          margin-right: 0px;
+        }
+      }
+    }
+  }

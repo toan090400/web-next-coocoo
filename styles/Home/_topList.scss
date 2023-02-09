@@ -1,50 +1,52 @@
 .topList {
-  margin: 40px 0;
+  padding: 40px 50px;
   .box {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin: auto;
     .are {
-      margin-top: 30px;
-      width: 30%;
+      padding: 0 10px;
       .top {
         font-weight: 800;
         font-size: 24px;
         color: $color-black;
       }
       .time {
-        font-weight: 700;
-        font-size: 18px;
-        color: $color-green;
+        display: flex;
+        align-items: center;
+        &-text {
+          span {
+            font-weight: 700;
+            font-size: 18px;
+            color: $color-green;
+          }
+        }
+        &-image {
+          img {
+            object-fit: cover;
+          }
+        }
       }
       .userBox {
-        width: 365px;
         display: flex;
-        gap: 15px;
-        border-bottom: 1px solid #ededed;
-        justify-content: space-between;
-        padding: 20px 8px 20px 10px;
+        padding: 20px 10px;
         align-items: center;
         border-bottom: $border;
         .number {
           font-weight: 700;
           font-size: 24px;
-          margin-right: 20px;
-          width: 10%;
+          flex: 0.3;
         }
         .image {
-          display: flex;
-          position: relative;
-          .check {
-            position: absolute;
-            right: -5px;
-            z-index: 1;
+          flex: 0.5;
+          &-chill {
+            display: flex;
+            position: relative;
+            .check {
+              position: absolute;
+              left: 50%;
+            }
           }
         }
         .adress {
-          margin-right: 20px;
-          width: 50%;
+          flex: 1;
           .text {
             font-weight: 700;
             font-size: 18px;
@@ -58,7 +60,7 @@
           }
         }
         .price {
-          width: 20%;
+          flex: 1;
           font-weight: 700;
           font-size: 20px;
           color: $color-green;
@@ -69,7 +71,7 @@
       }
     }
   }
-  .dots {
-    display: none;
+  .slick-dots li.slick-active button:before {
+    color: $color-green;
   }
 }

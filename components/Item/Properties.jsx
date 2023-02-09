@@ -5,17 +5,17 @@ const Properties = () => {
         <p>Properties</p>
       </div>
       <div className="backgroud">
-        <div className="item open">
+        <div className="item ">
           <p className="item_1">BACKGROUND</p>
           <p className="item_2">Gradiant BP</p>
           <p className="item_3">4.4% rarity</p>
         </div>
-        <div className="item open">
+        <div className="item ">
           <p className="item_1">BACKGROUND</p>
           <p className="item_2">Gradiant BP</p>
           <p className="item_3">4.4% rarity</p>
         </div>
-        <div className="item open hiden">
+        <div className="item  ">
           <p className="item_1">BACKGROUND</p>
           <p className="item_2">Gradiant BP</p>
           <p className="item_3">4.4% rarity</p>

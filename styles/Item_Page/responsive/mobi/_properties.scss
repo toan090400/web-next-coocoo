@@ -2,10 +2,8 @@
   .backgroud {
     justify-content: space-around;
     .item {
-      &.open {
-        &.hiden {
-          display: none;
-        }
+      &:nth-child(3) {
+        display: none;
       }
       .item_1 {
         margin: 10px 10px 0 10px;

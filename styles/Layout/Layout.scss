@@ -1,10 +1,10 @@
 // menu
 @import "menu";
+@import "menu_mobi";
 // footer
 @import "footer";
 // finall
 @import "finall";
-
 // respositeve
 // table
 @media (max-width: 1100px) {
@@ -25,4 +25,9 @@
 @media (max-width: 900px) {
   // menu
   @import "responsive/menu";
+  .menu-mobi {
+    &.open {
+      opacity: 1;
+    }
+  }
 }

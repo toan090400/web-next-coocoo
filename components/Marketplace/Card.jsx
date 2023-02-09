@@ -10,7 +10,7 @@ const Card = () => {
         <div className="card-box">
           {cardArray.map((data) => {
             return (
-              <div key={data.id} className={data.check ? "item hiden" : "item"}>
+              <div key={data.id} className="item">
                 <div className="item-chill">
                   <div className="image">
                     <Image src={Card_Item} alt="card" />
