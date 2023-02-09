@@ -8,7 +8,6 @@
 @media (max-width: 1250px) {
   @import "responsive/table/frame";
   @import "responsive/table/hotDrops";
-  @import "responsive/table/topList";
   @import "responsive/table/discoverMore";
   @import "responsive/table/wizard";
 }
@@ -29,7 +28,20 @@
 @media (min-width: 320px) and (max-width: 600px) {
   @import "responsive/mobi/frame";
   @import "responsive/mobi/hotDrops";
-  @import "responsive/mobi/topList";
   @import "responsive/mobi/discoverMore";
   @import "responsive/mobi/wizard";
+  .topList {
+    padding: 25px;
+    .box {
+      .are {
+        padding: 0;
+        .userBox {
+          padding: 20px 0;
+          p {
+            flex: 0.1;
+          }
+        }
+      }
+    }
+  }
 }
