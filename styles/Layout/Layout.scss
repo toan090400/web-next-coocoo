@@ -1,6 +1,5 @@
 // menu
 @import "menu";
-@import "menu_mobi";
 // footer
 @import "footer";
 // finall
@@ -25,9 +24,10 @@
 @media (max-width: 900px) {
   // menu
   @import "responsive/menu";
-  .menu-mobi {
-    &.open {
-      opacity: 1;
+  .menu {
+    .menu-mobi {
+      display: block;
     }
   }
+  @import "menu_mobi";
 }

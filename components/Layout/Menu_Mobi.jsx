@@ -1,8 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import vector from "../../public/layout/menu/vector.png";
-import user_menu from "../../public/layout/menu/user-menu.png";
+import user_menu from "../../public/layout/menu/user-menu/user-menu-show.png";
 const Menu_Mobi = () => {
+  const handlerUser = () => {
+    const menu_mobi = document.querySelector("#menu-mobi");
+    menu_mobi.classList.remove("open");
+    const menu_user = document.querySelector("#user-menu");
+    menu_user.classList.add("open");
+  };
   return (
     <div className="menu-mobi" id="menu-mobi">
       <div className="menu-mobi-chill">
@@ -37,7 +43,7 @@ const Menu_Mobi = () => {
         <div className="menu-mobi__are3">
           <div className="menu-mobi__user">
             <div className="user">
-              <Image src={user_menu} alt="" />
+              <Image onClick={handlerUser} src={user_menu} alt="" />
             </div>
           </div>
           <div className="menu-mobi__create">

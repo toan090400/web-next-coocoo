@@ -1,0 +1,130 @@
+.user-menu {
+  transition: all 1s ease-in;
+  background: $color-white;
+  border: $border;
+  width: 300px;
+  height: auto;
+  border-radius: 25px;
+
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  transform: translateX(100%) translateY(30px);
+
+  .user__chill {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px;
+    font-family: "Epilogue", sans-serif;
+    font-style: normal;
+    color: $GrayScale;
+    .user__are1 {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .user__image {
+        img {
+          object-fit: cover;
+        }
+      }
+      .user__text {
+        .username {
+          span {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 28px;
+            color: $black;
+          }
+        }
+        .data {
+          display: flex;
+          gap: 5px;
+          align-items: center;
+          .text-1 {
+            span {
+              font-weight: 500;
+              font-size: 13px;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+    }
+    .user__are2 {
+      background: #f0f0f0;
+      box-shadow: inset 1px 3px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 32px;
+      padding: 10px 15px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .balance__image {
+        .image-chill {
+          background: $color-white;
+          padding: 10px;
+          border-radius: 24px;
+          img {
+            object-fit: cover;
+          }
+        }
+      }
+      .balance__text {
+        .balance {
+          span {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+          }
+        }
+        .data {
+          display: flex;
+          gap: 10px;
+          align-items: center;
+          .text-1 {
+            span {
+              font-weight: 700;
+              font-size: 24px;
+              line-height: 32px;
+              color: $black;
+            }
+          }
+        }
+      }
+    }
+    .user__are3 {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      .account {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        &__text {
+          a {
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: $GrayScale;
+          }
+        }
+      }
+      .logout {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        &__text {
+          span {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+          }
+        }
+      }
+    }
+  }
+  &.open {
+    transform: translateX(-10px) translateY(30px);
+  }
+}

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Menu_Mobi from "./Menu_Mobi";
+import User from "./User/User";
 import logo from "../../public/layout/menu/logo.png";
 import search from "../../public/layout/menu/search.png";
 import vector from "../../public/layout/menu/vector.png";
@@ -9,6 +10,16 @@ const Menu = () => {
   const handlerBar = () => {
     const menu_mobi = document.querySelector("#menu-mobi");
     menu_mobi.classList.toggle("open");
+    const menu_user = document.querySelector("#user-menu");
+    menu_user.classList.remove("open");
+  };
+  const handlerUser = () => {
+    const menu_user = document.querySelector("#user-menu");
+    menu_user.classList.toggle("open");
+    // const menu_mobi = document.querySelector("#menu-mobi");
+    // console.log(menu_mobi.className);
+    // menu_mobi.remove("open");
+    // console.log(menu_mobi);
   };
   const handlerChange = () => {
     const change = document.querySelector("#coocoo");
@@ -47,13 +58,14 @@ const Menu = () => {
           <div className="menu__are3">
             <div className="menu__user">
               <button>Create</button>
-              <Image src={user_menu} alt="" />
-              <Image onClick={handlerChange} src={vector} alt="" />
+              <Image onClick={handlerUser} src={user_menu} alt="user_menu" />
+              <Image onClick={handlerChange} src={vector} alt="vector" />
             </div>
           </div>
         </div>
+        <Menu_Mobi />
+        <User />
       </div>
-      <Menu_Mobi />
     </>
   );
 };

@@ -3,7 +3,7 @@ import Footer from "../components/Layout/Footer";
 import Finall from "../components/Layout/Finall";
 const Layout = ({ children }) => {
   return (
-    <div className="coocoo" id="coocoo">
+    <div className="coocoo" id="coocoo" style={{ overflow: "hidden" }}>
       <Menu />
       {children}
       <Footer />
