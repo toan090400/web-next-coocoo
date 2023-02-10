@@ -189,8 +189,18 @@ const DsicoverMore = () => {
                       </div>
                     </div>
                     <div className="button">
-                      <p className="time">3h 50m 2s</p>
-                      <button className="btn">Bid Now</button>
+                      {item.check ? (
+                        <div className="disButton disBuyButton">
+                          <p className="time">3h 50m 2s</p>
+                          <button className="btn">Bid Now</button>
+                        </div>
+                      ) : (
+                        <div className="disButton">
+                          <p className="time">3h 50m 2s</p>
+                          <button className="btn">Bid Now</button>
+                        </div>
+                      )}
+
                       <div className="image">
                         <div className="image-chill">
                           <Heart />

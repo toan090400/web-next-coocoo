@@ -36,18 +36,20 @@
           }
           .button {
             margin-top: 10px;
-            .time {
-              color: $color-white;
-              padding: 7px;
-              border-radius: 5.76936px;
-              background-color: $background-time;
-            }
-            .btn {
-              padding: 9px;
-              background: $color-white;
-              color: $blue;
-              border: 0.96156px solid $blue;
-              border-radius: 5.76936px;
+            &chill {
+              .time {
+                color: $color-white;
+                padding: 7px;
+                border-radius: 5.76936px;
+                background-color: $background-time;
+              }
+              .btn {
+                padding: 9px;
+                background: $color-white;
+                color: $blue;
+                border: 0.96156px solid $blue;
+                border-radius: 5.76936px;
+              }
             }
             .image {
               &-chill {

@@ -105,36 +105,42 @@ const discoverMore = [
   },
   {
     id: 2,
+    check: true,
   },
   {
     id: 3,
   },
   {
     id: 4,
+    check: true,
   },
   {
     id: 5,
   },
   {
     id: 6,
+    check: true,
   },
   {
     id: 7,
   },
   {
     id: 8,
+    check: true,
   },
   {
     id: 9,
   },
   {
     id: 10,
+    check: true,
   },
   {
     id: 11,
   },
   {
     id: 12,
+    check: true,
   },
 ];
 module.exports = { itemHot, topList, Categorys, discoverMore };
