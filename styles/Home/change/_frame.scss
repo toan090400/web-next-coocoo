@@ -1,0 +1,33 @@
+.home__frame {
+  background: $grey;
+  .container {
+    .content {
+      .image {
+        .dots {
+          display: none;
+          &.change {
+            display: block;
+          }
+        }
+      }
+      .user {
+        .are1 {
+          .user {
+            &_info.fir {
+              background-color: $color-white;
+            }
+            &_info.sec {
+              background-color: $grey;
+            }
+          }
+        }
+        .are4 {
+          button {
+            background: $blue;
+            border-radius: 11px;
+          }
+        }
+      }
+    }
+  }
+}

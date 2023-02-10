@@ -1,26 +1,28 @@
-.footer {
-  .footer__conatiner {
-    display: block;
-    .footer__are2 {
-      margin: 20px 0;
-      .footer__box1 {
-        .footer__text {
-          margin-left: 0;
+.coocoo {
+  .footer {
+    .footer__conatiner {
+      display: block;
+      .footer__are2 {
+        margin: 20px 0;
+        .footer__box1 {
+          .footer__text {
+            margin-left: 0;
+          }
         }
       }
-    }
-    .footer__are3 {
-      .footer__text {
-        form {
-          margin-top: 30px;
-          .footer__email {
-            display: flex;
-            width: 100%;
-          }
-          button {
-            margin-top: 10px;
-            width: 90%;
-            margin-left: 0px;
+      .footer__are3 {
+        .footer__text {
+          form {
+            margin-top: 30px;
+            .footer__email {
+              display: flex;
+              width: 100%;
+            }
+            button {
+              margin-top: 10px;
+              width: 90%;
+              margin-left: 0px;
+            }
           }
         }
       }

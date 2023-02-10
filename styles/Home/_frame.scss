@@ -63,7 +63,7 @@
                 margin-top: 5px;
               }
               &_info.fir {
-                background-color: #ededed;
+                background-color: $grey;
                 border-radius: 15px;
                 padding: 4px 5px;
                 p {
@@ -167,20 +167,6 @@
     }
   }
   &.change {
-    .home__frame {
-      background: $grey;
-      .container {
-        .content {
-          .image {
-            .dots {
-              display: none;
-              &.change {
-                display: block;
-              }
-            }
-          }
-        }
-      }
-    }
+    @import "change/frame";
   }
 }

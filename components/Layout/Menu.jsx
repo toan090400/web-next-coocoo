@@ -16,10 +16,6 @@ const Menu = () => {
   const handlerUser = () => {
     const menu_user = document.querySelector("#user-menu");
     menu_user.classList.toggle("open");
-    // const menu_mobi = document.querySelector("#menu-mobi");
-    // console.log(menu_mobi.className);
-    // menu_mobi.remove("open");
-    // console.log(menu_mobi);
   };
   const handlerChange = () => {
     const change = document.querySelector("#coocoo");
@@ -57,7 +53,7 @@ const Menu = () => {
           </div>
           <div className="menu__are3">
             <div className="menu__user">
-              <button>Create</button>
+              <Link href={`/create`}>Create</Link>
               <Image onClick={handlerUser} src={user_menu} alt="user_menu" />
               <Image onClick={handlerChange} src={vector} alt="vector" />
             </div>

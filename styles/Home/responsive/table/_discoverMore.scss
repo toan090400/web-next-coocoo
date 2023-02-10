@@ -24,6 +24,7 @@
             }
             .all {
               display: block;
+              padding: 10px 25px;
             }
           }
           .filer {
@@ -35,12 +36,6 @@
         margin-top: 50px;
         .box_card {
           --template-columns: 3;
-          .card {
-            display: none;
-            &.res {
-              display: block;
-            }
-          }
         }
       }
     }

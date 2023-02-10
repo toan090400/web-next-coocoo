@@ -51,7 +51,14 @@ const HotDrops = () => {
 
                     <button className="btn">Bid Now</button>
 
-                    <Heart />
+                    <div className="image">
+                      <div className="image-chill">
+                        <Heart />
+                      </div>
+                      <div className="image-chill-change">
+                        <Heart_Change />
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

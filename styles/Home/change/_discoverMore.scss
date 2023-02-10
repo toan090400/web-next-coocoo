@@ -1,0 +1,81 @@
+.discoverMore {
+  background: linear-gradient(180deg, #214966 0%, #6ccb05 100%);
+  .conatainerMore {
+    .are2 {
+      .box {
+        .category {
+          &-text {
+            .all {
+              background-color: $color-white;
+              color: $black;
+            }
+            p {
+              background-color: $background-discover;
+              color: $black;
+            }
+          }
+        }
+        .filer {
+          .filters {
+            display: none;
+          }
+          .button_dis_1 {
+            display: flex;
+          }
+        }
+      }
+    }
+    .are3 {
+      .box_card {
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.32);
+        border: 0.6px solid #ffffff;
+        box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.09);
+        backdrop-filter: blur(25px);
+        border-radius: 29px;
+        .card_discover {
+          .box {
+            .more {
+              display: none;
+              &.change {
+                display: block;
+              }
+            }
+            .number {
+              .image {
+                display: none;
+                &.change {
+                  display: block;
+                }
+              }
+            }
+            .button {
+              margin-top: 10px;
+              .time {
+                color: $color-white;
+                padding: 7px;
+                border-radius: 5.76936px;
+                background-color: $background-time;
+              }
+              .btn {
+                padding: 9px;
+                background: $color-white;
+                color: $blue;
+                border: 0.96156px solid $blue;
+                border-radius: 5.76936px;
+              }
+              .image {
+                &-chill {
+                  display: none;
+                  &-change {
+                    display: block;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

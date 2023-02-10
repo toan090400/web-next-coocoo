@@ -67,11 +67,35 @@
               font-weight: 500;
               font-size: 14px;
             }
+            .button_dis_1 {
+              display: none;
+              background: #244a49;
+              box-shadow: inset 0px 6px 8px 3px rgb(0 0 0 / 10%);
+              border-radius: 50px;
+              float: right;
+              padding: 3px 10px 0px 10px;
+              .chill {
+                display: flex;
+                align-items: center;
+                gap: 25px;
+                .text {
+                  span {
+                    font-weight: 700;
+                    font-size: 13px;
+                    line-height: 17px;
+                    letter-spacing: -0.02em;
+                    color: rgba(255, 255, 255, 0.75);
+                  }
+                }
+              }
+            }
           }
         }
       }
       .are3 {
+        margin-top: 30px;
         .box_card {
+          position: relative;
           --template-column-gutters: 20px;
           --template-columns: 4;
           --template-column-compact-multiplier: 1;
@@ -88,7 +112,7 @@
             ),
             minmax(0, 1fr)
           );
-          .card {
+          .card_discover {
             min-width: 280px;
             background-color: $color-white;
             border-radius: 12px;
@@ -97,6 +121,9 @@
               .more {
                 width: 100%;
                 height: auto;
+                &.change {
+                  display: none;
+                }
               }
               .text1 {
                 font-family: "Lato", sans-serif;
@@ -119,6 +146,11 @@
                 align-items: center;
                 gap: 10px;
                 margin-top: 10px;
+                .image {
+                  &.change {
+                    display: none;
+                  }
+                }
                 .text {
                   .bnb {
                     font-family: "Lato", sans-serif;
@@ -132,6 +164,7 @@
               .button {
                 margin-top: 20px;
                 display: flex;
+                align-items: center;
                 justify-content: space-between;
                 .time {
                   padding: 5px 5px;
@@ -149,10 +182,38 @@
                   background: $background;
                   color: $color-white;
                 }
+                .image {
+                  &-chill {
+                    &-change {
+                      display: none;
+                    }
+                  }
+                }
               }
             }
-            &.res {
-              display: none;
+          }
+          .button_dis_2 {
+            position: absolute;
+            right: 0;
+            top: -25px;
+            background: #244a49;
+            box-shadow: inset 0px 6px 8px 3px rgb(0 0 0 / 10%);
+            border-radius: 50px;
+            float: right;
+            padding: 3px 10px 0px 10px;
+            .chill {
+              display: flex;
+              align-items: center;
+              gap: 5px;
+              .text {
+                span {
+                  font-weight: 700;
+                  font-size: 13px;
+                  line-height: 17px;
+                  letter-spacing: -0.02em;
+                  color: rgba(255, 255, 255, 0.75);
+                }
+              }
             }
           }
         }
@@ -173,8 +234,6 @@
     }
   }
   &.change {
-    .discoverMore {
-      background: linear-gradient(180deg, #214966 0%, #6ccb05 100%);
-    }
+    @import "change/discoverMore";
   }
 }

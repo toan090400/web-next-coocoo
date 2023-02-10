@@ -1,0 +1,65 @@
+.hotDrops {
+  &__title {
+    .text {
+      align-items: center;
+      .hot {
+        font-weight: 700;
+        font-size: 165.659px;
+        line-height: 246px;
+      }
+      .drop-box {
+        .drops {
+          font-weight: 700;
+          font-size: 92.5741px;
+          line-height: 137px;
+        }
+      }
+    }
+  }
+  &__item {
+    .hotDrops__card {
+      .card_item {
+        .box {
+          .card__box-image {
+            display: none;
+            &.change {
+              display: block;
+            }
+          }
+          .number {
+            .image {
+              display: none;
+              &.change {
+                display: block;
+              }
+            }
+          }
+          .button {
+            margin-top: 10px;
+            .time {
+              color: $color-white;
+              padding: 7px;
+              border-radius: 5.76936px;
+              background-color: $background-time;
+            }
+            .btn {
+              padding: 9px;
+              background: $color-white;
+              color: $blue;
+              border: 0.96156px solid $blue;
+              border-radius: 5.76936px;
+            }
+            .image {
+              &-chill {
+                display: none;
+                &-change {
+                  display: block;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

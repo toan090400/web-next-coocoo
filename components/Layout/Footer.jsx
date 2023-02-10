@@ -11,6 +11,7 @@ const Footer = () => {
         <div className="footer__are1">
           <div className="footer__logo">
             <Image src={logoFooter} alt="" />
+            <span className="coco">Coco</span>
           </div>
           <div className="footer__text">
             <p>

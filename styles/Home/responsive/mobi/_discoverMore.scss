@@ -4,12 +4,10 @@
       .are3 {
         .box_card {
           --template-columns: 1;
-          .card {
-            &.res {
-              display: none;
-              &.show {
-                display: block;
-              }
+          .card_discover {
+            display: none;
+            &:last-child {
+              display: block;
             }
           }
         }
