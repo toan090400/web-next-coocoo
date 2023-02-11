@@ -1,12 +1,15 @@
-.properties {
-  .backgroud {
-    justify-content: space-around;
-    .item {
-      &:nth-child(3) {
-        display: none;
-      }
-      .item_1 {
-        margin: 10px 10px 0 10px;
+.coocoo {
+  .properties {
+    padding: 30px 15px;
+    .backgroud {
+      justify-content: space-around;
+      .item {
+        &:nth-child(3) {
+          display: none;
+        }
+        .item_1 {
+          margin: 10px 10px 0 10px;
+        }
       }
     }
   }

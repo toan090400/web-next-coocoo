@@ -1,43 +1,20 @@
-.over {
-  .over_chill {
-    .box1 {
-      .bid {
-        &_chill {
-          .data {
-            .item {
-              .time {
-                font-size: 14px;
-              }
-              .number {
-                font-size: 14px;
-              }
-              .name {
-                font-size: 14px;
-              }
-              img {
-                right: -10px;
-              }
-            }
-          }
-        }
-      }
-    }
-    .box2 {
-      .are1 {
-        .history {
+.coocoo {
+  .over {
+    padding: 30px 15px;
+    .over_chill {
+      .box1 {
+        .bid {
           &_chill {
             .data {
               .item {
-                p {
-                  &.list {
-                    font-size: 14px;
-                  }
-                  &.user {
-                    display: none;
-                  }
-                  &.time {
-                    font-size: 14px;
-                  }
+                .time {
+                  font-size: 14px;
+                }
+                .number {
+                  font-size: 14px;
+                }
+                .name {
+                  font-size: 14px;
                 }
                 img {
                   right: -10px;
@@ -47,28 +24,40 @@
           }
         }
       }
-      .are2 {
-        .more {
-          &_chill {
-            .header {
-              .text_1 {
-                font-size: 18px;
-              }
-              .text_2 {
-                font-size: 18px;
-              }
-            }
-            .box {
-              &_chill {
+      .box2 {
+        .are1 {
+          .history {
+            &_chill {
+              .data {
                 .item {
-                  &.lef {
-                    .image_r {
-                      display: block;
+                  p {
+                    &.list {
+                      font-size: 14px;
+                    }
+                    &.user {
+                      display: none;
+                    }
+                    &.time {
+                      font-size: 14px;
                     }
                   }
-                  &.rig {
-                    display: none;
+                  img {
+                    right: -10px;
                   }
+                }
+              }
+            }
+          }
+        }
+        .are2 {
+          .more {
+            &_chill {
+              .header {
+                .text_1 {
+                  font-size: 18px;
+                }
+                .text_2 {
+                  font-size: 18px;
                 }
               }
             }

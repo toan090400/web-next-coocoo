@@ -1,52 +1,62 @@
-.properties {
-  width: 90%;
-  margin: auto;
-  .text {
-    font-family: "Lato", sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 29px;
+.coocoo {
+  .properties {
+    padding: 30px 80px;
+    .text {
+      font-family: "Lato", sans-serif;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 29px;
+    }
+    .backgroud {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      .item {
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+        border-radius: 8px;
+        border: double 2px transparent;
+        background-image: linear-gradient(white, white), $background;
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        .item_1 {
+          font-family: "Lato", sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 19px;
+          text-align: center;
+          color: $color-black;
+          margin: 10px 20px 0 20px;
+        }
+        .item_2 {
+          font-family: "Lato", sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+          color: $color-dark-dreen;
+          text-align: center;
+        }
+        .item_3 {
+          font-family: "Lato", sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+          color: $color-grey;
+          text-align: center;
+          margin-bottom: 10px;
+        }
+      }
+    }
   }
-  .backgroud {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    .item {
-      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
-      border-radius: 8px;
-      border: double 2px transparent;
-      background-image: linear-gradient(white, white), $background;
-      background-origin: border-box;
-      background-clip: content-box, border-box;
-      .item_1 {
-        font-family: "Lato", sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 19px;
-        text-align: center;
-        color: $color-black;
-        margin: 10px 20px 0 20px;
-      }
-      .item_2 {
-        font-family: "Lato", sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 17px;
-        color: $color-dark-dreen;
-        text-align: center;
-      }
-      .item_3 {
-        font-family: "Lato", sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 17px;
-        color: $color-grey;
-        text-align: center;
-        margin-bottom: 10px;
+  &.change {
+    .properties {
+      .backgroud {
+        .item {
+          background: $background-properties;
+        }
       }
     }
   }

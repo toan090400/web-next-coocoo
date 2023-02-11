@@ -1,55 +1,48 @@
-.over {
-  height: auto;
-  .over_chill {
-    display: block;
-    .box1 {
-      .history {
-        height: auto;
-        &_chill {
-          .month {
-            margin-bottom: 10px;
-          }
-        }
-      }
-    }
-    .box2 {
-      margin-top: 40px;
-      .are1 {
-        display: block;
+.coocoo {
+  .over {
+    padding: 30px 60px;
+    .over_chill {
+      display: block;
+      .box1 {
         .history {
-          height: 300px;
+          height: auto;
           &_chill {
-            .header {
-              p {
-                padding-top: 30px;
-              }
-            }
-          }
-        }
-        .follow {
-          &_chill {
-            .header {
-              p {
-                padding-top: 30px;
-              }
+            .month {
+              margin-bottom: 10px;
             }
           }
         }
       }
-      .are2 {
-        .more {
-          &_chill {
-            .box {
-              &_chill {
-                justify-content: space-evenly;
-                .item {
-                  // display: none;
-                  &.lef {
-                    display: block;
-                  }
-                  &.rig {
-                    display: block;
-                  }
+      .box2 {
+        margin-top: 40px;
+        .are1 {
+          display: block;
+          .history {
+            height: 300px;
+            &_chill {
+              .header {
+                p {
+                  padding-top: 30px;
+                }
+              }
+            }
+          }
+          .follow {
+            &_chill {
+              .header {
+                p {
+                  padding-top: 30px;
+                }
+              }
+            }
+          }
+        }
+        .are2 {
+          .more {
+            &_chill {
+              .box {
+                &_chill {
+                  justify-content: space-evenly;
                 }
               }
             }

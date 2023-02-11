@@ -1,20 +1,23 @@
-.frame {
-  .container {
-    .content {
-      .user {
-        width: 100%;
-        .are1 {
+.coocoo {
+  .frame {
+    .container {
+      .content {
+        .user {
           width: 100%;
-          gap: 5px;
-        }
-        .are4 {
-          button {
-            padding: 15px 0px;
+          .are1 {
+            width: 100%;
+            gap: 5px;
           }
-        }
-        .are5 {
-          p {
-            text-align: left;
+          .are4 {
+            button {
+              padding: 15px 0px;
+            }
+          }
+          .are5 {
+            p {
+              text-align: left;
+              padding: 0 10px;
+            }
           }
         }
       }

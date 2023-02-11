@@ -14,11 +14,13 @@
   @import "responsive/table/over";
 }
 @media (max-width: 900px) {
-  .properties {
-    .backgroud {
-      .item {
-        &:nth-child(4) {
-          display: none;
+  .coocoo {
+    .properties {
+      .backgroud {
+        .item {
+          &:nth-child(4) {
+            display: none;
+          }
         }
       }
     }

@@ -1,21 +1,21 @@
-.properties {
-  width: 90%;
-  margin-top: 20px;
-  .backgroud {
-    gap: 20px;
-    .item {
-      display: none;
-      &:nth-child(1) {
-        display: block;
-      }
-      &:nth-child(2) {
-        display: block;
-      }
-      &:nth-child(3) {
-        display: block;
-      }
-      &:nth-child(4) {
-        display: block;
+.coocoo {
+  .properties {
+    .backgroud {
+      gap: 20px;
+      .item {
+        display: none;
+        &:nth-child(1) {
+          display: block;
+        }
+        &:nth-child(2) {
+          display: block;
+        }
+        &:nth-child(3) {
+          display: block;
+        }
+        &:nth-child(4) {
+          display: block;
+        }
       }
     }
   }

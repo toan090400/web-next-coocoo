@@ -1,0 +1,69 @@
+.over {
+  background: $grey;
+  .over_chill {
+    .box2 {
+      .are1 {
+        .history {
+          background: $color-white;
+        }
+        .follow {
+          background: $color-white;
+        }
+      }
+      .are2 {
+        .more {
+          background: $color-white;
+          &_chill {
+            .box {
+              &_chill {
+                .item {
+                  &-image {
+                    display: none;
+                    &.change {
+                      display: block;
+                    }
+                  }
+                  &-data {
+                    .number {
+                      .image {
+                        display: none;
+                        &.change {
+                          display: block;
+                        }
+                      }
+                    }
+                  }
+                  &-bid {
+                    .image {
+                      display: none;
+                      &.change {
+                        display: block;
+                      }
+                    }
+                    .bid-chill {
+                      .time {
+                        border-radius: 5px;
+                        background: $black;
+                        p {
+                          color: $color-white;
+                        }
+                      }
+                      .btn {
+                        button {
+                          color: $black;
+                          background: $color-white;
+                          border: 1px solid $black;
+                          border-radius: 5px;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
