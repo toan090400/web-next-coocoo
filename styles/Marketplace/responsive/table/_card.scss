@@ -1,40 +1,42 @@
-.card {
-  &-chill {
-    width: 90%;
-    .card-box {
-      --template-columns: 3;
-      text-align: center;
-      .item {
-        display: none;
-        &:first-child {
-          display: block;
-        }
-        &:nth-child(2) {
-          display: block;
-        }
-        &:nth-child(3) {
-          display: block;
-        }
-        &:nth-child(4) {
-          display: block;
-        }
-        &:nth-child(5) {
-          display: block;
-        }
-        &:nth-child(6) {
-          display: block;
-        }
-        &-chill {
-          margin: auto;
-          .data {
-            .text {
-              text-align: left;
-            }
+.coocoo {
+  .card {
+    &-chill {
+      width: 90%;
+      .card-box {
+        --template-columns: 3;
+        text-align: center;
+        .item {
+          display: none;
+          &:first-child {
+            display: block;
           }
-          .image {
-            img {
-              width: 100%;
-              height: auto;
+          &:nth-child(2) {
+            display: block;
+          }
+          &:nth-child(3) {
+            display: block;
+          }
+          &:nth-child(4) {
+            display: block;
+          }
+          &:nth-child(5) {
+            display: block;
+          }
+          &:nth-child(6) {
+            display: block;
+          }
+          &-chill {
+            margin: auto;
+            .data {
+              .text {
+                text-align: left;
+              }
+            }
+            .image {
+              img {
+                width: 100%;
+                height: auto;
+              }
             }
           }
         }

@@ -4,34 +4,38 @@ const cardArray = [
   },
   {
     id: 2,
+    check: true,
   },
   {
     id: 3,
   },
   {
     id: 4,
+    check: true,
   },
   {
     id: 5,
   },
   {
     id: 6,
+    check: true,
   },
   {
     id: 7,
   },
   {
     id: 8,
+    check: true,
   },
   {
     id: 9,
   },
   {
     id: 10,
+    check: true,
   },
   {
     id: 11,
-    check: true,
   },
   {
     id: 12,
@@ -39,7 +43,6 @@ const cardArray = [
   },
   {
     id: 13,
-    check: true,
   },
   {
     id: 14,

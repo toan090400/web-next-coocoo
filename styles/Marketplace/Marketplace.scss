@@ -5,12 +5,14 @@
   @import "responsive/table/filter";
   @import "responsive/table/card";
 }
-@media (max-width: 750px) {
-  .card {
-    &-chill {
-      width: 100%;
-      .card-box {
-        --template-columns: 2;
+@media (max-width: 770px) {
+  .coocoo {
+    .card {
+      &-chill {
+        width: 100%;
+        .card-box {
+          --template-columns: 2;
+        }
       }
     }
   }

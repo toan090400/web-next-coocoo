@@ -1,34 +1,36 @@
-.card {
-  &-chill {
-    width: 100%;
-    .card-box {
-      --template-columns: 1;
-      .item {
-        &:nth-child(2) {
-          display: none;
-        }
-        &:nth-child(3) {
-          display: none;
-        }
-        &:nth-child(4) {
-          display: none;
-        }
-        &:nth-child(5) {
-          display: none;
-        }
-        &:nth-child(6) {
-          display: none;
-        }
-        width: 100%;
-        padding: 0 20px;
-        &-chill {
-          .bid {
-            justify-content: normal;
-            gap: 20px;
-            position: relative;
-            .image {
-              position: absolute;
-              right: 10px;
+.coocoo {
+  .card {
+    &-chill {
+      width: 100%;
+      .card-box {
+        --template-columns: 1;
+        .item {
+          &:nth-child(2) {
+            display: none;
+          }
+          &:nth-child(3) {
+            display: none;
+          }
+          &:nth-child(4) {
+            display: none;
+          }
+          &:nth-child(5) {
+            display: none;
+          }
+          &:nth-child(6) {
+            display: none;
+          }
+          width: 100%;
+          padding: 0 20px;
+          &-chill {
+            .bid {
+              justify-content: normal;
+              gap: 20px;
+              position: relative;
+              .image {
+                position: absolute;
+                right: 10px;
+              }
             }
           }
         }

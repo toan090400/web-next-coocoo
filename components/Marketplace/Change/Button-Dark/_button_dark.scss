@@ -1,0 +1,54 @@
+.Button_Dark_Fillter__switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  input:checked + .Button_Dark_Fillter__slider {
+    background-color: #2196f3;
+  }
+
+  input:focus + .Button_Dark_Fillter__slider {
+    box-shadow: 0 0 1px #2196f3;
+  }
+
+  input:checked + .Button_Dark_Fillter__slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  .Button_Dark_Fillter__slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $background-button;
+    box-shadow: inset 0px 6px 8px 3px rgba(0, 0, 0, 0.1);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    &.Button_Dark_Fillter__round {
+      border-radius: 34px;
+      &:before {
+        border-radius: 50%;
+      }
+    }
+  }
+  .Button_Dark_Fillter__slider:before {
+    position: absolute;
+    content: "";
+    height: 28px;
+    width: 28px;
+    right: 1px;
+    // left: 1px;
+    bottom: 3px;
+    background-color: $color-white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+}

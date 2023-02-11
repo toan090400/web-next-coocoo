@@ -1,0 +1,75 @@
+.filter {
+  &-chill {
+    .are1 {
+      .box {
+        .box1 {
+          .item {
+            .btn {
+              background: $background-fillter;
+              box-shadow: inset 0px 6px 8px 3px rgba(0, 0, 0, 0.1);
+              border-radius: 41.5252px;
+            }
+          }
+        }
+        .box2 {
+          .item {
+            .btn {
+              background: $background-fillter;
+              box-shadow: inset 0px 6px 8px 3px rgba(0, 0, 0, 0.1);
+              border-radius: 41.5252px;
+            }
+          }
+        }
+      }
+      .length {
+        .select {
+          .length-item {
+            .length-btn {
+              background: $background-fillter;
+              box-shadow: inset 0px 6px 8px 3px rgba(0, 0, 0, 0.1);
+              border-radius: 8.30505px;
+            }
+          }
+        }
+      }
+    }
+    .are2 {
+      .box1 {
+        flex-direction: column;
+        .image {
+          display: none;
+          &.change {
+            display: flex;
+            gap: 10px;
+          }
+        }
+      }
+      .box2 {
+        flex-direction: column;
+        .image {
+          display: none;
+          &.change {
+            display: flex;
+            gap: 10px;
+          }
+        }
+      }
+    }
+    .are3 {
+      .are3-chill {
+        .btn {
+          border: none;
+          background: $background-button;
+          .fillter {
+            p {
+              display: none;
+              &:last-child {
+                display: block;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

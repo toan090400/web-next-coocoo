@@ -7,7 +7,15 @@ import Icon_Dark from "../Image/Icon-Number-Dark/Icon-Number-Dark";
 import search from "../../public/merketplace/filter/search.png";
 import check from "../../public/merketplace/filter/check.png";
 import filter from "../../public/merketplace/filter/filter.png";
+// change
+import Button_Dark_Change from "./Change/Button-Dark/Button-Dark";
+import Button_Lingth_Change from "./Change/Button-Lingth/Button-Lingth";
+
 const Filter = () => {
+  const handlerFillter = () => {
+    const fillter = document.querySelector("#fillter");
+    fillter.classList.toggle("open");
+  };
   return (
     <div className="filter">
       <div className="search">
@@ -95,27 +103,52 @@ const Filter = () => {
             <div className="image">
               <Button_Lingth />
             </div>
+            <div className="image change">
+              <Button_Dark_Change />
+              <Button_Lingth_Change />
+            </div>
           </div>
           <div className="box2">
-            <div className="text">
-              <p>Verified only</p>
-            </div>
-
-            <div className="image-check">
-              <Image src={check} alt="check" />
+            <div className="box2-text">
+              <div className="text">
+                <p>Verified only</p>
+              </div>
+              <div className="image-check">
+                <Image src={check} alt="check" />
+              </div>
             </div>
             <div className="image">
               <Button_Dark />
+            </div>
+            <div className="image change">
+              <Button_Dark_Change />
+              <Button_Lingth_Change />
             </div>
           </div>
         </div>
         <div className="are3">
           <div className="are3-chill">
-            <div className="btn">
-              <div className="image">
-                <Image src={filter} alt="filter" />
+            <div className="btn" id="fillter">
+              <div className="fillter">
+                <div className="image">
+                  <Image onClick={handlerFillter} src={filter} alt="filter" />
+                </div>
+                <p>Filters</p>
+                <p>Sort by</p>
               </div>
-              <p>Filters</p>
+              <div className="dev">
+                <div className="dev-chill"></div>
+              </div>
+              <div className="list">
+                <div className="list-chill">
+                  <p>Top</p>
+                  <p>Trending</p>
+                  <p>Recently added</p>
+                  <p>Price: Low to High</p>
+                  <p>Price: High to Low</p>
+                  <p>Ending soon</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
