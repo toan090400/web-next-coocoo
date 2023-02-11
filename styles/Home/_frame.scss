@@ -5,29 +5,42 @@
       width: 80%;
       margin: auto;
       .text {
-        h1 {
-          text-align: center;
-          font-family: "Oswald", sans-serif;
-          font-style: normal;
-          font-weight: 700;
-          font-size: 105px;
-          background: $background;
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-          background-clip: text;
-          img {
-            width: 65px;
-            height: auto;
-            margin-bottom: 15px;
+        &-chill {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          .text-chill__are1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            p {
+              font-family: "Oswald", sans-serif;
+              font-style: normal;
+              font-weight: 700;
+              font-size: 122px;
+              line-height: 181px;
+              background: $background;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              background-clip: text;
+            }
+            img {
+              object-fit: cover;
+            }
           }
-        }
-        p {
-          font-family: "Lato", sans-serif;
-          font-weight: 400;
-          font-size: 25px;
-          line-height: 29px;
-          text-align: center;
-          letter-spacing: 0.085em;
+          .text-chill__are2 {
+            p {
+              font-family: "Lato", sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 24px;
+              line-height: 29px;
+              text-align: center;
+              letter-spacing: 0.085em;
+              color: $black;
+            }
+          }
         }
       }
       .content {

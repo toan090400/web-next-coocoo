@@ -1,9 +1,25 @@
 .coocoo {
   .home__frame {
     .container {
-      .text {
-        h1 {
-          font-size: 40px;
+      .text-chill {
+        .text-chill__are1 {
+          p {
+            font-size: 44px;
+          }
+          .image {
+            width: 30px;
+            height: 30px;
+            img {
+              width: 100%;
+              height: auto;
+            }
+          }
+        }
+        .text-chill__are2 {
+          p {
+            font-size: 16px;
+            line-height: 1;
+          }
         }
       }
       .content {

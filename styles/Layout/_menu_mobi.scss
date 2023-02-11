@@ -64,8 +64,8 @@
           }
         }
         .button {
-          button {
-            border: none;
+          a {
+            text-decoration: none;
             border-radius: 15px;
             background: $background;
             color: $color-white;

@@ -26,6 +26,21 @@
       }
     }
   }
+  .coocoo {
+    .home__frame {
+      .container {
+        .text-chill {
+          gap: 10px;
+          .text-chill__are1 {
+            p {
+              font-size: 85px;
+              line-height: 1;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 @media (min-width: 320px) and (max-width: 625px) {
   @import "responsive/mobi/frame";

@@ -10,12 +10,18 @@ const Frame = () => {
     <div className="home__frame">
       <div className="container">
         <div className="text">
-          <h1>
-            CREATE
-            <Image src={plus} alt="" />
-            COLLECT
-          </h1>
-          <p>A BINANCE SMART CHAIN NFT MARKETPLACE</p>
+          <div className="text-chill">
+            <div className="text-chill__are1">
+              <p>CREATE</p>
+              <div className="image">
+                <Image src={plus} alt="plus" />
+              </div>
+              <p>COLLECT</p>
+            </div>
+            <div className="text-chill__are2">
+              <p>A BINANCE SMART CHAIN NFT MARKETPLACE</p>
+            </div>
+          </div>
         </div>
         <div className="content">
           <div className="image">

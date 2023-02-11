@@ -52,7 +52,7 @@ const Menu_Mobi = () => {
           </div>
           <div className="menu-mobi__create">
             <div className="button">
-              <button>Create</button>
+              <Link href={`/create`}>Create</Link>
             </div>
             <div className="icon">
               <Image onClick={handlerChange} src={vector} alt="" />
