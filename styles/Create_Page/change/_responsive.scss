@@ -1,0 +1,33 @@
+.create {
+  .are2 {
+    .box {
+      .are3 {
+        .box {
+          background: $background-change-2;
+          box-shadow: inset 4.45802px 4.45802px 4.78px rgba(0, 0, 0, 0.34);
+          border-radius: 16.3461px;
+          padding-top: 450px;
+          .item {
+            .header {
+              p {
+                font-weight: 600;
+                font-size: 19.1px;
+                line-height: 23px;
+                text-align: center;
+              }
+            }
+            .image {
+              display: none;
+            }
+            .text {
+              display: none;
+            }
+            .number {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

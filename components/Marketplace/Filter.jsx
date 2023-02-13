@@ -8,8 +8,8 @@ import search from "../../public/merketplace/filter/search.png";
 import check from "../../public/merketplace/filter/check.png";
 import filter from "../../public/merketplace/filter/filter.png";
 // change
-import Button_Dark_Change from "./Change/Button-Dark/Button-Dark";
-import Button_Lingth_Change from "./Change/Button-Lingth/Button-Lingth";
+import Button_Dark_Change from "../Image/Change/Button-Dark/Button-Dark";
+import Button_Lingth_Change from "../Image/Change/Button-Lingth/Button-Lingth";
 
 const Filter = () => {
   const handlerFillter = () => {

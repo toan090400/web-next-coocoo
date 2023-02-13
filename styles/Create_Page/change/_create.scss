@@ -1,0 +1,253 @@
+.create {
+  gap: 50px;
+  .are1 {
+    .box {
+      gap: 50px;
+      &-1 {
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: $background-change;
+        box-shadow: inset 4.45802px 4.45802px 4.78px rgba(0, 0, 0, 0.34);
+        border-radius: 16.3461px;
+        .image {
+          img {
+            display: none;
+          }
+          .icon-change {
+            display: block;
+          }
+        }
+        .text {
+          &-1 {
+            p {
+              font-weight: 900;
+              font-size: 19.1px;
+              line-height: 23px;
+            }
+          }
+          &-2 {
+            p {
+              font-weight: 400;
+              font-size: 16.1px;
+              line-height: 19px;
+            }
+          }
+        }
+      }
+      &-2 {
+        background: $background-change-2;
+        box-shadow: inset 4.45802px 4.45802px 4.78px rgba(0, 0, 0, 0.34);
+        border-radius: 16.3461px;
+        padding-top: 450px;
+        .item {
+          .header {
+            p {
+              font-weight: 600;
+              font-size: 19.1px;
+              line-height: 23px;
+            }
+          }
+          .image {
+            display: none;
+          }
+          .text {
+            display: none;
+          }
+          .number {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .are2 {
+    .box {
+      .mutil {
+        .image-text {
+          .image-button {
+            display: none;
+          }
+          &-change {
+            display: block;
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+          }
+        }
+      }
+      .number {
+        .input-number {
+          background: $background-button;
+          input {
+            background: $background-button;
+          }
+        }
+      }
+      .title {
+        .input-title {
+          background: $background-button;
+          input {
+            background: $background-button;
+          }
+        }
+      }
+      .description {
+        .input-description {
+          background: $background-button;
+          textarea {
+            background: $background-button;
+          }
+        }
+      }
+      .category {
+        .input-category {
+          background: $background-button;
+          &-chill {
+            input {
+              background: $background-button;
+            }
+          }
+        }
+      }
+      .colection {
+        .colection-box {
+          .but-colection {
+            button {
+              background: $color-green;
+            }
+          }
+          .text-colection {
+            span {
+              display: none;
+              &:last-child {
+                display: block;
+                font-weight: 500;
+                font-size: 16.1px;
+                line-height: 19px;
+              }
+            }
+          }
+          .input-colection {
+            background: $background-button;
+            &-select {
+              input {
+                background: $background-button;
+              }
+            }
+          }
+        }
+      }
+      .unlock {
+        .text-unlock {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .unlock__are2 {
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+          }
+        }
+        .input-unlock {
+          background: $background-button;
+          input {
+            background: $background-button;
+          }
+        }
+      }
+      .sale {
+        .box-sale {
+          .input-sale {
+            background: $background-button;
+            &-select {
+              input {
+                background: $background-button;
+              }
+            }
+          }
+        }
+      }
+      .list {
+        .box-list {
+          .input-list {
+            background: $background-button;
+            &-select {
+              input {
+                background: $background-button;
+              }
+            }
+            &-image {
+              display: none;
+            }
+            &-image-change {
+              display: block;
+            }
+          }
+        }
+      }
+      .royalty {
+        .input-royalty {
+          background: $background-button;
+          input {
+            background: $background-button;
+          }
+        }
+      }
+      .offer {
+        .image-text {
+          display: none;
+        }
+        .image-text-change {
+          display: flex;
+          flex-direction: row;
+          gap: 15px;
+        }
+      }
+      .list-now {
+        .image-text {
+          display: none;
+        }
+        .image-text-change {
+          display: flex;
+          flex-direction: row;
+          gap: 15px;
+        }
+      }
+      .schedule {
+        align-items: normal;
+        .text {
+          flex: 1;
+          &-1 {
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 24px;
+          }
+        }
+        .image-text {
+          padding: 100px 0;
+          justify-content: center;
+          flex: 1;
+          background: $background-button;
+          border-radius: 16.3461px;
+          &-input {
+            display: none;
+          }
+          &-image {
+            display: none;
+          }
+          &-change {
+            display: block;
+          }
+        }
+      }
+      .button {
+        display: none;
+      }
+    }
+  }
+}
+.create__button {
+  display: block;
+}

@@ -5,6 +5,9 @@ import Button_Dark from "../Image/Button-Dark/Button-Dark";
 import dow from "../../public/create/new/dow.png";
 import Item from "../Image/Icon-Number-Dark/Icon-Number-Dark";
 import schedule from "../../public/create/new/schedule.png";
+// change
+import Button_Dark_Change from "../Image/Change/Button-Dark/Button-Dark";
+import Button_Lingth_Change from "../Image/Change/Button-Lingth/Button-Lingth";
 const Are2 = () => {
   return (
     <div className="are2">
@@ -17,7 +20,13 @@ const Are2 = () => {
             </span>
           </div>
           <div className="image-text">
-            <Button_Dark />
+            <div className="image-button">
+              <Button_Dark />
+            </div>
+            <div className="image-text-change">
+              <Button_Dark_Change />
+              <Button_Lingth_Change />
+            </div>
           </div>
         </div>
         <div className="number">
@@ -73,6 +82,7 @@ const Are2 = () => {
             </div>
             <div className="text-colection">
               <span>or</span>
+              <span>-or-</span>
             </div>
             <div className="input-colection">
               <div className="input-colection-select">
@@ -86,10 +96,16 @@ const Are2 = () => {
         </div>
         <div className="unlock">
           <div className="text-unlock">
-            <span>Unlock Upon Purchase</span>
-            <span className="chill">
-              Content will be unlocked after successful transaction
-            </span>
+            <div className="unlock__are1">
+              <span>Unlock Upon Purchase</span>
+              <span className="chill">
+                Content will be unlocked after successful transaction
+              </span>
+            </div>
+            <div className="unlock__are2">
+              <Button_Dark_Change />
+              <Button_Lingth_Change />
+            </div>
           </div>
           <div className="input-unlock">
             <input
@@ -128,6 +144,20 @@ const Are2 = () => {
               <div className="input-list-image">
                 <Item />
               </div>
+              <div className="input-list-image-change">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  viewBox="0 0 26 26"
+                  fill="none"
+                >
+                  <path
+                    d="M5.87383 13L2.94061 15.9324L0 13L2.93322 10.0676L5.87383 13ZM13.0037 5.87216L18.0352 10.9023L20.9685 7.96989L13.0037 0L5.03154 7.96989L7.96476 10.9023L13.0037 5.87216ZM23.0668 10.0676L20.1336 13L23.0668 15.9324L26 13L23.0668 10.0676ZM13.0037 20.1278L7.97215 15.0977L5.03893 18.0301L13.0037 26L20.9685 18.0301L18.0352 15.0977L13.0037 20.1278ZM13.0037 15.9324L15.9369 13L13.0037 10.0676L10.0631 13L13.0037 15.9324Z"
+                    fill="black"
+                  />
+                </svg>
+              </div>
             </div>
             <div className="text-list"></div>
           </div>
@@ -150,6 +180,10 @@ const Are2 = () => {
           <div className="image-text">
             <Button_Dark />
           </div>
+          <div className="image-text-change">
+            <Button_Dark_Change />
+            <Button_Lingth_Change />
+          </div>
         </div>
         <div className="list-now">
           <div className="text">
@@ -157,6 +191,10 @@ const Are2 = () => {
           </div>
           <div className="image-text">
             <Button_Dark />
+          </div>
+          <div className="image-text-change">
+            <Button_Dark_Change />
+            <Button_Lingth_Change />
           </div>
         </div>
         <div className="schedule">
@@ -169,6 +207,9 @@ const Are2 = () => {
             </div>
             <div className="image-text-image">
               <Image src={schedule} alt="schedule" />
+            </div>
+            <div className="image-text-change">
+              <span>Calendar</span>
             </div>
           </div>
         </div>

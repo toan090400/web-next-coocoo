@@ -1,132 +1,15 @@
 @import "create";
 
 @media (max-width: 1200px) {
-  .create {
-    padding: 0 3rem;
+  .coocoo {
+    .create {
+      padding: 0 3rem;
+    }
   }
 }
 @media (max-width: 850px) {
-  .create {
-    display: block;
-    padding: 0 1rem;
-    .are1 {
-      .box {
-        &-1 {
-          .text-1 {
-            p {
-              padding: 0 15px;
-            }
-          }
-        }
-        &-2 {
-          display: none;
-        }
-      }
-    }
-    .are2 {
-      margin-top: 30px;
-      .box {
-        .are3 {
-          display: block;
-          .box {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 20px;
-            background: #f8f9f9;
-            .item {
-              width: 100%;
-              padding: 1rem 2rem;
-              display: flex;
-              flex-direction: column;
-              gap: 10px;
-              .header {
-                p {
-                  font-weight: 700;
-                  font-size: 24px;
-                  line-height: 24px;
-                  color: $color-black;
-                }
-              }
-              .image {
-                img {
-                  object-fit: cover;
-                  width: 100%;
-                  height: auto;
-                }
-              }
-              .text {
-                p {
-                  font-weight: 700;
-                  font-size: 18px;
-                  line-height: 15px;
-                  color: $color-black;
-                  &.bottom {
-                    margin-top: 10px;
-                    font-weight: 400;
-                    font-size: 12px;
-                    line-height: 15px;
-                  }
-                }
-              }
-              .number {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                gap: 10px;
-                .image {
-                  img {
-                    object-fit: cover;
-                  }
-                }
-                .text {
-                  p {
-                    font-weight: 800;
-                    font-size: 16px;
-                    line-height: 15px;
-                    color: $color-black;
-                  }
-                }
-              }
-            }
-          }
-        }
-        .schedule {
-          display: block;
-          .image-text {
-            justify-content: space-between;
-            margin-top: 10px;
-          }
-        }
-        .list {
-          .box-list {
-            .text-list {
-              display: none;
-            }
-          }
-        }
-        .button {
-          button {
-            width: 100%;
-          }
-        }
-      }
-    }
-  }
+  @import "responsive/table/create";
 }
-@media (min-width: 320px) and (max-width: 600px) {
-  .create {
-    .are2 {
-      .box {
-        .colection {
-          .colection-box {
-            display: block;
-            .text-colection {
-              margin: 15px 0;
-            }
-          }
-        }
-      }
-    }
-  }
+@media (min-width: 320px) and (max-width: 615px) {
+  @import "responsive/mobi/create";
 }

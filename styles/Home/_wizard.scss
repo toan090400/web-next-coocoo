@@ -5,7 +5,7 @@
     align-items: center;
     height: 450px;
     .text {
-      width: 50%;
+      flex: 1;
       .head {
         p {
           font-weight: 700;
@@ -34,12 +34,12 @@
       }
     }
     .image {
-      width: 50%;
+      flex: 1;
       .image_are {
         img {
           width: 100%;
           height: auto;
-          margin-top: -190px;
+          object-fit: cover;
         }
       }
     }

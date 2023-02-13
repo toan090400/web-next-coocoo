@@ -3,6 +3,8 @@ import Image from "next/image";
 import icon from "../../public/create/box/icon.png";
 import Card from "../../public/Card/item.png";
 import Item from "../Image/Icon-Number-Lingth/Icon-Number-Lingth";
+// change
+import icon_change from "../../public/create/box/icon-change.png";
 const Are1 = () => {
   return (
     <div className="are1">
@@ -10,12 +12,17 @@ const Are1 = () => {
         <div className="box-1">
           <div className="image">
             <Image src={icon} alt="icon" />
+            <Image
+              className="icon-change"
+              src={icon_change}
+              alt="icon_change"
+            />
           </div>
           <div className="text">
             <div className="text-1">
               <p>
                 Drag and drop <span className="span-1">or</span> browse
-                <span className="span-1">files</span>
+                <span className="span-1"> files</span>
               </p>
             </div>
             <div className="text-2">
