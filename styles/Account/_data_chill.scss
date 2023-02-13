@@ -21,6 +21,9 @@
               font-size: 20px;
               line-height: 100%;
               color: $color-black;
+              &:last-child {
+                display: none;
+              }
             }
           }
           .data {
@@ -38,6 +41,7 @@
             .item {
               display: flex;
               padding: 0 15px;
+              align-items: center;
               p {
                 font-family: "Lato", sans-serif;
                 font-style: normal;
@@ -52,6 +56,18 @@
                 }
                 &.user {
                   flex: 1;
+                }
+                &.nft {
+                  display: none;
+                  font-weight: 600;
+                  font-size: 15.1204px;
+                  line-height: 32px;
+                  color: $black;
+                }
+              }
+              .icon {
+                svg {
+                  display: none;
                 }
               }
             }
@@ -73,6 +89,9 @@
               font-size: 20px;
               line-height: 110%;
               color: $color-black;
+              &:last-child {
+                display: none;
+              }
             }
           }
           .box {
@@ -156,92 +175,128 @@
           }
         }
       }
-      .card {
-        --template-column-gutters: 16px;
-        --template-columns: 3;
-        --template-column-compact-multiplier: 1;
-        --template-reduced-columns: 0;
-        --template-reduced-columns-multiplier: 1;
-        display: grid;
-        grid-gap: var(--template-column-gutters);
-        gap: var(--template-column-gutters);
-        grid-auto-rows: minmax(0px, 1fr);
-        grid-template-columns: repeat(
-          calc(
-            var(--template-columns) - var(--template-reduced-columns) *
-              var(--template-reduced-columns-multiplier)
-          ),
-          minmax(0, 1fr)
-        );
-        .item {
-          width: 100%;
-          box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.08);
-          border-radius: 8px;
-          padding: 10px;
-          &-image {
-            width: 100%;
-            img {
-              object-fit: cover;
-              width: 100%;
-              height: auto;
-            }
+      .card__box {
+        .card {
+          overflow: auto;
+          height: 780px;
+          &::-webkit-scrollbar {
+            width: 6px;
           }
-          .data {
-            padding: 10px 0;
-            .text {
-              p {
-                font-weight: 700;
-                font-size: 14.3836px;
-                line-height: 12px;
-                color: $color-black;
-                &.bottom {
-                  padding: 10px 0;
-                  font-weight: 400;
-                  font-size: 9.58904px;
+          &::-webkit-scrollbar-thumb {
+            background-color: $grey;
+            border-radius: 10px;
+          }
+          .card__chill {
+            padding: 15px 0;
+            --template-column-gutters: 16px;
+            --template-columns: 3;
+            --template-column-compact-multiplier: 1;
+            --template-reduced-columns: 0;
+            --template-reduced-columns-multiplier: 1;
+            display: grid;
+            grid-gap: var(--template-column-gutters);
+            gap: var(--template-column-gutters);
+            grid-auto-rows: minmax(0px, 1fr);
+            grid-template-columns: repeat(
+              calc(
+                var(--template-columns) - var(--template-reduced-columns) *
+                  var(--template-reduced-columns-multiplier)
+              ),
+              minmax(0, 1fr)
+            );
+            .item {
+              width: 100%;
+              box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.08);
+              border-radius: 8px;
+              padding: 10px;
+              &-image {
+                width: 100%;
+                img {
+                  object-fit: cover;
+                  width: 100%;
+                  height: auto;
+                  &:last-child {
+                    display: none;
+                  }
                 }
               }
-            }
-          }
-          .number {
-            display: flex;
-            gap: 10px;
-            align-items: center;
-            .text {
-              p {
-                font-weight: 800;
-                font-size: 12.7854px;
-                line-height: 12px;
+              .data {
+                padding: 10px 0;
+                .text {
+                  p {
+                    font-weight: 700;
+                    font-size: 14.3836px;
+                    line-height: 12px;
+                    color: $color-black;
+                    &.bottom {
+                      padding: 10px 0;
+                      font-weight: 400;
+                      font-size: 9.58904px;
+                    }
+                  }
+                }
               }
-            }
-          }
-          .bid {
-            display: flex;
-            gap: 10px;
-            align-items: center;
-            justify-content: space-between;
-            time {
-              p {
-                font-weight: 700;
-                font-size: 8.76645px;
-                line-height: 100%;
-                color: $color-black;
+              .number {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                .text {
+                  p {
+                    font-weight: 800;
+                    font-size: 12.7854px;
+                    line-height: 12px;
+                  }
+                }
+                .image {
+                  &-change {
+                    display: none;
+                  }
+                }
               }
-            }
-            .btn {
-              button {
-                border: none;
-                background: linear-gradient(
-                  114.51deg,
-                  #6bcb07 -12.5%,
-                  #06bfc9 94.9%
-                );
-                padding: 10px 25px;
-                border-radius: 15px;
-                color: $color-white;
-                font-weight: 600;
-                font-size: 9.58904px;
-                line-height: 12px;
-                letter-spacing: 0.02em;
+              .account-bid {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                justify-content: space-between;
+                align-items: center;
+                .bid-chill-account {
+                  display: flex;
+                  align-items: center;
+                  gap: 10px;
+                  .time-account {
+                    p {
+                      font-weight: 700;
+                      font-size: 10px;
+                      line-height: 100%;
+                      color: $color-black;
+                      padding: 10px 25px;
+                      background: $grey;
+                      border-radius: 15px;
+                    }
+                  }
+                  .btn-account {
+                    button {
+                      border: none;
+                      background: linear-gradient(
+                        114.51deg,
+                        #6bcb07 -12.5%,
+                        #06bfc9 94.9%
+                      );
+                      padding: 10px 25px;
+                      border-radius: 15px;
+                      color: $color-white;
+                      font-weight: 600;
+                      font-size: 9.58904px;
+                      line-height: 12px;
+                      letter-spacing: 0.02em;
+                    }
+                  }
+                }
+                .image {
+                  &-change {
+                    display: none;
+                  }
+                }
               }
             }
           }

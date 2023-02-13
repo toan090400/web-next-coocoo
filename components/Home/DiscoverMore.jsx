@@ -191,8 +191,8 @@ const DsicoverMore = () => {
                     <div className="button">
                       {item.check ? (
                         <div className="disButton disBuyButton">
-                          <p className="time">3h 50m 2s</p>
-                          <button className="btn">Bid Now</button>
+                          <p className="time">Buy Now</p>
+                          <button className="btn">Make Offer</button>
                         </div>
                       ) : (
                         <div className="disButton">

@@ -1,0 +1,130 @@
+.data {
+  &-chill {
+    background: $grey;
+    margin: 0;
+    padding: 70px;
+    .data__are2 {
+      &-chill {
+        .are1 {
+          .history {
+            &_chill {
+              background: $color-white;
+              .header {
+                p {
+                  display: none;
+                  &:last-child {
+                    display: block;
+                  }
+                }
+              }
+              .data {
+                .item {
+                  gap: 20px;
+                  p {
+                    background: $color-white;
+                    &.nft {
+                      display: block;
+                    }
+                    &.user {
+                      flex: none;
+                      display: none;
+                    }
+                    &.list {
+                      flex: none;
+                    }
+                  }
+                  .icon {
+                    display: flex;
+                    align-items: center;
+                    svg {
+                      display: block;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          .follow {
+            background: $color-white;
+            &_chill {
+              .header {
+                p {
+                  display: none;
+                  &:last-child {
+                    display: block;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .are2 {
+          .card__box {
+            .card {
+              .card__chill {
+                .item {
+                  &-image {
+                    img {
+                      display: none;
+                      &:last-child {
+                        display: block;
+                      }
+                    }
+                  }
+                  .data {
+                    .image {
+                      display: none;
+                      &-change {
+                        display: block;
+                      }
+                    }
+                  }
+                  .account-bid {
+                    .bid-chill-account {
+                      .time-account {
+                        border-radius: 5.76936px;
+                        background-color: $background-time;
+                        p {
+                          color: $color-white;
+                          background: none;
+                        }
+                      }
+                      .btn-account {
+                        button {
+                          padding: 9px;
+                          background: $color-white;
+                          color: $blue;
+                          border: 0.96156px solid $blue;
+                          border-radius: 5.76936px;
+                        }
+                      }
+                      &.change {
+                        .time-account {
+                          color: $color-white;
+                          background: $background-buy;
+                        }
+                        .btn-account {
+                          button {
+                            border: 0.96156px solid $background-buy;
+                            background: $color-white;
+                            color: $background-buy;
+                          }
+                        }
+                      }
+                    }
+                    .image {
+                      display: none;
+                      &-change {
+                        display: block;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

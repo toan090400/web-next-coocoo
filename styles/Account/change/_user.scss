@@ -1,0 +1,28 @@
+.user {
+  background: $grey;
+  &-data {
+    .data {
+      .infor {
+        .follower {
+          span {
+            color: $black;
+          }
+        }
+        .following {
+          span {
+            color: $black;
+          }
+        }
+      }
+      .button {
+        background-image: none;
+        border: 2px solid $black;
+        .link {
+          .button-link {
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,15 +1,21 @@
-.data {
-  &-chill {
-    padding: 0 10px;
-    .data__are2 {
-      &-chill {
-        .are2 {
-          .card {
-            --template-columns: 1;
-            .item {
-              display: none;
-              &:first-child {
-                display: block;
+.coocoo {
+  .data {
+    &-chill {
+      padding: 0 10px;
+      .data__are2 {
+        &-chill {
+          .are2 {
+            .card__box {
+              .card {
+                .card__chill {
+                  --template-columns: 1;
+                  .item {
+                    display: none;
+                    &:first-child {
+                      display: block;
+                    }
+                  }
+                }
               }
             }
           }

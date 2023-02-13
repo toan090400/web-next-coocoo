@@ -1,72 +1,77 @@
-.user {
-  font-family: "Lato", sans-serif;
-  font-style: normal;
-  &-image {
-    .mobi {
-      display: none;
+.coocoo {
+  .user {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    &-image {
+      .mobi {
+        display: none;
+      }
+      img {
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+      }
     }
-    img {
-      object-fit: cover;
-      width: 100%;
-      height: auto;
-    }
-  }
-  &-data {
-    display: flex;
-    justify-content: center;
-    .data {
+    &-data {
       display: flex;
-      flex-direction: column;
-      gap: 20px;
-      align-items: center;
-      position: relative;
-      .image {
-        margin-bottom: 80px;
-        img {
-          object-fit: cover;
-          position: absolute;
-          left: 25%;
-          top: -30%;
-        }
-      }
-      .username {
-        background: $background;
-        padding: 20px 100px;
-        border-radius: 50px;
-        &-link {
-          text-decoration: none;
-          font-weight: 600;
-          font-size: 24px;
-          line-height: 100%;
-          color: $color-white;
-        }
-      }
-      .infor {
+      justify-content: center;
+      .data {
         display: flex;
-        gap: 60px;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 100%;
-        color: $color-grey;
-      }
-      .button {
-        border-radius: 50px;
-        border: double 2px transparent;
-        background-image: linear-gradient(white, white), $background;
-        background-origin: border-box;
-        background-clip: content-box, border-box;
-        .link {
-          margin: 15px 60px;
-          .button-link {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        position: relative;
+        .image {
+          margin-bottom: 80px;
+          img {
+            object-fit: cover;
+            position: absolute;
+            left: 25%;
+            top: -30%;
+          }
+        }
+        .username {
+          background: $background;
+          padding: 20px 100px;
+          border-radius: 50px;
+          &-link {
             text-decoration: none;
-            font-weight: 700;
-            font-size: 20px;
-            line-height: 24px;
-            color: $color-dark-dreen;
-            letter-spacing: 0.02em;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 100%;
+            color: $color-white;
+          }
+        }
+        .infor {
+          display: flex;
+          gap: 60px;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 100%;
+          color: $color-grey;
+        }
+        .button {
+          border-radius: 50px;
+          border: double 2px transparent;
+          background-image: linear-gradient(white, white), $background;
+          background-origin: border-box;
+          background-clip: content-box, border-box;
+          .link {
+            margin: 15px 60px;
+            .button-link {
+              text-decoration: none;
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 24px;
+              color: $color-dark-dreen;
+              letter-spacing: 0.02em;
+            }
           }
         }
       }
     }
+  }
+  &.change {
+    @import "change/user";
   }
 }

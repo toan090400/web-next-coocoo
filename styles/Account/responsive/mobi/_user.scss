@@ -1,10 +1,12 @@
-.user {
-  &-image {
-    .laptop {
-      display: none;
-    }
-    .mobi {
-      display: block;
+.coocoo {
+  .user {
+    &-image {
+      .laptop {
+        display: none;
+      }
+      .mobi {
+        display: block;
+      }
     }
   }
 }

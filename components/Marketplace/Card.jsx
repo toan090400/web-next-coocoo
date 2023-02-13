@@ -40,10 +40,10 @@ const Card = () => {
                     {data.check ? (
                       <div className="bid-chill change">
                         <div className="time">
-                          <p>3h 50m 2s</p>
+                          <p>Buy Now</p>
                         </div>
                         <div className="btn">
-                          <button>Bid Now</button>
+                          <button>Make Offer</button>
                         </div>
                       </div>
                     ) : (
