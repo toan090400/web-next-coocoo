@@ -225,7 +225,8 @@ const PrivacyPolicy = () => {
             <span className="span-2-2">
               {" "}
               . send you newsletters, promotional materials, and other notices
-              related to our Services or third parties' goods and services;
+              related to our Services or third parties&#8217; goods and
+              services;
             </span>
             <span className="span-2-2">
               {" "}
