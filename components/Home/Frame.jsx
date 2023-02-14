@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 // frame
 import dots from "../../public/home/frame/dots.png";
 import dotChange from "../../public/home/frame/dotChange.png";
@@ -74,7 +75,11 @@ const Frame = () => {
               </div>
             </div>
             <div className="are4">
-              <button>Bid Now</button>
+              <button>
+                <Link className="frame_link" href={`/item`}>
+                  Bid Now
+                </Link>
+              </button>
             </div>
           </div>
         </div>

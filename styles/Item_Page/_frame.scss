@@ -124,8 +124,11 @@
               background: #003935;
               border-radius: 50px;
               padding: 20px 130px;
-              color: $color-white;
               border: none;
+              .item-frame-link {
+                text-decoration: none;
+                color: $color-white;
+              }
             }
           }
           .are5 {

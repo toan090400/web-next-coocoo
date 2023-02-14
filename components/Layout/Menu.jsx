@@ -33,7 +33,7 @@ const Menu = () => {
             </div>
             <div className="menu__list">
               <Link href="/marketplace">Marketplace</Link>
-              <Link href="/item">Rankings</Link>
+              <Link href="/terms-of-service">Rankings</Link>
               <Link href="/privacy-policy">About</Link>
             </div>
             <div className="menu__bar">

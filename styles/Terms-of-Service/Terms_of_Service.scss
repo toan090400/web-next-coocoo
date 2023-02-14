@@ -1,0 +1,241 @@
+.service {
+  padding: 100px 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  &-are1 {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    .service__box1 {
+      .service__text {
+        span {
+          font-weight: 700;
+          font-size: 53.2809px;
+          line-height: 64px;
+          text-align: center;
+          letter-spacing: -0.05em;
+          color: $black;
+        }
+      }
+    }
+    .service__box2 {
+      .box {
+        background: #f0f0f0;
+        border-radius: 7.86384px;
+        padding: 15px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        .update {
+          span {
+            font-weight: 300;
+            font-size: 14.0675px;
+            line-height: 17px;
+            color: $black;
+          }
+        }
+        .date-time {
+          span {
+            font-weight: 700;
+            font-size: 14.9413px;
+            line-height: 18px;
+            color: $black;
+          }
+        }
+      }
+    }
+  }
+  &-are2 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    .chill {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      .span-1 {
+        &-1 {
+          font-weight: 600;
+          display: block;
+        }
+      }
+      .span-3 {
+        font-weight: 600;
+      }
+      .span-4 {
+        font-weight: 600;
+      }
+      .span-9 {
+        &-1 {
+          font-weight: 600;
+          display: block;
+        }
+      }
+      .span-14 {
+        &-1 {
+          font-weight: 600;
+          display: block;
+        }
+      }
+      .span-18 {
+        &-1 {
+          font-weight: 600;
+          display: block;
+        }
+      }
+      .span-19 {
+        &-1 {
+          font-weight: 600;
+          display: block;
+        }
+      }
+      .span-22 {
+        &-1 {
+          font-weight: 600;
+          display: block;
+        }
+      }
+      .span-23 {
+        &-1 {
+          display: block;
+          padding: 5px;
+        }
+      }
+      .span-26 {
+        &-1 {
+          font-weight: 600;
+          display: block;
+        }
+      }
+      .span-31 {
+        &-1 {
+          display: block;
+          padding: 5px;
+          .span-31-2 {
+            display: block;
+            padding: 5px 10px;
+          }
+        }
+      }
+      .span-32 {
+        &-1 {
+          font-weight: 600;
+          display: block;
+        }
+      }
+      .span-33 {
+        &-1 {
+          font-weight: 600;
+          display: block;
+        }
+      }
+      .span-34 {
+        &-1 {
+          font-weight: 600;
+          display: block;
+        }
+      }
+      .span-38 {
+        &-1 {
+          font-weight: 600;
+          display: block;
+        }
+        &-2 {
+          display: block;
+          padding: 5px;
+        }
+      }
+      .span-39 {
+        &-1 {
+          font-weight: 600;
+          display: block;
+        }
+      }
+      .span-42 {
+        &-1 {
+          font-weight: 600;
+          display: block;
+        }
+      }
+      .span-43 {
+        &-1 {
+          display: block;
+        }
+      }
+      .span-44 {
+        &-1 {
+          font-weight: 600;
+          display: block;
+        }
+        &-2 {
+          padding: 5px;
+          display: block;
+          .span-44-3 {
+            font-weight: 600;
+          }
+        }
+      }
+      .span-45 {
+        &-1 {
+          font-weight: 600;
+          display: block;
+        }
+      }
+      .span-46 {
+        &-1 {
+          font-weight: 600;
+          display: block;
+        }
+      }
+      .span-47 {
+        &-1 {
+          font-weight: 600;
+          display: block;
+        }
+      }
+      .span-48 {
+        &-1 {
+          font-weight: 600;
+          display: block;
+        }
+      }
+      .span-49 {
+        &-1 {
+          font-weight: 600;
+          display: block;
+        }
+      }
+      .span-51 {
+        &-1 {
+          font-weight: 600;
+          display: block;
+        }
+      }
+      .span-52 {
+        &-1 {
+          font-weight: 600;
+          display: block;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .service {
+    padding: 100px 50px;
+  }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  .service {
+    padding: 100px 15px;
+    &-are1 {
+      .service__box1 {
+        text-align: center;
+      }
+    }
+  }
+}

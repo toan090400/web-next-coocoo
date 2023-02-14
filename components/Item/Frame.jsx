@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 // image
 import frame from "../../public/item_page/frame/fra.png";
 import user_frame from "../../public/item_page/frame/user-frame.png";
@@ -53,7 +54,11 @@ const Frame = () => {
               </div>
             </div>
             <div className="are4">
-              <button>Bid Now</button>
+              <button>
+                <Link className="item-frame-link" href={`/item`}>
+                  Bid Now
+                </Link>
+              </button>
             </div>
             <div className="are5">
               <p>
