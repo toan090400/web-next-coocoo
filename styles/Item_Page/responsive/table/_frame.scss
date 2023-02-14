@@ -13,15 +13,15 @@
             height: auto;
           }
         }
-        .user {
-          width: 90%;
-          margin: auto;
+        .user__item {
+          width: 100%;
+          padding: 0 30px;
           text-align: center;
           .are1 {
             margin-top: 40px;
             gap: 30px;
-            .user {
-              &_info.thr {
+            .user__item {
+              .user_info.thr {
                 background-color: $color-black;
               }
             }

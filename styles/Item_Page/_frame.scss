@@ -14,21 +14,21 @@
             height: auto;
           }
         }
-        .user {
+        .user__item {
           width: 50%;
           .are1 {
             display: inline-flex;
             gap: 30px;
             margin-top: 75px;
-            .user {
+            .user__item {
               p {
                 color: #6a6a6a;
               }
-              &_info {
+              .user_info {
                 display: flex;
                 margin-top: 5px;
               }
-              &_info.fir {
+              .user_info.fir {
                 background-color: #ededed;
                 border-radius: 15px;
                 padding: 4px 5px;
@@ -36,7 +36,7 @@
                   color: $color-grey;
                 }
               }
-              &_info.sec {
+              .user_info.sec {
                 background-color: $color-white;
                 border-radius: 15px;
                 border: 1px solid $color-grey;
@@ -45,7 +45,7 @@
                   color: $color-grey;
                 }
               }
-              &_info.thr {
+              .user_info.thr {
                 background-color: $color-grey;
                 border-radius: 15px;
                 padding: 4px 5px;
@@ -147,7 +147,7 @@
     .frame {
       .container {
         .content {
-          .user {
+          .user__item {
             .are4 {
               button {
                 background: $blue;

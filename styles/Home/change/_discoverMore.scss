@@ -54,30 +54,37 @@
             }
             .button {
               margin-top: 10px;
-              .disButton {
-                .time {
-                  color: $color-white;
-                  padding: 7px;
-                  border-radius: 5.76936px;
-                  background-color: $background-time;
-                }
-                .btn {
-                  padding: 9px;
-                  background: $color-white;
-                  color: $blue;
-                  border: 0.96156px solid $blue;
-                  border-radius: 5.76936px;
-                }
-                &.disBuyButton {
+
+              .button-chill {
+                display: none;
+                .disButton {
                   .time {
                     color: $color-white;
-                    background: $background-buy;
+                    padding: 7px;
+                    border-radius: 5.76936px;
+                    background-color: $background-time;
                   }
                   .btn {
-                    border: 0.96156px solid $background-buy;
+                    padding: 9px;
                     background: $color-white;
-                    color: $background-buy;
+                    color: $blue;
+                    border: 0.96156px solid $blue;
+                    border-radius: 5.76936px;
                   }
+                  &.disBuyButton {
+                    .time {
+                      color: $color-white;
+                      background: $background-buy;
+                    }
+                    .btn {
+                      border: 0.96156px solid $background-buy;
+                      background: $color-white;
+                      color: $background-buy;
+                    }
+                  }
+                }
+                &.change {
+                  display: block;
                 }
               }
               .image {

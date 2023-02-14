@@ -37,16 +37,7 @@ const Card = () => {
                     </div>
                   </div>
                   <div className="bid">
-                    {data.check ? (
-                      <div className="bid-chill change">
-                        <div className="time">
-                          <p>Buy Now</p>
-                        </div>
-                        <div className="btn">
-                          <button>Make Offer</button>
-                        </div>
-                      </div>
-                    ) : (
+                    <div className="bid-context">
                       <div className="bid-chill">
                         <div className="time">
                           <p>3h 50m 2s</p>
@@ -55,7 +46,28 @@ const Card = () => {
                           <button>Bid Now</button>
                         </div>
                       </div>
-                    )}
+                    </div>
+                    <div className="bid-context change">
+                      {data.check ? (
+                        <div className="bid-chill change">
+                          <div className="time">
+                            <p>Buy Now</p>
+                          </div>
+                          <div className="btn">
+                            <button>Make Offer</button>
+                          </div>
+                        </div>
+                      ) : (
+                        <div className="bid-chill">
+                          <div className="time">
+                            <p>3h 50m 2s</p>
+                          </div>
+                          <div className="btn">
+                            <button>Bid Now</button>
+                          </div>
+                        </div>
+                      )}
+                    </div>
                     <div className="image">
                       <Heart />
                     </div>

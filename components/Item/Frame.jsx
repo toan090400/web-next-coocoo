@@ -10,23 +10,23 @@ const Frame = () => {
           <div className="image">
             <Image className="frame" src={frame} alt="frame" />
           </div>
-          <div className="user">
+          <div className="user__item">
             <div className="are1">
-              <div className="user">
+              <div className="user__item">
                 <p>Creator</p>
                 <div className="user_info fir">
                   <Image src={user_frame} alt="user-frame" />
                   <p>Arkhan17</p>
                 </div>
               </div>
-              <div className="user sec">
+              <div className="user__item sec">
                 <p>Owner</p>
                 <div className="user_info sec">
                   <Image src={user_frame} alt="user-frame" />
                   <p>Arkhan17</p>
                 </div>
               </div>
-              <div className="user">
+              <div className="user__item">
                 <p>Collection</p>
                 <div className="user_info thr">
                   <Image src={user_frame} alt="user-frame" />

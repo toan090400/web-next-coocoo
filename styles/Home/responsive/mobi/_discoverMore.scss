@@ -6,6 +6,7 @@
           --template-columns: 1;
           .card_discover {
             display: none;
+            min-width: auto;
             &:last-child {
               display: block;
             }
