@@ -90,6 +90,9 @@
               letter-spacing: 0.02em;
             }
           }
+          &.change {
+            display: none;
+          }
         }
         .image {
           &.change {

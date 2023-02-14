@@ -97,7 +97,15 @@ const Slide = () => {
             </div>
           </div>
           <div className="item-bid">
-            <div className="bid-chill">
+            <div className="bid-chill two">
+              <div className="time">
+                <p>3h 50m 2s</p>
+              </div>
+              <div className="btn">
+                <button>Bid Now</button>
+              </div>
+            </div>
+            <div className="bid-chill change">
               <div className="time">
                 <p>Buy Now</p>
               </div>

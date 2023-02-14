@@ -5,6 +5,17 @@
       .are1 {
         .history {
           background: $color-white;
+          .history_chill {
+            .data {
+              .item {
+                p {
+                  &.user {
+                    background: $color-white;
+                  }
+                }
+              }
+            }
+          }
         }
         .follow {
           background: $color-white;
@@ -55,6 +66,12 @@
                           border: 1px solid $black;
                           border-radius: 5px;
                         }
+                      }
+                      &.two {
+                        display: none;
+                      }
+                      &.change {
+                        display: flex;
                       }
                     }
                   }
