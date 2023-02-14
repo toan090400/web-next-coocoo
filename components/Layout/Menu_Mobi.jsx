@@ -20,7 +20,7 @@ const Menu_Mobi = () => {
           <div className="menu-mobi__list">
             <Link href="/marketplace">Marketplace</Link>
             <Link href="/item">Rankings</Link>
-            <Link href="/">About</Link>
+            <Link href="/privacy-policy">About</Link>
           </div>
         </div>
         <div className="menu-mobi__are2">

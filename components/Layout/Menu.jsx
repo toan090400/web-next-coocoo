@@ -34,7 +34,7 @@ const Menu = () => {
             <div className="menu__list">
               <Link href="/marketplace">Marketplace</Link>
               <Link href="/item">Rankings</Link>
-              <Link href="/">About</Link>
+              <Link href="/privacy-policy">About</Link>
             </div>
             <div className="menu__bar">
               <p onClick={handlerBar}>&#9776;</p>

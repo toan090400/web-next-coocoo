@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700;800;900&family=Lato:wght@300;400;700;900&family=Oswald:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700;800;900&family=Lato:wght@300;400;700;900&family=Montserrat:wght@300;400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap");
 
 @import "var";
 // component/Image/Button Dark
@@ -22,3 +22,5 @@
 @import "Marketplace/Marketplace.scss";
 @import "Create_Page/Create_Page.scss";
 @import "Account/Account.scss";
+@import "Privacy-Policy/Privacy_Policy.scss";
+@import "Terms-of-Service/Terms_of_Service.scss";
