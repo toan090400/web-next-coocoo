@@ -4,7 +4,7 @@
 // responsive table
 @import "responsive/table/data";
 
-@media (min-width: 320px) and (max-width: 600px) {
+@media (min-width: 320px) and (max-width: 750px) {
   @import "responsive/mobi/user";
   @import "responsive/mobi/data";
 }

@@ -3,13 +3,13 @@
 @media (max-width: 1200px) {
   .coocoo {
     .create {
-      padding: 0 3rem;
+      padding: 0 100px;
     }
   }
 }
 @media (max-width: 850px) {
   @import "responsive/table/create";
 }
-@media (min-width: 320px) and (max-width: 615px) {
+@media (min-width: 320px) and (max-width: 750px) {
   @import "responsive/mobi/create";
 }

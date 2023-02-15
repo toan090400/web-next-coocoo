@@ -31,3 +31,13 @@
   }
   @import "menu_mobi";
 }
+@media (min-width: 320px) and (max-width: 750px) {
+  .finall {
+    padding: 30px 20px;
+  }
+  .coocoo {
+    .footer {
+      padding: 30px 20px;
+    }
+  }
+}

@@ -1,5 +1,6 @@
 .coocoo {
   .footer {
+    // padding: 30px 20px;
     .footer__conatiner {
       display: block;
       .footer__are2 {
@@ -20,8 +21,9 @@
             }
             button {
               margin-top: 10px;
-              width: 90%;
               margin-left: 0px;
+              width: 100%;
+              position: inherit;
             }
           }
         }

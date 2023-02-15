@@ -2,6 +2,7 @@
   .card {
     &-chill {
       width: 100%;
+      padding: 0 20px;
       .card-box {
         --template-columns: 1;
         .item {
@@ -21,7 +22,6 @@
             display: none;
           }
           width: 100%;
-          padding: 0 20px;
           &-chill {
             .bid {
               justify-content: normal;

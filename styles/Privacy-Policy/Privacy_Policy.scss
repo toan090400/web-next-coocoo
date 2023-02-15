@@ -1,5 +1,5 @@
 .policy {
-  padding: 100px 150px;
+  padding: 100px 100px;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -183,12 +183,12 @@
 }
 @media (max-width: 1000px) {
   .policy {
-    padding: 100px 50px;
+    padding: 100px;
   }
 }
-@media (min-width: 320px) and (max-width: 600px) {
+@media (min-width: 320px) and (max-width: 750px) {
   .policy {
-    padding: 100px 15px;
+    padding: 100px 20px;
     &-are1 {
       .policy__box1 {
         text-align: center;
